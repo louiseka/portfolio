@@ -42,6 +42,14 @@ nav a {
     cursor: pointer;
 }
 
+.nav-active {
+    text-decoration: underline;
+    text-decoration-color: #EBB1DC;
+    text-decoration-thickness: 3px;
+    line-height: 1.5;
+
+}
+
 
 /* Media Queries */
 

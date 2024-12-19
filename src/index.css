@@ -28,7 +28,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px;
+    margin: 60px;
 }
 
 nav a {
@@ -60,6 +60,10 @@ nav a {
 
     .logo {
         font-size: 1.5rem;
+    }
+
+    nav {
+        font-size: 1.15rem;
     }
 
 

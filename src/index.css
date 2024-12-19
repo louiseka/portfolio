@@ -17,6 +17,36 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+/* Main */
+main {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    padding: 20px 0;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+h3 {
+    padding: 25px 0 0 0;
+}
+
+p {
+    margin: 15px 0 25px;
+}
+
 /* Navbar */
 
 .logo {
@@ -50,6 +80,23 @@ nav a {
 
 }
 
+/* Header */
+
+header {
+    max-width: 80%;
+    margin: 0 auto 50px;
+}
+
+.hero-text {
+    max-width: 100%;
+    line-height: 1.7;
+    font-size: 1.2rem;
+}
+
+.hero-img {
+    max-width: 100%;
+}
+
 
 /* Media Queries */
 
@@ -66,5 +113,20 @@ nav a {
         font-size: 1.15rem;
     }
 
+    header {
+        display: flex;
+        max-width: 70%;
+    }
+
+    .hero-text {
+        display: flex;
+        flex-direction: column;
+        max-width: 60%;
+        padding-right: 60px;
+    }
+
+    .hero-img {
+        max-width: 40%;
+    }
 
 }

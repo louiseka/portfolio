@@ -9,7 +9,7 @@ export default function Home() {
                         of experience in eCommerce and two in Marketing, I bring a well-rounded skill set, including design
                         expertise, task management, and problem-solving abilities. </p>
                 </div>
-                <img className="hero-img" src="./assets/louise-profile.png" alt="Profile image of Louise smiling" />
+                <img className="profile-img" src="./assets/louise-profile.png" alt="Profile image of Louise smiling" />
 
             </header>
         </>

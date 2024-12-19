@@ -19,7 +19,6 @@ body {
 
 /* Main */
 main {
-    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -46,6 +45,7 @@ h3 {
 p {
     margin: 15px 0 25px;
 }
+
 
 /* Navbar */
 
@@ -93,17 +93,33 @@ header {
     font-size: 1.2rem;
 }
 
-.hero-img {
+.profile-img {
     max-width: 100%;
 }
+
+
+
+/* About Page */
+
+.about-section {
+    max-width: 100%;
+    margin: 0 auto 50px;
+}
+
+.about-text {
+    max-width: 100%;
+    line-height: 1.7;
+    font-size: 1.2rem;
+}
+
+
+
 
 
 /* Media Queries */
 
 @media (min-width: 1024px) {
-    main {
-        max-width: 70%;
-    }
+
 
     .logo {
         font-size: 1.5rem;
@@ -113,7 +129,8 @@ header {
         font-size: 1.15rem;
     }
 
-    header {
+    header,
+    .about-section {
         display: flex;
         max-width: 70%;
     }
@@ -125,7 +142,15 @@ header {
         padding-right: 60px;
     }
 
-    .hero-img {
+
+
+    .about-text {
+        padding-right: 20px;
+    }
+
+
+
+    .profile-img {
         max-width: 40%;
     }
 

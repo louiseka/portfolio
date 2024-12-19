@@ -3,7 +3,24 @@ import { Outlet, NavLink } from "react-router"
 export default function AboutLayout() {
     return (
         <>
-            <h1>This is the About page</h1>
+
+            <main>
+                <div className="about-section">
+                    <div className="about-text">
+                        <h1>Let me introduce myself</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae libero et sapien fermentum maximus. Ut euismod eleifend lorem, ut sagittis leo placerat nec. Morbi ac auctor nisi, ut euismod est. Morbi fringilla mi nec nulla aliquam consequat nec facilisis dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae libero et sapien fermentum maximus. Ut euismod eleifend lorem, ut sagittis leo placerat nec. Morbi ac auctor nisi, ut euismod est. Morbi fringilla mi nec nulla aliquam consequat nec facilisis dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>
+                    </div>
+
+                    <img className="profile-img" src="./assets/louise-profile.png" alt="Profile image of Louise smiling" />
+                </div>
+
+
+            </main>
+
+
+
+
             <nav>
                 <NavLink to="." end className={({ isActive }) => (isActive ? 'nav-active' : "")}>Skills</NavLink>
                 <NavLink to="job-history" className={({ isActive }) => (isActive ? 'nav-active' : "")}>Job History</NavLink>

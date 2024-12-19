@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* Page Layout */
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: #fbfcf8;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar */
+
+.logo {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-links a {
+    padding-left: 30px;
+    padding-right: 80px;
+    cursor: pointer;
+}
+
+.nav-active {
+    text-decoration: underline;
+    text-decoration-color: #EBB1DC;
+    text-decoration-thickness: 3px;
+    line-height: 1.5;
+
+}
+
+
+/* Media Queries */
+
+@media (min-width: 1024px) {
+    main {
+        max-width: 70%;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    nav {
+        font-size: 1.15rem;
+    }
+
+
+}

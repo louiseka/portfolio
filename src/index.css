@@ -30,8 +30,8 @@ h3 {
 }
 
 h1 {
-    font-size: 4rem;
-    padding: 20px 0;
+    font-size: 2rem;
+    padding: 20px 0 0;
 }
 
 h2 {
@@ -90,7 +90,7 @@ header {
 .hero-text {
     max-width: 100%;
     line-height: 1.7;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .profile-img {
@@ -102,14 +102,8 @@ header {
 /* About Page */
 
 .about-section {
-    max-width: 100%;
+    max-width: 80%;
     margin: 0 auto 50px;
-}
-
-.about-text {
-    max-width: 100%;
-    line-height: 1.7;
-    font-size: 1.2rem;
 }
 
 
@@ -118,9 +112,53 @@ header {
 
 /* Media Queries */
 
+@media (min-width:1024px) and (max-width:1445px) {
+
+    h1 {
+        font-size: 2.8rem;
+        padding-bottom: 0;
+    }
+
+    header,
+    .about-section {
+        max-width: 80%;
+    }
+}
+
+
+@media (min-width:1024px) and (max-width:1829px) {
+    .about-section h1 {
+        font-size: 2.8rem;
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width: 1830px) {
+    .about-section h1 {
+        font-size: 2.8rem;
+    }
+
+    .about-section .hero-text {
+        padding-right: 60px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1499px) {
+    .about-section .hero-text {
+        line-height: 1.5;
+        font-size: 1rem;
+    }
+
+    .about-section h1 {
+        font-size: 2rem;
+    }
+
+    .about-section p {
+        margin: 10px 0;
+    }
+}
+
 @media (min-width: 1024px) {
-
-
     .logo {
         font-size: 1.5rem;
     }
@@ -132,26 +170,35 @@ header {
     header,
     .about-section {
         display: flex;
-        max-width: 70%;
     }
 
     .hero-text {
         display: flex;
         flex-direction: column;
         max-width: 60%;
-        padding-right: 60px;
+    }
+
+    .about-section .hero-text {
+        padding-right: 20px;
     }
 
 
+    header .hero-text {
+        padding-right: 60px;
+    }
 
     .about-text {
         padding-right: 20px;
     }
 
-
-
     .profile-img {
         max-width: 40%;
     }
 
+}
+
+@media (min-width: 1274px) {
+    header h1 {
+        font-size: 4rem;
+    }
 }

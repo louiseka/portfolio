@@ -6,7 +6,7 @@ export default function AboutLayout() {
 
             <main>
                 <div className="about-section">
-                    <div className="about-text">
+                    <div className="hero-text">
                         <h1>Let me introduce myself</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae libero et sapien fermentum maximus. Ut euismod eleifend lorem, ut sagittis leo placerat nec. Morbi ac auctor nisi, ut euismod est. Morbi fringilla mi nec nulla aliquam consequat nec facilisis dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae libero et sapien fermentum maximus. Ut euismod eleifend lorem, ut sagittis leo placerat nec. Morbi ac auctor nisi, ut euismod est. Morbi fringilla mi nec nulla aliquam consequat nec facilisis dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>

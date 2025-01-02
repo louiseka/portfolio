@@ -12,7 +12,7 @@ export default function AboutLayout() {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae libero et sapien fermentum maximus. Ut euismod eleifend lorem, ut sagittis leo placerat nec. Morbi ac auctor nisi, ut euismod est. Morbi fringilla mi nec nulla aliquam consequat nec facilisis dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>
                     </div>
 
-                    <img className="profile-img" src="./assets/louise-profile.png" alt="Profile image of Louise smiling" />
+                    <img className="profile-img" src="/assets/louise-profile.png" alt="Profile image of Louise smiling" />
                 </div>
 
 

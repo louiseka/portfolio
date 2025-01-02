@@ -112,7 +112,10 @@ header {
 
 /* About Page */
 
-.about-section {
+.about-section,
+.education-section,
+.job-section,
+.skills-section {
     max-width: 80%;
     margin: 0 auto 50px;
 }
@@ -211,5 +214,9 @@ header {
 @media (min-width: 1274px) {
     header h1 {
         font-size: 4rem;
+    }
+
+    .hero-text {
+        font-size: 1.25rem;
     }
 }

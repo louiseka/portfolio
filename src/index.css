@@ -25,7 +25,8 @@ main {
 /* Typography */
 h1,
 h2,
-h3 {
+h3,
+h4 {
     margin: 0;
 }
 
@@ -115,11 +116,18 @@ header {
 .about-section,
 .education-section,
 .job-section,
-.skills-section {
+.skills-section,
+.certifications-section {
     max-width: 80%;
     margin: 0 auto 50px;
 }
 
+.details-text {
+    max-width: 65%;
+    margin: 0 0 0 80px;
+    line-height: 1.5;
+
+}
 
 
 

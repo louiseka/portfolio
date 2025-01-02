@@ -70,6 +70,7 @@ nav a {
     padding-left: 30px;
     padding-right: 80px;
     cursor: pointer;
+    font-size: 1.25rem;
 }
 
 .nav-active {
@@ -78,6 +79,16 @@ nav a {
     text-decoration-thickness: 3px;
     line-height: 1.5;
 
+}
+
+/* About Page Navbar */
+
+.about-nav {
+    max-width: 80%;
+    margin: 0 auto 50px;
+    justify-content: flex-start;
+    gap: 40px;
+    font-size: 1.25rem;
 }
 
 /* Header */

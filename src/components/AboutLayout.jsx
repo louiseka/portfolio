@@ -25,6 +25,7 @@ export default function AboutLayout() {
                     <NavLink to="." end className={({ isActive }) => (isActive ? 'nav-active' : "")}>Skills</NavLink>
                     <NavLink to="experience" className={({ isActive }) => (isActive ? 'nav-active' : "")}>Experience</NavLink>
                     <NavLink to="education" className={({ isActive }) => (isActive ? 'nav-active' : "")}>Education</NavLink>
+                    <NavLink to="certifications" className={({ isActive }) => (isActive ? 'nav-active' : "")}>Certifications</NavLink>
                 </nav>
                 <Outlet />
             </main>

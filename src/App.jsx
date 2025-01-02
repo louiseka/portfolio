@@ -8,6 +8,7 @@ import AboutLayout from "./components/AboutLayout"
 import Skills from "./pages/About/Skills"
 import Experience from "./pages/About/Experience"
 import Education from "./pages/About/Education"
+import Certifications from "./pages/About/Certifications"
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route index element={<Skills />} />
             <Route path="education" element={<Education />} />
             <Route path="experience" element={<Experience />} />
+            <Route path="certifications" element={<Certifications />} />
           </Route>
         </Route>
       </Routes>

@@ -2,7 +2,7 @@ export default function Experience() {
     return (
         <section className="job-section">
             <h2>Experience</h2>
-            <div className="details-section-1">
+            <div className="details-section-purple">
                 <h3>AbilityNet </h3>
                 <p className="detail-sub">Digital Marketing Assistant</p>
                 <p className="small-text"> June 2022 - May 2024 </p>
@@ -11,7 +11,7 @@ export default function Experience() {
                     <li>Adjusted the HTML and CSS of a new embedded newsletter sign-up form to align with the charity’s website styling.</li>
                 </ul>
             </div>
-            <div className="details-section-2">
+            <div className="details-section-green">
                 <h3>Qvis Lighting & Security</h3>
                 <p className="detail-sub">eCommerce Team Leader </p>
                 <p className="small-text">June 2021 - June 2022</p>

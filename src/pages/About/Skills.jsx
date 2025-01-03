@@ -1,5 +1,10 @@
 export default function Skills() {
     return (
-        <h1>This is the skills page</h1>
+        <section className="skills-section">
+            <h2>Skills</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae libero et sapien fermentum maximus. Aenean vitae libero et sapien fermentum maximus.  </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae libero et sapien fermentum maximus. Aenean vitae libero et sapien fermentum maximus.  </p>
+        </section>
+
     )
 }

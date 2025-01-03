@@ -6,8 +6,9 @@ import Projects from "./pages/Projects/Projects"
 import ProjectDetails from "./pages/Projects/ProjectDetails"
 import AboutLayout from "./components/AboutLayout"
 import Skills from "./pages/About/Skills"
-import JobHistory from "./pages/About/JobHistory"
+import Experience from "./pages/About/Experience"
 import Education from "./pages/About/Education"
+import Certifications from "./pages/About/Certifications"
 
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
           <Route path="about" element={<AboutLayout />}>
             <Route index element={<Skills />} />
             <Route path="education" element={<Education />} />
-            <Route path="job-history" element={<JobHistory />} />
+            <Route path="experience" element={<Experience />} />
+            <Route path="certifications" element={<Certifications />} />
           </Route>
         </Route>
       </Routes>

@@ -1,3 +1,6 @@
+import { Link } from "react-router"
+import { FaArrowRight } from "react-icons/fa"
+
 export default function Home() {
     return (
         <>
@@ -8,6 +11,7 @@ export default function Home() {
                         years
                         of experience in eCommerce and two in Marketing, I bring a well-rounded skill set, including design
                         expertise, task management, and problem-solving abilities. </p>
+                    <Link className="cta-link" to="/projects">Explore my portfolio of projects <FaArrowRight className="icon" /></Link>
                 </div>
                 <img className="profile-img" src="./assets/louise-profile.png" alt="Profile image of Louise smiling" />
 

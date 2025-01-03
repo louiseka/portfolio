@@ -61,6 +61,30 @@ p {
     margin: 0;
 }
 
+/* Links */
+
+.cta-link {
+    text-decoration: underline;
+    text-decoration-color: #EBB1DC;
+    text-decoration-thickness: 3px;
+    color: #18191A;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    padding: 20px 0 10px;
+}
+
+.cta-link:hover {
+    text-decoration-color: #B1EBC0;
+}
+
+
+
+
+.icon {
+    margin: 0 0 0 15px;
+
+}
 
 /* Navbar */
 
@@ -248,6 +272,12 @@ header {
     .profile-img {
         max-width: 40%;
     }
+
+    .cta-link {
+        font-size: 1.6rem;
+        padding: 40px 0 0;
+    }
+
 
 }
 

@@ -136,20 +136,25 @@ header {
     margin: 0 auto 50px;
 }
 
-.details-section-1,
-.details-section-2 {
+.details-section-purple,
+.details-section-green,
+.details-section-pink {
     max-width: 65%;
     margin: 30px 0 0 80px;
     line-height: 1.5;
     padding: 10px 25px;
 }
 
-.details-section-1 {
+.details-section-purple {
     border-left: 3px solid #D1CFFF;
 }
 
-.details-section-2 {
+.details-section-green {
     border-left: 3px solid #B1EBC0;
+}
+
+.details-section-pink {
+    border-left: 3px solid #EBB1DC;
 }
 
 .detail-sub {

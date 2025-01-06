@@ -91,15 +91,25 @@ p {
     padding: 0px 0 10px;
 }
 
-.cta-link:hover {
+.cta-link:hover,
+.back-link:hover {
     text-decoration-color: #B1EBC0;
+}
+
+.back-link {
+    text-decoration: underline;
+    text-decoration-color: #EBB1DC;
+    text-decoration-thickness: 3px;
+    color: #18191A;
+    display: flex;
+    align-items: center;
+    padding: 0 0 10px;
 }
 
 
 
-
 .icon {
-    margin: 0 0 0 15px;
+    margin: 0 15px;
 
 }
 

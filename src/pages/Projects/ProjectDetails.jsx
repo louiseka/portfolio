@@ -1,6 +1,6 @@
 import { useParams, Link } from "react-router"
 import { projectData } from "../../data"
-import { FaArrowRight } from "react-icons/fa"
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa"
 
 
 export default function ProjectDetails() {
@@ -35,6 +35,8 @@ export default function ProjectDetails() {
 
     return (
         <main key={projectDetails.id} className="project-details">
+            <Link className="back-link" to={"/#projects"}><FaArrowLeft className="icon" />
+                Back to all projects</Link>
             <h1 className="heading">{projectDetails.name}</h1>
             <img className="hero-img" src={projectDetails.headerImg} />
             <h2>Overview</h2>

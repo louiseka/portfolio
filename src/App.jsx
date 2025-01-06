@@ -1,4 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router"
+import ScrollToAnchor from "./components/ScrollToAnchor"
+
 
 import Layout from "./components/Layout"
 import Home from "./pages/Home"
@@ -28,9 +30,9 @@ function App() {
           </Route>
         </Route>
       </Routes>
-
-
+      <ScrollToAnchor />
     </BrowserRouter>
+
 
   )
 }

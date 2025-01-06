@@ -32,7 +32,7 @@ export default function Projects() {
     })
 
     return (
-        <div className="projects-grid">
+        <div className="projects-grid" id="projects">
             <h2>My portfolio of projects</h2>
             <p className="sub-text"> I'm a Frontend Developer with a strong eye for detail and a passion for accessibility. With three
                 years

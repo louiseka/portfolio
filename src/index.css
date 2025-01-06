@@ -147,8 +147,6 @@ header {
     max-width: 100%;
 }
 
-
-
 /* About Page */
 
 .about-section,
@@ -226,6 +224,88 @@ header {
 .purple-label {
     background-color: #D1CFFF;
 }
+
+/* Project Page */
+/* CSS Grid */
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.wrapper .card {
+    padding: 2em 1.5em;
+    border-radius: 5px;
+}
+
+.one,
+.four,
+.six {
+    background-color: #B1EBC0;
+}
+
+.two,
+.five,
+.nine {
+    background-color: #EBB1DC;
+}
+
+.three,
+.seven,
+.eight {
+    background-color: #D1CFFF
+}
+
+.one {
+    grid-column: 1 / 2;
+    grid-row: 1/3;
+
+}
+
+.two {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+
+}
+
+.three {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+}
+
+.four {
+    grid-column: 3;
+    grid-row: 3 / 5;
+}
+
+.five {
+    grid-column: 1;
+    grid-row: 4 / 7;
+}
+
+.six {
+    grid-column: 2;
+    grid-row: 4 / 7;
+}
+
+.seven {
+    grid-column: 3;
+    grid-row: 5 / 7
+}
+
+.eight {
+    grid-column: 1 / 3;
+    grid-row: 7 / 10;
+}
+
+.nine {
+    grid-column: 3 / 3;
+    grid-row: 7/ 10;
+}
+
 
 
 
@@ -322,6 +402,27 @@ header {
     }
 
 
+    .normal-grid-img {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .wide-grid-img {
+        width: 60%;
+        padding: 10px;
+    }
+
+    .wide-inner-content {
+        display: flex;
+        align-items: start;
+    }
+
+    .wider-inner-text {
+        padding: 0 20px;
+    }
+
+
 }
 
 @media (min-width: 1274px) {
@@ -331,5 +432,32 @@ header {
 
     .hero-text {
         font-size: 1.25rem;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1525px) {
+    .wide-inner-content {
+        flex-direction: column;
+    }
+
+    .wider-inner-text {
+        padding: 0;
+    }
+}
+
+
+
+@media (max-width: 1023px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+        /* Stacks all items in a single column */
+        grid-auto-rows: auto;
+        /* Automatically adjust row height */
+    }
+
+    .wrapper>div {
+        grid-column: auto;
+        grid-row: auto;
+
     }
 }

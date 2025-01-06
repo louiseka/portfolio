@@ -81,14 +81,14 @@ p {
 /* Links */
 
 .cta-link {
-    text-decoration: underline;
-    text-decoration-color: #EBB1DC;
-    text-decoration-thickness: 3px;
-    color: #18191A;
-    display: flex;
-    align-items: center;
     font-size: 1rem;
-    padding: 0px 0 10px;
+}
+
+.cta-link,
+.back-link {
+    text-decoration-color: #EBB1DC;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
 }
 
 .cta-link:hover,
@@ -96,17 +96,24 @@ p {
     text-decoration-color: #B1EBC0;
 }
 
-.back-link {
-    text-decoration: underline;
-    text-decoration-color: #EBB1DC;
-    text-decoration-thickness: 3px;
+.cta-link,
+.back-link,
+.small-cta-link {
     color: #18191A;
     display: flex;
     align-items: center;
-    padding: 0 0 10px;
+    padding: 0px 0 10px;
 }
 
+.small-cta-link {
+    text-decoration: none;
+}
 
+.small-cta-link:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    color: #18191A;
+}
 
 .icon {
     margin: 0 15px;

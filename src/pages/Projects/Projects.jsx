@@ -1,5 +1,6 @@
 import { projectData } from "../../data"
 import { Link } from "react-router"
+import { FaArrowRight } from "react-icons/fa"
 
 
 export default function Projects() {
@@ -21,7 +22,7 @@ export default function Projects() {
                     <div className={isWide ? "wider-inner-text" : ""}>
                         <h2>{projectName}</h2>
                         <p>{projectShortDesc}</p>
-                        <Link to={`projects/${project.id}`} key={project.id}>Find out more</Link>
+                        <Link className="small-cta-link" to={`projects/${project.id}`} key={project.id}>Find out more <FaArrowRight className="icon" /> </Link>
                     </div>
                 </div>
             </div >

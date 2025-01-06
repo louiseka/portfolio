@@ -1,4 +1,5 @@
 import { projectData } from "../../data"
+import { Link } from "react-router"
 
 
 export default function Projects() {
@@ -20,6 +21,7 @@ export default function Projects() {
                     <div className={isWide ? "wider-inner-text" : ""}>
                         <h2>{projectName}</h2>
                         <p>{projectShortDesc}</p>
+                        <Link to={`projects/${project.id}`} key={project.id}>Find out more</Link>
                     </div>
                 </div>
             </div >
@@ -31,7 +33,11 @@ export default function Projects() {
 
     return (
         <div className="projects-grid">
-            <h1>This is a projects page</h1>
+            <h2>My portfolio of projects</h2>
+            <p className="sub-text"> I'm a Frontend Developer with a strong eye for detail and a passion for accessibility. With three
+                years
+                of experience in eCommerce and two in Marketing, I bring a well-rounded skill set, including design
+                expertise, task management, and problem-solving abilities. </p>
             <div className="wrapper">
                 {projectElements}
             </div>

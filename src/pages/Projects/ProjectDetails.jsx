@@ -1,4 +1,5 @@
 import { useParams } from "react-router"
+import { projectData } from "../../data"
 
 
 

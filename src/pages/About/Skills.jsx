@@ -2,8 +2,21 @@ export default function Skills() {
     return (
         <section className="skills-section">
             <h2>Skills</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae libero et sapien fermentum maximus. Aenean vitae libero et sapien fermentum maximus.  </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae libero et sapien fermentum maximus. Aenean vitae libero et sapien fermentum maximus.  </p>
+            <div className="skills-container-1">
+                <p className="purple-label">JavaScript</p>
+                <p className="pink-label">HTML</p>
+                <p className="green-label">CSS</p>
+                <p className="purple-label">Figma</p>
+                <p className="pink-label">Git</p>
+                <p className="green-label">GitHub</p>
+            </div>
+            <div className="skills-container-2">
+                <p className="pink-label">Jira</p>
+                <p className="green-label">Bootstrap</p>
+                <p className="purple-label">Magento</p>
+                <p className="pink-label">SEO</p>
+            </div>
+
         </section>
 
     )

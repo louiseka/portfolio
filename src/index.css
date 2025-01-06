@@ -186,6 +186,49 @@ header {
     font-size: 1.1rem;
 }
 
+/* Skills Labels */
+
+.skills-container-1,
+.skills-container-2 {
+    max-width: 50%;
+    display: flex;
+    margin: 30px 0 0;
+
+}
+
+.skills-container-1 {
+    justify-content: space-between;
+    gap: 30px
+}
+
+.skills-container-2 {
+    justify-content: flex-start;
+    gap: 30px
+}
+
+.pink-label,
+.green-label,
+.purple-label {
+    padding: 13px 30px;
+    border-radius: 6px;
+    margin: 0;
+    font-size: 1.15rem;
+}
+
+.pink-label {
+    background-color: #EBB1DC;
+}
+
+.green-label {
+    background-color: #B1EBC0;
+}
+
+.purple-label {
+    background-color: #D1CFFF;
+}
+
+
+
 
 
 /* Media Queries */

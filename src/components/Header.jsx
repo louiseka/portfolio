@@ -7,7 +7,7 @@ export default function Header() {
         <nav>
             <Link className="logo" to="/"> <FaTerminal /> louise.codes</Link>
             <div className="nav-links">
-                <NavLink to="/projects" className={({ isActive }) => (isActive ? 'nav-active' : "")} >Projects</NavLink>
+                {/* <NavLink to="/projects" className={({ isActive }) => (isActive ? 'nav-active' : "")} >Projects</NavLink> */}
                 <NavLink to="/about" className={({ isActive }) => (isActive ? 'nav-active' : "")} >About</NavLink>
             </div>
         </nav>

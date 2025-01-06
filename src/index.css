@@ -61,6 +61,15 @@ p {
     margin: 0;
 }
 
+.sub-text {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 30px 0 60px;
+    border-left: #EBB1DC solid 3px;
+    padding: 10px 25px;
+
+}
+
 /* Links */
 
 .cta-link {
@@ -227,9 +236,21 @@ header {
 
 /* Project Page */
 /* CSS Grid */
+
+.normal-grid-img,
+.wide-grid-img {
+    width: 100%;
+}
+
+.projects-grid {
+    max-width: 80%;
+    margin: 0px auto;
+    padding: 50px 0;
+}
+
 .wrapper {
     max-width: 100%;
-    margin: 0 auto;
+    margin: 50px auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;

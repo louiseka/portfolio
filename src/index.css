@@ -136,11 +136,20 @@ nav a {
     font-size: 1.25rem;
 }
 
+.nav-links a:hover {
+    text-decoration: underline;
+    text-decoration-color: #B1EBC0;
+    text-decoration-thickness: 3px;
+}
+
+
 .nav-active {
     text-decoration: underline;
     text-decoration-color: #EBB1DC;
     text-decoration-thickness: 3px;
     line-height: 1.5;
+
+
 
 }
 
@@ -152,6 +161,12 @@ nav a {
     justify-content: flex-start;
     gap: 40px;
     font-size: 1.25rem;
+}
+
+.about-nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: #B1EBC0;
+    text-decoration-thickness: 3px;
 }
 
 /* Header */

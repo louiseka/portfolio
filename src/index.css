@@ -61,13 +61,21 @@ p {
     margin: 0;
 }
 
-.sub-text {
+.sub-text,
+.overview-text {
     font-size: 1.2rem;
     line-height: 1.5;
     margin: 30px 0 60px;
     border-left: #EBB1DC solid 3px;
     padding: 10px 25px;
+}
 
+.overview-text {
+    margin-bottom: 0px;
+}
+
+.heading {
+    font-size: 2.8rem;
 }
 
 /* Links */
@@ -80,7 +88,7 @@ p {
     display: flex;
     align-items: center;
     font-size: 1rem;
-    padding: 20px 0 10px;
+    padding: 0px 0 10px;
 }
 
 .cta-link:hover {
@@ -100,6 +108,13 @@ p {
 .logo {
     font-weight: 600;
     font-size: 1rem;
+    background-color: #EBB1DC;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.logo:hover {
+    background-color: #B1EBC0;
 }
 
 nav {
@@ -195,23 +210,18 @@ header {
 
 /* Skills Labels */
 
-.skills-container-1,
-.skills-container-2 {
+.skills-container {
     max-width: 50%;
     display: flex;
-    margin: 30px 0 0;
+    margin: 50px 0 0;
 
 }
 
-.skills-container-1 {
-    justify-content: space-between;
-    gap: 30px
-}
-
-.skills-container-2 {
+.skills-container {
     justify-content: flex-start;
     gap: 30px
 }
+
 
 .pink-label,
 .green-label,
@@ -234,6 +244,16 @@ header {
     background-color: #D1CFFF;
 }
 
+/* Project Details Page */
+
+.hero-img {
+    display: flex;
+    margin: 40px auto;
+    max-width: 100%;
+    padding: 0 25px;
+
+}
+
 /* Project Page */
 /* CSS Grid */
 
@@ -242,10 +262,15 @@ header {
     width: 100%;
 }
 
-.projects-grid {
+.projects-grid,
+.project-details {
     max-width: 80%;
     margin: 0px auto;
     padding: 50px 0;
+}
+
+.project-details {
+    padding-top: 0;
 }
 
 .wrapper {

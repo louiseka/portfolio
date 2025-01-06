@@ -1,6 +1,3 @@
-import { Link } from "react-router"
-import { FaArrowRight } from "react-icons/fa"
-import { projectData } from "../data"
 import Projects from "./Projects/Projects"
 
 export default function Home() {

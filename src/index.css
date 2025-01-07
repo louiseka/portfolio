@@ -11,12 +11,16 @@ html {
 
 /* Page Layout */
 body {
-    max-width: 1920px;
     margin: 0 auto;
     background-color: #fbfcf8;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     color: #18191A;
+}
+
+.main-container {
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 /* Main */
@@ -202,6 +206,74 @@ header {
 .profile-img {
     max-width: 100%;
 }
+
+/* Footer */
+footer {
+    max-width: 100%;
+    background-color: #F8E6F3;
+    padding: 150px 0;
+    margin: 200px 0 0;
+}
+
+.footer-logo {
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.small-title {
+    font-weight: 600;
+    font-size: 1.15rem;
+    padding: 0 0 10px 0;
+}
+
+.footer-container {
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1.5;
+}
+
+.footer-about,
+.footer-socials {
+    max-width: 50%;
+    border-left: #EBB1DC solid 3px;
+    padding: 20px 25px;
+}
+
+
+
+.footer-about p,
+.footer-socials p {
+    max-width: 80%;
+    margin: 0;
+}
+
+
+.social-icons-container {
+    font-size: 1.5rem;
+}
+
+.social-icon {
+    font-size: 2rem;
+    color: #18191A;
+    margin: 15px 10px 0 0;
+    text-decoration: none;
+}
+
+a[href^="mailto:"] {
+    text-decoration: none;
+}
+
+.rights-decl {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 50px 20px 0;
+}
+
 
 /* About Page */
 

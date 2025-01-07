@@ -8,8 +8,10 @@ import Footer from "./Footer"
 export default function Layout() {
     return (
         <>
-            <Header />
-            <Outlet />
+            <div className="main-container">
+                <Header />
+                <Outlet />
+            </div>
             <Footer />
         </>
     )

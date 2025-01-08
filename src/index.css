@@ -139,7 +139,7 @@ p {
     padding: 10px;
 }
 
-.logo:hover {
+.logo:hover:not(.active) {
     background-color: #B1EBC0;
 }
 
@@ -163,7 +163,7 @@ nav a {
     font-size: 1.25rem;
 }
 
-.nav-links a:hover {
+.nav-links a:hover:not(.active) {
     text-decoration: underline;
     text-decoration-color: #B1EBC0;
     text-decoration-thickness: 3px;
@@ -178,6 +178,7 @@ nav a {
 }
 
 
+
 /* About Page Navbar */
 
 .about-nav {
@@ -188,7 +189,7 @@ nav a {
     font-size: 1.25rem;
 }
 
-.about-nav a:hover {
+.about-nav a:hover:not(.active) {
     text-decoration: underline;
     text-decoration-color: #B1EBC0;
     text-decoration-thickness: 3px;

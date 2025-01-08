@@ -89,19 +89,24 @@ p {
 }
 
 .cta-link,
+.medium-cta-link,
 .back-link {
-    text-decoration-color: #EBB1DC;
     text-decoration: underline;
+    text-decoration-color: #EBB1DC;
     text-decoration-thickness: 3px;
+    color: #18191A;
+    display: flex;
+    align-items: center;
+    padding: 0px 0 10px;
 }
 
 .cta-link:hover,
+.medium-cta-link:hover,
 .back-link:hover {
     text-decoration-color: #B1EBC0;
 }
 
-.cta-link,
-.back-link,
+
 .small-cta-link {
     color: #18191A;
     display: flex;
@@ -548,6 +553,11 @@ a[href^="mailto:"] {
 
     .cta-link {
         font-size: 1.6rem;
+        padding: 40px 0 0;
+    }
+
+    .medium-cta-link {
+        font-size: 1.25rem;
         padding: 40px 0 0;
     }
 

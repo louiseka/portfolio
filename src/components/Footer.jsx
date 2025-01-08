@@ -29,7 +29,7 @@ export default function Footer() {
 
             </div>
             <div className="rights-decl">
-                <p className="small-text">All rights reserved. © 2025 Louise Aldridge. </p>
+                <p className="small-text">All rights reserved. © {new Date().getFullYear()} Louise Aldridge. </p>
             </div>
 
         </footer >

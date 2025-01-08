@@ -1,3 +1,6 @@
+import { Link } from "react-router"
+import { FaArrowRight } from "react-icons/fa"
+
 export default function Skills() {
     return (
         <section className="skills-section">
@@ -16,8 +19,10 @@ export default function Skills() {
                 <p className="green-label">Bootstrap</p>
                 <p className="purple-label">Magento</p>
                 <p className="pink-label">SEO</p>
+                <p className="green-label">Responsive Design</p>
             </div>
-
+            <Link className="medium-cta-link" to="https://github.com/louiseka" target="_blank">Visit my GitHub <FaArrowRight className="icon" /></Link>
+            <Link className="medium-cta-link" to={"/#projects"}>Explore my portfolio of projects <FaArrowRight className="icon" /></Link>
         </section>
 
     )

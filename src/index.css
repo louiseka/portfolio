@@ -57,7 +57,7 @@ h4 {
 }
 
 p {
-    margin: 15px 0 25px;
+    margin: 10px 0 2px;
 }
 
 .small-text {
@@ -89,19 +89,24 @@ p {
 }
 
 .cta-link,
+.medium-cta-link,
 .back-link {
-    text-decoration-color: #EBB1DC;
     text-decoration: underline;
+    text-decoration-color: #EBB1DC;
     text-decoration-thickness: 3px;
+    color: #18191A;
+    display: flex;
+    align-items: center;
+    padding: 0px 0 10px;
 }
 
 .cta-link:hover,
+.medium-cta-link:hover,
 .back-link:hover {
     text-decoration-color: #B1EBC0;
 }
 
-.cta-link,
-.back-link,
+
 .small-cta-link {
     color: #18191A;
     display: flex;
@@ -317,15 +322,10 @@ a[href^="mailto:"] {
 .skills-container {
     max-width: 50%;
     display: flex;
-    margin: 50px 0 0;
-
-}
-
-.skills-container {
+    margin: 25px 0;
     justify-content: flex-start;
     gap: 30px
 }
-
 
 .pink-label,
 .green-label,
@@ -334,6 +334,7 @@ a[href^="mailto:"] {
     border-radius: 6px;
     margin: 0;
     font-size: 1.15rem;
+    white-space: nowrap;
 }
 
 .pink-label {
@@ -505,7 +506,7 @@ a[href^="mailto:"] {
     }
 
     .about-section p {
-        margin: 10px 0;
+        margin: 5px 0;
     }
 }
 
@@ -548,6 +549,11 @@ a[href^="mailto:"] {
 
     .cta-link {
         font-size: 1.6rem;
+        padding: 40px 0 0;
+    }
+
+    .medium-cta-link {
+        font-size: 1.25rem;
         padding: 40px 0 0;
     }
 

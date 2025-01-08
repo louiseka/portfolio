@@ -143,7 +143,8 @@ p {
     background-color: #B1EBC0;
 }
 
-nav {
+nav,
+.sticky {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -174,10 +175,8 @@ nav a {
     text-decoration-color: #EBB1DC;
     text-decoration-thickness: 3px;
     line-height: 1.5;
-
-
-
 }
+
 
 /* About Page Navbar */
 

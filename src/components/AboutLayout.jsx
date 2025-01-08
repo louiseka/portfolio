@@ -1,4 +1,5 @@
-import { Outlet, NavLink } from "react-router"
+import { Outlet, NavLink, Link } from "react-router"
+import { FaArrowRight } from "react-icons/fa"
 
 export default function AboutLayout() {
     return (
@@ -8,8 +9,9 @@ export default function AboutLayout() {
                 <div className="about-section">
                     <div className="hero-text">
                         <h1>Let me introduce myself</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae libero et sapien fermentum maximus. Ut euismod eleifend lorem, ut sagittis leo placerat nec. Morbi ac auctor nisi, ut euismod est. Morbi fringilla mi nec nulla aliquam consequat nec facilisis dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae libero et sapien fermentum maximus. Ut euismod eleifend lorem, ut sagittis leo placerat nec. Morbi ac auctor nisi, ut euismod est. Morbi fringilla mi nec nulla aliquam consequat nec facilisis dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>
+                        <p>Hi, I’m Louise - a Frontend Developer with a strong eye for detail and a passion for accessibility. With three years of experience in eCommerce and two in Marketing, I bring a well-rounded skill set, including design expertise, task management, and problem-solving abilities. I’m self-motivated, detail-oriented, and committed to creating user-friendly, accessible digital experiences. </p>
+                        <p>My passion for coding was reignited at AbilityNet, where I discovered the importance of digital accessibility and became a IAAP Certified Professional in Accessibility Core Competencies (CPACC). This led me to self-teach and hone my frontend development skills in HTML, CSS, JavaScript (ES6, Async), React, git, and GitHub. </p>
+
                     </div>
 
                     <img className="profile-img" src="/assets/louise-profile.png" alt="Profile image of Louise smiling" />
@@ -28,6 +30,7 @@ export default function AboutLayout() {
                     <NavLink to="certifications" className={({ isActive }) => (isActive ? 'nav-active' : "")}>Certifications</NavLink>
                 </nav>
                 <Outlet />
+
             </main>
         </>
     )

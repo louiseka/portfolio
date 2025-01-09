@@ -356,7 +356,18 @@ a[href^="mailto:"] {
     margin: 40px auto;
     max-width: 100%;
     padding: 0 25px;
+}
 
+.project-img {
+    max-width: 100%;
+    display: flex;
+    margin: 15px auto;
+}
+
+.project-imgs-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 /* Project Page */
@@ -578,6 +589,14 @@ a[href^="mailto:"] {
         padding: 0 20px;
     }
 
+    .project-img {
+        max-width: 33%;
+        margin: 40px auto;
+    }
+
+    .project-imgs-section {
+        flex-direction: row;
+    }
 
 }
 

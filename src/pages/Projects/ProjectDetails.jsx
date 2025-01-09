@@ -38,7 +38,12 @@ export default function ProjectDetails() {
             <Link className="back-link" to={"/#projects"}><FaArrowLeft className="icon" />
                 Back to all projects</Link>
             <h1 className="heading">{projectDetails.name}</h1>
-            <img className="hero-img" src={projectDetails.headerImg} />
+            <div className="project-imgs-section">
+                <img className="project-img" src={projectDetails.img1} />
+                <img className="project-img" src={projectDetails.img2} />
+                <img className="project-img" src={projectDetails.img3} />
+            </div>
+
             <h2>Overview</h2>
             <p className="overview-text">{projectDetails.longDescription}</p>
             <Link className="cta-link" to={projectDetails.githubUrl} target="_blank">Visit GitHub Repository <FaArrowRight className="icon" /></Link>

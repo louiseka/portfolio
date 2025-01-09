@@ -1,9 +1,14 @@
 import { useParams, Link } from "react-router"
+import { useEffect } from "react";
 import { projectData } from "../../data"
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa"
 
 
 export default function ProjectDetails() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     const { id } = useParams()
 

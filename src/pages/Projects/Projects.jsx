@@ -35,10 +35,7 @@ export default function Projects() {
     return (
         <div className="projects-grid" id="projects">
             <h2>My portfolio of projects</h2>
-            <p className="sub-text"> I'm a Frontend Developer with a strong eye for detail and a passion for accessibility. With three
-                years
-                of experience in eCommerce and two in Marketing, I bring a well-rounded skill set, including design
-                expertise, task management, and problem-solving abilities. </p>
+            <p className="sub-text"> While learning the fundamentals of frontend development, I have been practicing my skills and applying the languages and frameworks I've learned by creating various projects. Over time, I’ve also revisited these projects to improve them with my new knowledge. </p>
             <div className="wrapper">
                 {projectElements}
             </div>

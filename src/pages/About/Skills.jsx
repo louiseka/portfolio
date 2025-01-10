@@ -13,8 +13,6 @@ export default function Skills() {
                 <p className="purple-label">Figma</p>
                 <p className="pink-label">Git</p>
                 <p className="green-label">GitHub</p>
-            </div>
-            <div className="skills-container">
                 <p className="pink-label">Jira</p>
                 <p className="green-label">Bootstrap</p>
                 <p className="purple-label">Magento</p>

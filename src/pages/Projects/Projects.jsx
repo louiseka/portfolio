@@ -20,7 +20,7 @@ export default function Projects() {
                 <div className={isWide ? "wide-inner-content" : ""}>
                     <img className={isWide ? "wide-grid-img" : "normal-grid-img"} src={projectThumbnail} />
                     <div className={isWide ? "wider-inner-text" : ""}>
-                        <h2 className="project-title">{projectName}</h2>
+                        <h3 className="project-title">{projectName}</h3>
                         <p className="project-desc">{projectShortDesc}</p>
                         <Link className="small-cta-link" to={`projects/${project.id}`} key={project.id}>Find out more <FaArrowRight className="icon" /> </Link>
                     </div>

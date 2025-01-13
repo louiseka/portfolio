@@ -22,7 +22,7 @@ export default function Projects() {
                     <div className={isWide ? "wider-inner-text" : ""}>
                         <h3 className="project-title">{projectName}</h3>
                         <p className="project-desc">{projectShortDesc}</p>
-                        <Link className="small-cta-link" to={`projects/${project.id}`} key={project.id}>Find out more <FaArrowRight className="icon" /> </Link>
+                        <Link className="small-cta-link" to={`projects/${project.id}`} title={`More details about ${projectName}`} key={project.id}>Find out more <FaArrowRight className="icon" /> </Link>
                     </div>
                 </div>
             </div >

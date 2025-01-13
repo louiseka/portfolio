@@ -16,7 +16,7 @@ export default function Projects() {
 
 
         return (
-            <div key={project.id} className={projectGridPosition}>
+            <section key={project.id} className={projectGridPosition}>
                 <div className={isWide ? "wide-inner-content" : ""}>
                     <img className={isWide ? "wide-grid-img" : "normal-grid-img"} src={projectThumbnail} />
                     <div className={isWide ? "wider-inner-text" : ""}>
@@ -25,7 +25,7 @@ export default function Projects() {
                         <Link className="small-cta-link" to={`projects/${project.id}`} title={`More details about ${projectName}`} key={project.id}>Find out more <FaArrowRight className="icon" /> </Link>
                     </div>
                 </div>
-            </div >
+            </section >
         )
 
 
@@ -33,13 +33,13 @@ export default function Projects() {
     })
 
     return (
-        <div className="projects-grid" id="projects">
+        <main className="projects-grid" id="projects">
             <h2>My portfolio of projects</h2>
             <p className="sub-text"> While learning the fundamentals of frontend development, I have been practicing my skills and applying the languages and frameworks I've learned by creating various projects. Over time, I’ve also revisited these projects to improve them with my new knowledge. </p>
             <div className="wrapper">
                 {projectElements}
             </div>
-        </div>
+        </main>
 
     )
 

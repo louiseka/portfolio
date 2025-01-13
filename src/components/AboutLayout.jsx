@@ -6,7 +6,7 @@ export default function AboutLayout() {
         <>
 
             <main>
-                <div className="about-section">
+                <section className="about-section">
                     <div className="hero-text">
                         <h1>Let me introduce myself</h1>
                         <p>Hi, I’m Louise! I bring a well-rounded skill set, including design expertise, task management, and problem-solving abilities. I’m self-motivated, detail-oriented, and committed to creating user-friendly, accessible digital experiences. </p>
@@ -15,7 +15,7 @@ export default function AboutLayout() {
                     </div>
 
                     <img className="profile-img" src="/assets/louise-profile.png" alt="Profile image of Louise smiling" />
-                </div>
+                </section>
 
                 <nav className="about-nav">
                     <NavLink to="." end title="Louise Aldridge's skills" className={({ isActive }) => (isActive ? 'nav-active active' : "")}>Skills</NavLink>

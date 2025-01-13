@@ -40,19 +40,19 @@ export default function ProjectDetails() {
 
     return (
         <main key={projectDetails.id} className="project-details">
-            <Link className="back-link" to={"/#projects"}><FaArrowLeft className="icon" />
+            <Link className="back-link" to={"/#projects"} title="An overview page of Louise Aldridge's projects"><FaArrowLeft className="icon" />
                 Back to all projects</Link>
             <h1 className="heading">{projectDetails.name}</h1>
             <div className="project-imgs-section">
-                <img className="project-img" src={projectDetails.img1} />
-                <img className="project-img" src={projectDetails.img2} />
-                <img className="project-img" src={projectDetails.img3} />
+                <img className="project-img" src={projectDetails.img1} alt={projectDetails.img1Alt} />
+                <img className="project-img" src={projectDetails.img2} alt={projectDetails.img2Alt} />
+                <img className="project-img" src={projectDetails.img3} alt={projectDetails.img3Alt} />
             </div>
 
             <h2>Overview</h2>
             <p className="overview-text">{projectDetails.longDescription}</p>
-            <Link className="cta-link" to={projectDetails.githubUrl} target="_blank">Visit GitHub Repository <FaArrowRight className="icon" /></Link>
-            <Link className="cta-link" to={projectDetails.liveUrl} target="_blank">Visit live application <FaArrowRight className="icon" /></Link>
+            <Link className="cta-link" to={projectDetails.githubUrl} target="_blank" title={`GitHub repository for ${projectDetails.name}`}>Visit GitHub Repository <FaArrowRight className="icon" /></Link>
+            <Link className="cta-link" to={projectDetails.liveUrl} target="_blank" title={`The live website for ${projectDetails.name}`} >Visit live application <FaArrowRight className="icon" /></Link>
 
             <div className="skills-container">
                 {projectSkills}

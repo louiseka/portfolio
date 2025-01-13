@@ -38,7 +38,7 @@ h4 {
 
 h1 {
     font-size: 2rem;
-    padding: 20px 0 0;
+    padding: 0.625em 0 0;
 }
 
 h2 {
@@ -56,12 +56,12 @@ h4 {
 }
 
 p {
-    margin: 10px 0 2px;
+    margin: 0.625em 0 0.125em;
 }
 
 .small-text {
-    font-size: 14px;
-    margin: 20px 0;
+    font-size: 0.875rem;
+    margin: 1.43em 0;
 }
 
 /* Links */
@@ -101,7 +101,7 @@ p {
     color: #18191A;
     display: flex;
     align-items: center;
-    padding: 20px 0 10px;
+    padding: 1.25em 0 0.625em;
     text-decoration: none;
 }
 
@@ -113,11 +113,11 @@ p {
 
 .small-cta-link .icon,
 .medium-cta-link .icon {
-    margin: 0 0 0 15px;
+    margin: 0 0 0 0.95em;
 }
 
 .icon {
-    margin: 0 15px 0 0;
+    margin: 0 0.95em 0 0;
 }
 
 /* Navbar */
@@ -127,7 +127,7 @@ p {
     font-size: 1rem;
     background-color: #EBB1DC;
     border-radius: 3px;
-    padding: 10px;
+    padding: 0.625em;
 }
 
 .logo:hover:not(.active) {
@@ -138,7 +138,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 40px 15px 10px;
+    margin: 2.5em 0.94em 0.625em;
 }
 
 nav a {
@@ -147,8 +147,8 @@ nav a {
 }
 
 .nav-links a {
-    padding-left: 30px;
-    padding-right: 20px;
+    padding-left: 1.875em;
+    padding-right: 1.25em;
     cursor: pointer;
     font-size: 1rem;
 }
@@ -171,7 +171,7 @@ footer {
     max-width: 100%;
     background-color: #F8E6F3;
     padding: 0;
-    margin: 100px 0 0;
+    margin: 6.25em 0 0;
 }
 
 .footer-logo {
@@ -184,7 +184,7 @@ footer {
 .small-title {
     font-weight: 600;
     font-size: 1rem;
-    padding: 0 0 10px 0;
+    padding: 0 0 0.625em 0;
 }
 
 .footer-container {
@@ -200,7 +200,7 @@ footer {
 .footer-socials {
     max-width: 100%;
     border: none;
-    padding: 20px 25px;
+    padding: 1.25em 1.56em;
 }
 
 .footer-about p,
@@ -217,7 +217,7 @@ footer {
 .social-icon {
     font-size: 2rem;
     color: #18191A;
-    margin: 15px 10px 0 0;
+    margin: 0.47em 0.31em 0 0;
     text-decoration: none;
 }
 
@@ -227,7 +227,7 @@ a[href^="mailto:"] {
 
 .rights-decl {
     max-width: 100%;
-    padding: 50px 20px 10px;
+    padding: 3.125em 1.25em 0.625em;
 }
 
 
@@ -236,7 +236,7 @@ a[href^="mailto:"] {
 
 header {
     max-width: 90%;
-    margin: 0 auto 50px;
+    margin: 0 auto 3.125em;
 }
 
 .hero-text {
@@ -253,12 +253,12 @@ header {
 
 .sub-text {
     font-size: 1rem;
-    line-height: 1.7rem;
+    line-height: 1.7;
     border: none;
 }
 
 .project-title {
-    margin: 15px 0 10px;
+    margin: 0.7em 0 0.5em;
 }
 
 .project-desc {
@@ -276,7 +276,7 @@ header {
 .project-details {
     max-width: 90%;
     margin: 0px auto;
-    padding: 0 0 50px;
+    padding: 0 0 3.125em;
 }
 
 .project-details {
@@ -285,7 +285,7 @@ header {
 
 .wrapper {
     max-width: 100%;
-    margin: 50px auto;
+    margin: 3.125em auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
@@ -370,7 +370,7 @@ header {
 
 .sub-text,
 .overview-text {
-    margin: 10px 0 60px;
+    margin: 0.625em 0 3.75em;
 }
 
 .overview-text {
@@ -384,7 +384,7 @@ header {
 .project-img {
     max-width: 100%;
     display: flex;
-    margin: 15px auto;
+    margin: 0.94em auto;
 }
 
 .project-imgs-section {
@@ -401,20 +401,20 @@ header {
 .skills-section,
 .certifications-section {
     max-width: 90%;
-    margin: 0 auto 50px;
+    margin: 0 auto 3.125em;
 }
 
 .details-section-purple,
 .details-section-green,
 .details-section-pink {
     max-width: 100%;
-    margin: 10px 0;
+    margin: 0.625em 0;
     line-height: 1.7;
     border: none;
 }
 
 .detail-sub {
-    margin: 5px 0 0 0;
+    margin: 0.28em 0 0 0;
     font-size: 1.1rem;
 }
 
@@ -422,7 +422,7 @@ header {
 
 .skills-container {
     display: flex;
-    margin: 25px 0;
+    margin: 1.56em 0;
     justify-content: flex-start;
     gap: 15px;
     flex-wrap: wrap;
@@ -432,7 +432,7 @@ header {
 .pink-label,
 .green-label,
 .purple-label {
-    padding: 8px 15px;
+    padding: 0.55em 1.04em;
     border-radius: 6px;
     margin: 0;
     font-size: 0.9rem;
@@ -455,7 +455,7 @@ header {
 
 .about-nav {
     max-width: 90%;
-    margin: 0 auto 50px;
+    margin: 0 auto 3.125em;
     justify-content: flex-start;
     gap: 12px;
     font-size: 1rem;
@@ -487,7 +487,7 @@ header {
     }
 
     .about-section .hero-text {
-        padding-right: 60px;
+        padding-right: 3.75em;
     }
 }
 
@@ -498,7 +498,7 @@ header {
     }
 
     .about-section p {
-        margin: 5px 0;
+        margin: 0.31em 0;
     }
 }
 
@@ -510,22 +510,22 @@ header {
     /* Links */
     .cta-link {
         font-size: 1.6rem;
-        padding: 40px 0 0;
+        padding: 0.98em 0 0;
     }
 
     .medium-cta-link {
         font-size: 1.25rem;
-        padding: 40px 0 0;
+        padding: 1.56em 0 0;
     }
 
     /* Nav */
     nav {
-        margin: 60px;
+        margin: 3.75em;
     }
 
     .nav-links a {
         font-size: 1.25rem;
-        padding-right: 80px;
+        padding-right: 4em;
     }
 
 
@@ -536,8 +536,8 @@ header {
     }
 
     footer {
-        padding: 150px 0;
-        margin: 200px 0 0;
+        padding: 9.375em 0;
+        margin: 12.5em 0 0;
     }
 
     .footer-container {
@@ -574,7 +574,7 @@ header {
     }
 
     header .hero-text {
-        padding-right: 60px;
+        padding-right: 3.75em;
     }
 
     .hero-text {
@@ -596,16 +596,16 @@ header {
     }
 
     .about-text {
-        padding-right: 20px;
+        padding-right: 1.25em;
     }
 
     .details-section-purple,
     .details-section-green,
     .details-section-pink {
         max-width: 65%;
-        margin: 30px 0 0 80px;
+        margin: 1.875em 0 0 5em;
         line-height: 1.5;
-        padding: 10px 25px;
+        padding: 0.625em 1.56em;
     }
 
     .details-section-purple {
@@ -628,7 +628,7 @@ header {
     .pink-label,
     .green-label,
     .purple-label {
-        padding: 13px 30px;
+        padding: 0.71em 1.63em;
         font-size: 1.15rem;
     }
 
@@ -637,12 +637,12 @@ header {
     .sub-text,
     .overview-text {
         border-left: #EBB1DC solid 3px;
-        margin: 30px 0;
+        margin: 1.88em 0;
     }
 
     .overview-text,
     .sub-text {
-        padding: 10px 25px;
+        padding: 0.625em 1.56em;
     }
 
     .heading {
@@ -663,7 +663,7 @@ header {
 
     .wide-grid-img {
         width: 50%;
-        padding: 10px;
+        padding: 0.625em;
     }
 
     .wide-inner-content {
@@ -672,14 +672,14 @@ header {
     }
 
     .wider-inner-text {
-        padding: 0 20px;
+        padding: 0 1.25em;
     }
 
     /* Project Details Page */
 
     .project-img {
         max-width: 33%;
-        margin: 40px auto;
+        margin: 2.5em auto;
     }
 
     .project-imgs-section {
@@ -772,7 +772,7 @@ header {
         /* Automatically adjust row height */
     }
 
-    .wrapper>div {
+    .wrapper>section {
         grid-column: auto;
         grid-row: auto;
     }

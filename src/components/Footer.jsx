@@ -18,12 +18,12 @@ export default function Footer() {
 
                 <div className="footer-socials">
                     <p className="small-title"> Follow my coding journey</p>
-                    <p>I regularly share my latest projects and learning milestones on my social accounts. You can find me on LinkedIn, Twitter (reluctantly known as X), and GitHub. If you'd like to get in touch, feel free to send me an email. </p>
+                    <p>I regularly share my latest projects and learning milestones on my social accounts. You can find me on LinkedIn, X (formely known as Twitter), and GitHub. If you'd like to get in touch, feel free to send me an email. </p>
                     <div className="social-icons-container">
-                        <Link to="https://www.linkedin.com/in/louiseka/" target="_blank"> <FaLinkedin className="social-icon" /></Link>
-                        <Link to="https://x.com/louiseka_codes" target="_blank"><FaTwitterSquare className="social-icon" /></Link>
-                        <Link to="https://github.com/louiseka" target="_blank"><FaGithubSquare className="social-icon" /></Link>
-                        <Link to="mailto:louisealdridge88@gmail.com" target="_blank"> <FaEnvelope className="social-icon" /></Link>
+                        <Link to="https://www.linkedin.com/in/louiseka/" target="_blank" title="Louise Aldridge's Linked Profile"> <FaLinkedin className="social-icon" /></Link>
+                        <Link to="https://x.com/louiseka_codes" target="_blank" title="Louise Aldridge's X Profile"><FaTwitterSquare className="social-icon" /></Link>
+                        <Link to="https://github.com/louiseka" target="_blank" title="Louise Aldridge's GitHub Profile"><FaGithubSquare className="social-icon" /></Link>
+                        <Link to="mailto:louisealdridge88@gmail.com" target="_blank" title="Louise Aldridge's email contact"> <FaEnvelope className="social-icon" /></Link>
                     </div>
                 </div>
 

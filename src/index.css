@@ -593,6 +593,7 @@ header {
     .about-nav {
         flex-direction: row;
         font-size: 1.25rem;
+        gap: 30px;
     }
 
     .about-text {

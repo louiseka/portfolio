@@ -62,6 +62,11 @@ p {
 .small-text {
     font-size: 0.875rem;
     margin: 1.43em 0;
+
+}
+
+.bold-text {
+    font-weight: 600;
 }
 
 /* Links */
@@ -279,7 +284,14 @@ header {
     padding: 0 0 3.125em;
 }
 
-.project-details {
+.blog-details {
+    max-width: 90%;
+    margin: 0px auto;
+    padding: 0 0 3.125em;
+}
+
+.project-details,
+.blog-details {
     padding-top: 0;
 }
 
@@ -369,17 +381,25 @@ header {
 }
 
 .sub-text,
-.overview-text {
+.overview-text,
+.blog-text {
     margin: 0.625em 0 3.75em;
 }
 
-.overview-text {
+.overview-text,
+.blog-text,
+.blog-bullets {
     font-size: 1rem;
     line-height: 1.5;
     border: none;
     margin-bottom: 0px;
     max-width: 100%;
 }
+
+.blog-bullets li {
+    padding: 10px 0;
+}
+
 
 .project-img {
     max-width: 100%;
@@ -391,6 +411,16 @@ header {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+/* Blogs Pages */
+
+article h2 {
+    padding: 20px 0 5px 0;
+}
+
+article h3 {
+    padding: 25px 0 5px 0;
 }
 
 /* About Page */
@@ -482,7 +512,9 @@ header {
 }
 
 @media (min-width: 1830px) {
-    .about-section h1 {
+
+    .about-section h1,
+    .projects-grid h1 {
         font-size: 2.8rem;
     }
 
@@ -646,6 +678,12 @@ header {
         padding: 0.625em 1.56em;
     }
 
+    .blog-text {
+        padding: 3px 0;
+    }
+
+
+
     .heading {
         font-size: 2.8rem;
     }
@@ -687,6 +725,12 @@ header {
         flex-direction: row;
     }
 
+    /* Blog */
+
+    .blog-details {
+        max-width: 70%;
+    }
+
 }
 
 @media (min-width: 1274px) {
@@ -704,7 +748,9 @@ header {
         font-size: 1.25rem;
     }
 
-    .overview-text {
+    .overview-text,
+    .blog-text,
+    .blog-bullets {
         font-size: 1.2rem;
     }
 

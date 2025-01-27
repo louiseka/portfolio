@@ -11,6 +11,8 @@ import Skills from "./pages/About/Skills"
 import Experience from "./pages/About/Experience"
 import Education from "./pages/About/Education"
 import Certifications from "./pages/About/Certifications"
+import Blogs from "./pages/Blogs/Blogs"
+import BlogOne from "./pages/Blogs/BlogOne"
 
 
 function App() {
@@ -28,6 +30,9 @@ function App() {
             <Route path="experience" element={<Experience />} />
             <Route path="certifications" element={<Certifications />} />
           </Route>
+          <Route path="blogs" element={<Blogs />} />
+          <Route path="blogs/blog-one" element={<BlogOne />} />
+
         </Route>
       </Routes>
       <ScrollToAnchor />

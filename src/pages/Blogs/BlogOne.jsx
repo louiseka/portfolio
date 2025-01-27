@@ -27,9 +27,9 @@ export default function BlogOne() {
                 <time className="small-text" dateTime="2025-01-24">23 January 2025</time>
 
                 <div id="imgs-section" className="project-imgs-section">
-                    <img className="project-img" src="/public/assets/blog-imgs/2025-diary.png" alt="" />
-                    <img className="project-img" src="/public/assets/blog-imgs/moodboard.png" alt="" />
-                    <img className="project-img" src="/public/assets/blog-imgs/todo.png" alt="" />
+                    <img className="project-img" src="/public/assets/blog-imgs/2025-diary.png" alt="A multi coloured 2025 diary." />
+                    <img className="project-img" src="/public/assets/blog-imgs/moodboard.png" alt="A lady pinning items onto a moodboard." />
+                    <img className="project-img" src="/public/assets/blog-imgs/todo.png" alt="A piece of paper titled 'To do'" />
                 </div>
 
                 <p className="blog-text">As I continue to develop my frontend development skills, I've recently started thinking about a new solo project to work on. The New Year seems to have sparked some inspiration, leading me to decide on creating a goal tracker called Pinpoint. Part of this inspiration also comes from my recent purchase of a Clever Fox advanced weekly planner (I definitely recommend!)</p>

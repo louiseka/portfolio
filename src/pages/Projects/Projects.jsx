@@ -12,13 +12,14 @@ export default function Projects() {
         const projectName = project.name
         const projectShortDesc = project.shortDescription
         const projectThumbnail = project.thumbnailImg
+        const projectAltText = project.img1Alt
         const projectGridPosition = `${project.gridPosition} card `
 
 
         return (
             <section key={project.id} className={projectGridPosition}>
                 <div className={isWide ? "wide-inner-content" : ""}>
-                    <img className={isWide ? "wide-grid-img" : "normal-grid-img"} src={projectThumbnail} />
+                    <img className={isWide ? "wide-grid-img" : "normal-grid-img"} alt={projectAltText} src={projectThumbnail} />
                     <div className={isWide ? "wider-inner-text" : ""}>
                         <h3 className="project-title">{projectName}</h3>
                         <p className="project-desc">{projectShortDesc}</p>

@@ -423,6 +423,10 @@ article h3 {
     padding: 25px 0 5px 0;
 }
 
+#imgs-section {
+    display: none;
+}
+
 /* About Page */
 
 .about-section,
@@ -682,8 +686,6 @@ article h3 {
         padding: 3px 0;
     }
 
-
-
     .heading {
         font-size: 2.8rem;
     }
@@ -729,6 +731,10 @@ article h3 {
 
     .blog-details {
         max-width: 70%;
+    }
+
+    #imgs-section {
+        display: flex
     }
 
 }

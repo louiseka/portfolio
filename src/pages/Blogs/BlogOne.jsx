@@ -1,21 +1,6 @@
 import { Link } from "react-router"
 import { FaArrowLeft } from "react-icons/fa"
 
-function adjustImgDisplay() {
-    const targetDiv = document.getElementById("imgs-section")
-
-    if (window.innerWidth < 1024) {
-        targetDiv.style.display = "none"
-    } else {
-        targetDiv.style.display = "flex"
-    }
-}
-
-window.addEventListener("load", adjustImgDisplay)
-window.addEventListener("resize", adjustImgDisplay)
-
-
-
 export default function BlogOne() {
     return (
         <main className="project-details">
@@ -71,4 +56,6 @@ export default function BlogOne() {
             </article>
         </main>
     )
+
+
 }

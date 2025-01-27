@@ -13,13 +13,14 @@ export default function Blogs() {
         const blogThumbnail = blog.thumbnailImg
         const blogGridPosition = `${blog.gridPosition} card `
         const blogSlugUrl = blog.urlSlug
+        const blogAltText = blog.altText
 
 
 
         return (
             <section key={blog.id} className={blogGridPosition}>
                 <div className={isWide ? "wide-inner-content" : ""}>
-                    <img className={isWide ? "wide-grid-img" : "normal-grid-img"} src={blogThumbnail} />
+                    <img className={isWide ? "wide-grid-img" : "normal-grid-img"} src={blogThumbnail} alt={blogAltText} />
                     <div className={isWide ? "wider-inner-text" : ""}>
                         <h3 className="project-title">{blogName}</h3>
                         <p className="project-desc">{blogShortDesc}</p>

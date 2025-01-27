@@ -5,6 +5,7 @@ export const blogData = [
         shortDescription: "As I continue to develop my frontend development skills, I've recently started thinking about a new solo project to work on...",
         longDescription: "As I continue to develop my frontend development skills, I've recently started thinking about a new solo project to work on. Pinpoint is a goal tracker...",
         thumbnailImg: "/assets/blog-imgs/moodboard.png",
+        altText: "A lady pinning items to a moodboard.",
         gridPosition: "one",
         cardLayout: "normal",
         urlSlug: "blog-one"

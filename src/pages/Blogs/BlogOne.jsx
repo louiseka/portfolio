@@ -1,7 +1,14 @@
 import { Link } from "react-router"
 import { FaArrowLeft } from "react-icons/fa"
+import { useEffect } from "react";
 
 export default function BlogOne() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+
     return (
         <main className="project-details">
             <Link className="back-link" to={"/blogs"} title="An overview page of Louise Aldridge's projects"><FaArrowLeft className="icon" />
@@ -46,7 +53,7 @@ export default function BlogOne() {
                     <li><span className="bold-text">Goal Levels</span> - I will implement the ability to filter goals by level using React Router’s search parameters.</li>
                     <li><span className="bold-text">Progress Bar</span> - Each item on the to-do list will be added to a unique array, and the progress bar will calculate its fill percentage using the formula 100 / array.length. When an item is marked as complete, the bar will fill by the corresponding percentage. I’ll likely use CSS animations to display the progress, but I’ll need to do more practice and research in this area.</li>
                     <li><span className="bold-text">Colour Scheme</span> - Each color scheme will be stored in its own variable and will update the colors of specific elements through their associated CSS classes.</li>
-                    <li><span className="bold-text">Countdown</span> - I will use JavaScript’s Date function to create a countdown to the end of the year (31 January). The calculation will subtract todaysDate from endDate. </li>
+                    <li><span className="bold-text">Countdown</span> - I will use JavaScript’s Date function to create a countdown to the end of the year (31 December). The calculation will subtract todaysDate from endDate. </li>
                 </ul>
 
 

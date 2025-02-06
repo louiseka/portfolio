@@ -80,7 +80,7 @@ p {
 }
 
 .back-link {
-    padding: 15px 0 10px;
+    padding: 0.94em 0 0.625em;
 }
 
 .cta-link,
@@ -401,7 +401,7 @@ header {
 }
 
 .blog-bullets li {
-    padding: 10px 0;
+    padding: 0.5em 0;
 }
 
 
@@ -420,11 +420,11 @@ header {
 /* Blogs Pages */
 
 article h2 {
-    padding: 20px 0 5px 0;
+    padding: 0.46em 0 0.11em 0;
 }
 
 article h3 {
-    padding: 25px 0 5px 0;
+    padding: 1.2em 0 0.25em 0;
 }
 
 #imgs-section {

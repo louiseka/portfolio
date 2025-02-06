@@ -11,7 +11,7 @@ export default function BlogOne() {
 
     return (
         <main className="project-details">
-            <Link className="back-link" to={"/blogs"} title="An overview page of Louise Aldridge's projects"><FaArrowLeft className="icon" />
+            <Link className="back-link" to={"/blogs"} title="An overview page of Louise Aldridge's Blogs"><FaArrowLeft className="icon" />
                 Back to all blogs</Link>
 
             <article className="blog-details" >

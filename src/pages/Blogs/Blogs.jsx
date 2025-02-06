@@ -9,6 +9,7 @@ export default function Blogs() {
         const isWide = blog.cardLayout === "wide"
 
         const blogName = blog.name
+        const blogDate = blog.date
         const blogShortDesc = blog.shortDescription
         const blogThumbnail = blog.thumbnailImg
         const blogGridPosition = `${blog.gridPosition} card `
@@ -23,6 +24,7 @@ export default function Blogs() {
                     <img className={isWide ? "wide-grid-img" : "normal-grid-img"} src={blogThumbnail} alt={blogAltText} />
                     <div className={isWide ? "wider-inner-text" : ""}>
                         <h3 className="project-title">{blogName}</h3>
+                        <time className="small-text-grid">{blogDate}</time>
                         <p className="project-desc">{blogShortDesc}</p>
                         <Link className="small-cta-link" to={`${blogSlugUrl}`} title={`Read the blog titled ${blogName}`} key={blog.id}>Read the blog <FaArrowRight className="icon" /> </Link>
                     </div>
@@ -30,6 +32,9 @@ export default function Blogs() {
             </section >
         )
     })
+
+
+
 
     return (
         <main className="projects-grid" id="projects">

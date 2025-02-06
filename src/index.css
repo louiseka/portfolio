@@ -62,7 +62,11 @@ p {
 .small-text {
     font-size: 0.875rem;
     margin: 1.43em 0;
+}
 
+.small-text-grid {
+    font-size: 0.875rem;
+    margin: 0em 0 1em;
 }
 
 .bold-text {
@@ -392,7 +396,7 @@ header {
     font-size: 1rem;
     line-height: 1.5;
     border: none;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     max-width: 100%;
 }
 

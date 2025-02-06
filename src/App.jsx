@@ -13,6 +13,7 @@ import Education from "./pages/About/Education"
 import Certifications from "./pages/About/Certifications"
 import Blogs from "./pages/Blogs/Blogs"
 import BlogOne from "./pages/Blogs/BlogOne"
+import BlogTwo from "./pages/Blogs/BlogTwo"
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
           </Route>
           <Route path="blogs" element={<Blogs />} />
           <Route path="blogs/blog-one" element={<BlogOne />} />
+          <Route path="blogs/blog-two" element={<BlogTwo />} />
 
         </Route>
       </Routes>

@@ -3,11 +3,22 @@ export const blogData = [
         id: "1",
         name: "Kickstarting a new project",
         shortDescription: "As I continue to develop my frontend development skills, I've recently started thinking about a new solo project to work on...",
-        longDescription: "As I continue to develop my frontend development skills, I've recently started thinking about a new solo project to work on. Pinpoint is a goal tracker...",
         thumbnailImg: "/assets/blog-imgs/moodboard.png",
         altText: "A lady pinning items to a moodboard.",
         gridPosition: "one",
         cardLayout: "normal",
         urlSlug: "blog-one"
+    },
+
+    {
+        id: "2",
+        name: "Designing Pinpoint",
+        shortDescription: "Designing lays a strong foundation for user experience, helping to define a project's needs and features. This week I jumped into Figma...",
+        thumbnailImg: "/assets/blog-imgs/wireframe.png",
+        altText: "A notepad with a hand drawn wireframe of a website.",
+        gridPosition: "two",
+        cardLayout: "wide",
+        urlSlug: "blog-two"
     }
+
 ]

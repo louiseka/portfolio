@@ -427,6 +427,13 @@ article h3 {
     display: none;
 }
 
+.blog-img {
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1.25em 0;
+}
+
 /* About Page */
 
 .about-section,

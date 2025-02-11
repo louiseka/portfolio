@@ -4,7 +4,7 @@ import { FaFileDownload } from "react-icons/fa"
 export default function AboutLayout() {
     return (
         <>
-
+            <title>About - Louise Aldridge</title>
             <main>
                 <section className="about-section">
                     <div className="hero-text">

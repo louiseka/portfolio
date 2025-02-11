@@ -19,17 +19,20 @@ export default function Blogs() {
 
 
         return (
-            <section key={blog.id} className={blogGridPosition}>
-                <div className={isWide ? "wide-inner-content" : ""}>
-                    <img className={isWide ? "wide-grid-img" : "normal-grid-img"} src={blogThumbnail} alt={blogAltText} />
-                    <div className={isWide ? "wider-inner-text" : ""}>
-                        <h3 className="project-title">{blogName}</h3>
-                        <time className="small-text-grid">{blogDate}</time>
-                        <p className="project-desc">{blogShortDesc}</p>
-                        <Link className="small-cta-link" to={`${blogSlugUrl}`} title={`Read the blog titled ${blogName}`} key={blog.id}>Read the blog <FaArrowRight className="icon" /> </Link>
+            <>
+                <title>Blogs - Louise Aldridge</title>
+                <section key={blog.id} className={blogGridPosition}>
+                    <div className={isWide ? "wide-inner-content" : ""}>
+                        <img className={isWide ? "wide-grid-img" : "normal-grid-img"} src={blogThumbnail} alt={blogAltText} />
+                        <div className={isWide ? "wider-inner-text" : ""}>
+                            <h3 className="project-title">{blogName}</h3>
+                            <time className="small-text-grid">{blogDate}</time>
+                            <p className="project-desc">{blogShortDesc}</p>
+                            <Link className="small-cta-link" to={`${blogSlugUrl}`} title={`Read the blog titled ${blogName}`} key={blog.id}>Read the blog <FaArrowRight className="icon" /> </Link>
+                        </div>
                     </div>
-                </div>
-            </section >
+                </section >
+            </>
         )
     })
 

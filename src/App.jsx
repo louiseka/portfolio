@@ -32,8 +32,8 @@ function App() {
             <Route path="certifications" element={<Certifications />} />
           </Route>
           <Route path="blogs" element={<Blogs />} />
-          <Route path="blogs/blog-one" element={<BlogOne />} />
-          <Route path="blogs/blog-two" element={<BlogTwo />} />
+          <Route path="blogs/kickstarting-new-project" element={<BlogOne />} />
+          <Route path="blogs/designing-pinpoint" element={<BlogTwo />} />
 
         </Route>
       </Routes>

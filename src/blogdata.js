@@ -8,7 +8,7 @@ export const blogData = [
         altText: "A lady pinning items to a moodboard.",
         gridPosition: "one",
         cardLayout: "normal",
-        urlSlug: "blog-one"
+        urlSlug: "kickstarting-new-project"
     },
 
     {
@@ -20,7 +20,7 @@ export const blogData = [
         altText: "A notepad with a hand drawn wireframe of a website.",
         gridPosition: "two",
         cardLayout: "wide",
-        urlSlug: "blog-two"
+        urlSlug: "designing-pinpoint"
     }
 
 ]

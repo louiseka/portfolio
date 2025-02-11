@@ -19,20 +19,17 @@ export default function Blogs() {
 
 
         return (
-            <>
-                <title>Blogs - Louise Aldridge</title>
-                <section key={blog.id} className={blogGridPosition}>
-                    <div className={isWide ? "wide-inner-content" : ""}>
-                        <img className={isWide ? "wide-grid-img" : "normal-grid-img"} src={blogThumbnail} alt={blogAltText} />
-                        <div className={isWide ? "wider-inner-text" : ""}>
-                            <h3 className="project-title">{blogName}</h3>
-                            <time className="small-text-grid">{blogDate}</time>
-                            <p className="project-desc">{blogShortDesc}</p>
-                            <Link className="small-cta-link" to={`${blogSlugUrl}`} title={`Read the blog titled ${blogName}`} key={blog.id}>Read the blog <FaArrowRight className="icon" /> </Link>
-                        </div>
+            <section key={blog.id} className={blogGridPosition}>
+                <div className={isWide ? "wide-inner-content" : ""}>
+                    <img className={isWide ? "wide-grid-img" : "normal-grid-img"} src={blogThumbnail} alt={blogAltText} />
+                    <div className={isWide ? "wider-inner-text" : ""}>
+                        <h3 className="project-title">{blogName}</h3>
+                        <time className="small-text-grid">{blogDate}</time>
+                        <p className="project-desc">{blogShortDesc}</p>
+                        <Link className="small-cta-link" to={`${blogSlugUrl}`} title={`Read the blog titled ${blogName}`} key={blog.id}>Read the blog <FaArrowRight className="icon" /> </Link>
                     </div>
-                </section >
-            </>
+                </div>
+            </section>
         )
     })
 
@@ -40,13 +37,16 @@ export default function Blogs() {
 
 
     return (
-        <main className="projects-grid" id="projects">
-            <h1>Follow my coding journey</h1>
-            <p className="sub-text"> As I continue developing my coding skills, I want to document my learnings and share the thought processes behind both my current and past solo projects. Read my latest blog articles </p>
-            <div className="wrapper">
-                {blogElements}
-            </div>
-        </main>
+        <>
+            <title>Blogs - Louise Aldridge</title>
+            <main className="projects-grid" id="projects">
+                <h1>Follow my coding journey</h1>
+                <p className="sub-text"> As I continue developing my coding skills, I want to document my learnings and share the thought processes behind both my current and past solo projects. Read my latest blog articles </p>
+                <div className="wrapper">
+                    {blogElements}
+                </div>
+            </main>
+        </>
 
     )
 

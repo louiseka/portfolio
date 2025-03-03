@@ -21,6 +21,17 @@ export const blogData = [
         gridPosition: "two",
         cardLayout: "wide",
         urlSlug: "designing-pinpoint"
+    },
+    {
+        id: "3",
+        name: "It's fine to prop drill",
+        date: "3 March 2025",
+        shortDescription: "It’s fine to prop drill - at least when building Pinpoint. Since it’s a small application with only one or two layers...",
+        thumbnailImg: "/assets/blog-imgs/Drilling.png",
+        altText: "A person using a drill.",
+        gridPosition: "three",
+        cardLayout: "wide",
+        urlSlug: "fine-prop-drilling"
     }
 
 ]

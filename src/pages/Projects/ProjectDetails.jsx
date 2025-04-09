@@ -10,7 +10,7 @@ export default function ProjectDetails() {
         window.scrollTo(0, 0);
     }, []);
 
-    const { id } = useParams()
+    const { urlSlug } = useParams()
 
     function getSkillClass(index) {
 
@@ -29,7 +29,7 @@ export default function ProjectDetails() {
     }
 
     const projectDetails = projectData.find((project) => {
-        return project.id === id
+        return project.urlSlug === urlSlug
     })
 
     const projectSkills = projectDetails.skills.map((skill, index) => {

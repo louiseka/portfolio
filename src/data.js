@@ -2,6 +2,7 @@ export const projectData = [
     {
         id: "1",
         name: "Quizzical",
+        urlSlug: "quizzical",
         shortDescription: "Quizzical is a five-question general knowledge quiz, using the Open Trivia Database API.",
         longDescription: "Quizzical is a five-question general knowledge quiz, using the Open Trivia Database API. I chose React for this project to create reusable components for each question and answer, manage and track state throughout the quiz, and leverage useEffect to execute code based on dependencies.",
         img1: "/assets/project-imgs/quizzical-1.jpg",
@@ -21,6 +22,7 @@ export const projectData = [
     {
         id: "2",
         name: "Film Watchlist",
+        urlSlug: "film-watchlist",
         shortDescription: "A Film Watchlist, enabling users to search for films they want to watch.",
         longDescription: "This Film Watchlist leverages the Open Movie Database API, enabling users to search for films they want to watch. Users can add films to a watchlist or remove them as needed, with all data saved to and removed from their local storage. I chose JavaScript for this project for easy API handling, use of localStorage, and to enhance user experience.",
         img1: "/assets/project-imgs/filmwatchlist-1.jpg",
@@ -39,6 +41,7 @@ export const projectData = [
     {
         id: "3",
         name: "Colour Scheme Generator",
+        urlSlug: "colour-scheme-generator",
         shortDescription: "Users can select a colour and a colour scheme from a dropdown menu to generate a palette.",
         longDescription: "I've created a Colour Scheme Picker using 'The Color API.' Users can select a colour and a colour scheme from a dropdown menu to generate a palette of five colours based on the chosen scheme.I chose to use JavaScript, so that I could respond to user’s inputs via event listeners, retrieve data from the The Color API efficiently with fetch(), and to manipulate the DOM to display the generated palettes. ",
         img1: "/assets/project-imgs/colour-1.jpg",
@@ -57,6 +60,7 @@ export const projectData = [
     {
         id: "4",
         name: "Recipe Roulette",
+        urlSlug: "recipe-roulette",
         shortDescription: "A random meal generator to help you choose tonight's dinner.",
         longDescription: "Recipe Roulette' is a random meal generator. Choose a cuisine, click 'Get Random Recipe,' and a recipe will appear in a pop-up with an image and a link to the full recipe. Don't like it? Close the pop-up and try again! I used JavaScript for this project to make use of a flexible dataset, to be able to use Math.random to generate random recipes from an array, and to handle user interactions easily. ",
         img1: "/assets/project-imgs/roulette-1.jpg",
@@ -76,6 +80,7 @@ export const projectData = [
     {
         id: "5",
         name: "Dish Diaries",
+        urlSlug: "dish-diaries",
         shortDescription: "A solo project that was created as a final presentation piece for Code First Girls Kickstarter course.",
         longDescription: "Dish Diaries was a solo project that was created as a final presentation piece for Code First Girls Coding Kickstarter Web Development course. Dish Diaries is an accessible alternative to those keyword and ad stuffed recipe websites that we have all experienced. ",
         img1: "/assets/project-imgs/dishdiaries-1.jpg",
@@ -94,6 +99,7 @@ export const projectData = [
     {
         id: "6",
         name: "BoredBot",
+        urlSlug: "bored-bot",
         shortDescription: "A random idea generator for when you're bored.",
         longDescription: "BoredBot is an idea generator powered by the 'Bored API'. Click the button to generate a random idea. Don't like the idea? Just keep clicking until you find one you love! I chose JavaScript for this project to handle button clicks with event listeners, fetch data efficiently from the Bored API, and dynamically manipulate the DOM to display the generated ideas.",
         img1: "/assets/project-imgs/boredbot-1.jpg",

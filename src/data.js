@@ -1,6 +1,26 @@
 export const projectData = [
     {
         id: "1",
+        name: "Pinpoint",
+        urlSlug: "pinpoint",
+        shortDescription: "Pinpoint is a React-built goal tracker that helps you stay focused and motivated.",
+        longDescription: "Pinpoint is a dedicated space to help you track your goals while staying focused and motivated. I built it from scratch using React.js, taking advantage of its reusable components, state management, and callback functions. Feature-wise, users can choose from four colour themes, sort goals by levels, break them down into to-do lists, and monitor progress with a progress bar.",
+        img1: "/assets/project-imgs/pinpoint-1.jpg",
+        img1Alt: "A screenshot of Pinpoint, displaying the form users use to create their goals.",
+        img2: "/assets/project-imgs/pinpoint-2.jpg",
+        img2Alt: "A graphic of a pin marker above the text Quizzical",
+        img3: "/assets/project-imgs/pinpoint-3.jpg",
+        img3Alt: "A screenshot of Pinpoint displaying a created goal to 'Learn Typescript' labelled as moderate which a 3 item to-do list.",
+        thumbnailImg: "/assets/project-imgs/pinpoint-thumbnail.jpg",
+        skills: ["React", "JavaScript", "HTML", "CSS"],
+        githubUrl: "https://github.com/louiseka/pinpoint",
+        liveUrl: "https://louiseka.github.io/pinpoint/",
+        gridPosition: "one",
+        cardLayout: "normal"
+
+    },
+    {
+        id: "2",
         name: "Quizzical",
         urlSlug: "quizzical",
         shortDescription: "Quizzical is a five-question general knowledge quiz, using the Open Trivia Database API.",
@@ -15,12 +35,12 @@ export const projectData = [
         skills: ["React", "JavaScript", "HTML", "CSS", "APIs"],
         githubUrl: "https://github.com/louiseka/quizzical",
         liveUrl: "https://louiseka.github.io/quizzical/",
-        gridPosition: "one",
-        cardLayout: "normal"
+        gridPosition: "two",
+        cardLayout: "wide"
 
     },
     {
-        id: "2",
+        id: "3",
         name: "Film Watchlist",
         urlSlug: "film-watchlist",
         shortDescription: "A Film Watchlist, enabling users to search for films they want to watch.",
@@ -35,11 +55,11 @@ export const projectData = [
         skills: ["JavaScript", "APIs", "HTML", "CSS"],
         githubUrl: "https://github.com/louiseka/film-watchlist",
         liveUrl: "https://louiseka.github.io/film-watchlist/",
-        gridPosition: "two",
+        gridPosition: "three",
         cardLayout: "wide"
     },
     {
-        id: "3",
+        id: "4",
         name: "Colour Scheme Generator",
         urlSlug: "colour-scheme-generator",
         shortDescription: "Users can select a colour and a colour scheme from a dropdown menu to generate a palette.",
@@ -54,11 +74,11 @@ export const projectData = [
         skills: ["JavaScript", "APIs", "HTML", "CSS"],
         githubUrl: "https://github.com/louiseka/colour-scheme",
         liveUrl: "https://louiseka.github.io/colour-scheme/",
-        gridPosition: "three",
-        cardLayout: "wide"
+        gridPosition: "four",
+        cardLayout: "normal"
     },
     {
-        id: "4",
+        id: "5",
         name: "Recipe Roulette",
         urlSlug: "recipe-roulette",
         shortDescription: "A random meal generator to help you choose tonight's dinner.",
@@ -73,12 +93,12 @@ export const projectData = [
         skills: ["JavaScript", "HTML", "CSS"],
         githubUrl: "https://github.com/louiseka/recipe-roulette",
         liveUrl: "https://louiseka.github.io/recipe-roulette/",
-        gridPosition: "four",
+        gridPosition: "five",
         cardLayout: "normal"
     },
 
     {
-        id: "5",
+        id: "6",
         name: "Dish Diaries",
         urlSlug: "dish-diaries",
         shortDescription: "A solo project that was created as a final presentation piece for Code First Girls Kickstarter course.",
@@ -93,11 +113,11 @@ export const projectData = [
         skills: ["HTML", "CSS", "Bootstrap", "JavaScript"],
         githubUrl: "https://github.com/louiseka/CFG-Project",
         liveUrl: "https://louiseka.github.io/CFG-Project/",
-        gridPosition: "five",
+        gridPosition: "six",
         cardLayout: "normal"
     },
     {
-        id: "6",
+        id: "7",
         name: "BoredBot",
         urlSlug: "bored-bot",
         shortDescription: "A random idea generator for when you're bored.",
@@ -112,7 +132,7 @@ export const projectData = [
         skills: ["JavaScript", "APIs", "HTML", "CSS"],
         githubUrl: "https://github.com/louiseka/idea-generator",
         liveUrl: "https://louiseka.github.io/idea-generator/",
-        gridPosition: "six",
+        gridPosition: "seven",
         cardLayout: "normal"
     },
 

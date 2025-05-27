@@ -17,7 +17,6 @@ export const projectData = [
         liveUrl: "https://louiseka.github.io/pinpoint/",
         gridPosition: "one",
         cardLayout: "normal"
-
     },
     {
         id: "2",
@@ -37,8 +36,28 @@ export const projectData = [
         liveUrl: "https://louiseka.github.io/quizzical/",
         gridPosition: "two",
         cardLayout: "wide"
+    },
+    {
+        id: "3",
+        name: "Dash and Dine",
+        urlSlug: "dash-and-dine",
+        shortDescription: "Dash and Dine is a basic interactive menu built with TypeScript and Tailwind.",
+        longDescription: "Dash and Dine is a basic interactive menu built with TypeScript and Tailwind. Originally built with plain JavaScript and CSS at the beginning of my frontend development journey, I revisted the project a year later and refactored it with TypeScript and Tailwind.",
+        img1: "/assets/project-imgs/dash-dine-1.jpg",
+        img1Alt: "A screenshot of Dash and Dine menu with 3 pizzas added to the checkout with a total cost of £42.",
+        img2: "/assets/project-imgs/dash-dine-2.jpg",
+        img2Alt: "A graphic of a burger above the text Dash and Dine",
+        img3: "/assets/project-imgs/dash-dine-3.jpg",
+        img3Alt: "A screenshot of Dash and Dine with a pop up modal asking user to enter their card details to pay for their order.",
+        thumbnailImg: "/assets/project-imgs/dash-dine-thumbnail.jpg",
+        skills: ["TypeScript", "JavaScript", "Tailwind", "HTML", "CSS"],
+        githubUrl: "https://github.com/louiseka/restaurant-ordering-app",
+        liveUrl: "https://louiseka.github.io/restaurant-ordering-app/",
+        gridPosition: "three",
+        cardLayout: "wide"
 
     },
+
     {
         id: "3",
         name: "Film Watchlist",
@@ -55,8 +74,8 @@ export const projectData = [
         skills: ["JavaScript", "APIs", "HTML", "CSS"],
         githubUrl: "https://github.com/louiseka/film-watchlist",
         liveUrl: "https://louiseka.github.io/film-watchlist/",
-        gridPosition: "three",
-        cardLayout: "wide"
+        gridPosition: "four",
+        cardLayout: "normal"
     },
     {
         id: "4",
@@ -74,7 +93,7 @@ export const projectData = [
         skills: ["JavaScript", "APIs", "HTML", "CSS"],
         githubUrl: "https://github.com/louiseka/colour-scheme",
         liveUrl: "https://louiseka.github.io/colour-scheme/",
-        gridPosition: "four",
+        gridPosition: "five",
         cardLayout: "normal"
     },
     {
@@ -93,7 +112,7 @@ export const projectData = [
         skills: ["JavaScript", "HTML", "CSS"],
         githubUrl: "https://github.com/louiseka/recipe-roulette",
         liveUrl: "https://louiseka.github.io/recipe-roulette/",
-        gridPosition: "five",
+        gridPosition: "six",
         cardLayout: "normal"
     },
 
@@ -113,7 +132,7 @@ export const projectData = [
         skills: ["HTML", "CSS", "Bootstrap", "JavaScript"],
         githubUrl: "https://github.com/louiseka/CFG-Project",
         liveUrl: "https://louiseka.github.io/CFG-Project/",
-        gridPosition: "six",
+        gridPosition: "seven",
         cardLayout: "normal"
     },
     {
@@ -132,8 +151,8 @@ export const projectData = [
         skills: ["JavaScript", "APIs", "HTML", "CSS"],
         githubUrl: "https://github.com/louiseka/idea-generator",
         liveUrl: "https://louiseka.github.io/idea-generator/",
-        gridPosition: "seven",
-        cardLayout: "normal"
+        gridPosition: "eight",
+        cardLayout: "wide"
     },
 
 ] 

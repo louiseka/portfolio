@@ -57,7 +57,6 @@ export const projectData = [
         cardLayout: "wide"
 
     },
-
     {
         id: "3",
         name: "Film Watchlist",

@@ -22,7 +22,7 @@ export default function Footer() {
                     <div className="social-icons-container">
                         <Link to="https://www.linkedin.com/in/louiseka/" target="_blank" title="Louise Aldridge's Linked Profile"> <FaLinkedin className="social-icon" /></Link>
                         <Link to="https://github.com/louiseka" target="_blank" title="Louise Aldridge's GitHub Profile"><FaGithubSquare className="social-icon" /></Link>
-                        <Link to="mailto:louisealdridge88@gmail.com" target="_blank" title="Louise Aldridge's email contact"> <FaEnvelope className="social-icon" /></Link>
+                        <Link to="mailto:louisekaldr@gmail.com" target="_blank" title="Louise Aldridge's email contact"> <FaEnvelope className="social-icon" /></Link>
                     </div>
                 </div>
 

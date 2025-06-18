@@ -1,6 +1,25 @@
 export const projectData = [
     {
         id: "1",
+        name: "Farm Tycoon",
+        urlSlug: "farm-tycoon",
+        shortDescription: "I am currently building a Farm Tycoon game with React and TypeScript.",
+        longDescription: "I’m currently building a Farm Tycoon game with TypeScript and React. It features a dashboard, shop, farm, and stats tab, allowing users to buy/sell animals and crops, earn daily balances, grow and harvest crops, produce goods from animals, and track profits and expenses.",
+        img1: "/assets/project-imgs/farm-tycoon-1.png",
+        img1Alt: "A screenshot of Crops to buy from the farm shop.",
+        img2: "/assets/project-imgs/farm-tycoon-2.png",
+        img2Alt: "A graphic of a tractor under the text Farm Tycoon.",
+        img3: "/assets/project-imgs/farm-tycoon-3.png",
+        img3Alt: "A screenshot of Animals to buy from the farm shop.",
+        thumbnailImg: "/assets/project-imgs/farm-tycoon-thumbnail.png",
+        skills: ["TypeScript", "React", "JavaScript", "HTML", "CSS"],
+        githubUrl: "https://github.com/louiseka/farm-tycoon",
+        liveUrl: "",
+        gridPosition: "one",
+        cardLayout: "normal"
+    },
+    {
+        id: "2",
         name: "Pinpoint",
         urlSlug: "pinpoint",
         shortDescription: "Pinpoint is a React-built goal tracker that helps you stay focused and motivated.",
@@ -15,11 +34,11 @@ export const projectData = [
         skills: ["React", "JavaScript", "HTML", "CSS"],
         githubUrl: "https://github.com/louiseka/pinpoint",
         liveUrl: "https://louiseka.github.io/pinpoint/",
-        gridPosition: "one",
-        cardLayout: "normal"
+        gridPosition: "two",
+        cardLayout: "wide"
     },
     {
-        id: "2",
+        id: "3",
         name: "Quizzical",
         urlSlug: "quizzical",
         shortDescription: "Quizzical is a five-question general knowledge quiz, using the Open Trivia Database API.",
@@ -34,11 +53,11 @@ export const projectData = [
         skills: ["React", "JavaScript", "HTML", "CSS", "APIs"],
         githubUrl: "https://github.com/louiseka/quizzical",
         liveUrl: "https://louiseka.github.io/quizzical/",
-        gridPosition: "two",
+        gridPosition: "three",
         cardLayout: "wide"
     },
     {
-        id: "3",
+        id: "4",
         name: "Dash and Dine",
         urlSlug: "dash-and-dine",
         shortDescription: "Dash and Dine is a basic interactive menu built with TypeScript and Tailwind.",
@@ -53,12 +72,12 @@ export const projectData = [
         skills: ["TypeScript", "JavaScript", "Tailwind", "HTML", "CSS"],
         githubUrl: "https://github.com/louiseka/restaurant-ordering-app",
         liveUrl: "https://louiseka.github.io/restaurant-ordering-app/",
-        gridPosition: "three",
-        cardLayout: "wide"
+        gridPosition: "four",
+        cardLayout: "normal"
 
     },
     {
-        id: "3",
+        id: "4",
         name: "Film Watchlist",
         urlSlug: "film-watchlist",
         shortDescription: "A Film Watchlist, enabling users to search for films they want to watch.",
@@ -73,11 +92,11 @@ export const projectData = [
         skills: ["JavaScript", "APIs", "HTML", "CSS"],
         githubUrl: "https://github.com/louiseka/film-watchlist",
         liveUrl: "https://louiseka.github.io/film-watchlist/",
-        gridPosition: "four",
+        gridPosition: "five",
         cardLayout: "normal"
     },
     {
-        id: "4",
+        id: "5",
         name: "Colour Scheme Generator",
         urlSlug: "colour-scheme-generator",
         shortDescription: "Users can select a colour and a colour scheme from a dropdown menu to generate a palette.",
@@ -92,11 +111,11 @@ export const projectData = [
         skills: ["JavaScript", "APIs", "HTML", "CSS"],
         githubUrl: "https://github.com/louiseka/colour-scheme",
         liveUrl: "https://louiseka.github.io/colour-scheme/",
-        gridPosition: "five",
+        gridPosition: "six",
         cardLayout: "normal"
     },
     {
-        id: "5",
+        id: "6",
         name: "Recipe Roulette",
         urlSlug: "recipe-roulette",
         shortDescription: "A random meal generator to help you choose tonight's dinner.",
@@ -111,12 +130,12 @@ export const projectData = [
         skills: ["JavaScript", "HTML", "CSS"],
         githubUrl: "https://github.com/louiseka/recipe-roulette",
         liveUrl: "https://louiseka.github.io/recipe-roulette/",
-        gridPosition: "six",
+        gridPosition: "seven",
         cardLayout: "normal"
     },
 
     {
-        id: "6",
+        id: "7",
         name: "Dish Diaries",
         urlSlug: "dish-diaries",
         shortDescription: "A solo project that was created as a final presentation piece for Code First Girls Kickstarter course.",
@@ -131,11 +150,11 @@ export const projectData = [
         skills: ["HTML", "CSS", "Bootstrap", "JavaScript"],
         githubUrl: "https://github.com/louiseka/CFG-Project",
         liveUrl: "https://louiseka.github.io/CFG-Project/",
-        gridPosition: "seven",
-        cardLayout: "normal"
+        gridPosition: "eight",
+        cardLayout: "wide"
     },
     {
-        id: "7",
+        id: "8",
         name: "BoredBot",
         urlSlug: "bored-bot",
         shortDescription: "A random idea generator for when you're bored.",
@@ -150,8 +169,8 @@ export const projectData = [
         skills: ["JavaScript", "APIs", "HTML", "CSS"],
         githubUrl: "https://github.com/louiseka/idea-generator",
         liveUrl: "https://louiseka.github.io/idea-generator/",
-        gridPosition: "eight",
-        cardLayout: "wide"
+        gridPosition: "nine",
+        cardLayout: "normal"
     },
 
 ] 

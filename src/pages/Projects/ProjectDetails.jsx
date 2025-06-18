@@ -54,7 +54,7 @@ export default function ProjectDetails() {
                 <h2>Overview</h2>
                 <p className="overview-text">{projectDetails.longDescription}</p>
                 <Link className="cta-link" to={projectDetails.githubUrl} target="_blank" title={`GitHub repository for ${projectDetails.name}`}>Visit GitHub Repository <FaArrowRight className="icon" /></Link>
-                <Link className="cta-link" to={projectDetails.liveUrl} target="_blank" title={`The live website for ${projectDetails.name}`} >Visit live application <FaArrowRight className="icon" /></Link>
+                {projectDetails.liveUrl != "" && <Link className="cta-link" to={projectDetails.liveUrl} target="_blank" title={`The live website for ${projectDetails.name}`} >Visit live application <FaArrowRight className="icon" /></Link>}
 
                 <div className="skills-container">
                     {projectSkills}

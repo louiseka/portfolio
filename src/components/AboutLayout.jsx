@@ -9,8 +9,8 @@ export default function AboutLayout() {
                 <section className="about-section">
                     <div className="hero-text">
                         <h1>Let me introduce myself</h1>
-                        <p>Hi, I’m Louise! I bring a well-rounded skill set, including design expertise, task management, and problem-solving abilities. I’m self-motivated, detail-oriented, and committed to creating user-friendly, accessible digital experiences. </p>
-                        <p>My passion for coding was reignited at AbilityNet, where I discovered the importance of digital accessibility and became a IAAP Certified Professional in Accessibility Core Competencies (CPACC). This led me to self-teach and hone my frontend development skills in HTML, CSS, JavaScript (ES6, Async), React, TypeScript, and more. <a className="medium-cta-link" href="/assets/CV-LouiseAldridge.pdf" target="_blank" title="Download a PDF copy of Louise Aldridge's CV.">Download a copy of my CV <FaFileDownload className="icon" /> </a> </p>
+                        <p>Hi, I’m Louise! I’m a front-end developer with a background in eCommerce, digital marketing, and digital accessibility. I combine strong coding skills with a focus on user experience, creating websites and applications that are both user-friendly and conversion-focused. </p>
+                        <p>My interest in coding was reignited at AbilityNet, where I discovered the importance of digital accessibility and became an IAAP Certified Professional in Accessibility Core Competencies (CPACC). Since then, I’ve self-taught and developed my skills in HTML, CSS, JavaScript (ES6 & Async), React, TypeScript, and more - always with a focus on clean, accessible, and responsive design.<a className="medium-cta-link" href="/assets/CV-LouiseAldridge.pdf" target="_blank" title="Download a PDF copy of Louise Aldridge's CV.">Download a copy of my CV <FaFileDownload className="icon" /> </a> </p>
 
                     </div>
 

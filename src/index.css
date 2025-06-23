@@ -83,6 +83,14 @@ p {
     padding: 0.94em 0 0.625em;
 }
 
+.blog-cta-link {
+    text-decoration: underline;
+    text-decoration-color: #EBB1DC;
+    text-decoration-thickness: 3px;
+    color: #18191A;
+    text-underline-offset: 0.25em;
+}
+
 .cta-link,
 .medium-cta-link {
     padding: 20px 0 10px;
@@ -101,7 +109,8 @@ p {
 
 .cta-link:hover,
 .medium-cta-link:hover,
-.back-link:hover {
+.back-link:hover,
+.blog-cta-link:hover {
     text-decoration-color: #B1EBC0;
 }
 

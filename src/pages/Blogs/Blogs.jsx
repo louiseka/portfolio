@@ -41,7 +41,7 @@ export default function Blogs() {
             <title>Blogs - Louise Aldridge</title>
             <main className="projects-grid" id="projects">
                 <h1>Follow my coding journey</h1>
-                <p className="sub-text"> As I continue developing my coding skills, I want to document my learnings and share the thought processes behind both my current and past solo projects. Read my latest blog articles </p>
+                <p className="sub-text"> As I continue developing my coding skills, I want to document my learnings and share the thought processes behind both my current and past solo projects. Read my latest blog articles below: </p>
                 <div className="wrapper">
                     {blogElements}
                 </div>

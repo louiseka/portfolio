@@ -97,25 +97,6 @@ export const projectData = [
     },
     {
         id: "5",
-        name: "Colour Scheme Generator",
-        urlSlug: "colour-scheme-generator",
-        shortDescription: "Users can select a colour and a colour scheme from a dropdown menu to generate a palette.",
-        longDescription: "I've created a Colour Scheme Picker using 'The Color API.' Users can select a colour and a colour scheme from a dropdown menu to generate a palette of five colours based on the chosen scheme.I chose to use JavaScript, so that I could respond to user’s inputs via event listeners, retrieve data from the The Color API efficiently with fetch(), and to manipulate the DOM to display the generated palettes. ",
-        img1: "/assets/project-imgs/colour-1.jpg",
-        img1Alt: "A screenshot of a generated colour scheme for the theme 'Complement'. Each colour block displays the associated hex codes underneath.",
-        img2: "/assets/project-imgs/colour-2.jpg",
-        img2Alt: "Text displays 'Colour Scheme Generator' with an icon of a rainbow colour wheel above.",
-        img3: "/assets/project-imgs/colour-3.jpg",
-        img3Alt: "A screenshot of the hex code colour picker used to generate your chosen themed palette.",
-        thumbnailImg: "/assets/project-imgs/colour-thumbnail.jpg",
-        skills: ["JavaScript", "APIs", "HTML", "CSS"],
-        githubUrl: "https://github.com/louiseka/colour-scheme",
-        liveUrl: "https://louiseka.github.io/colour-scheme/",
-        gridPosition: "six",
-        cardLayout: "normal"
-    },
-    {
-        id: "6",
         name: "Recipe Roulette",
         urlSlug: "recipe-roulette",
         shortDescription: "A random meal generator to help you choose tonight's dinner.",
@@ -130,12 +111,12 @@ export const projectData = [
         skills: ["JavaScript", "HTML", "CSS"],
         githubUrl: "https://github.com/louiseka/recipe-roulette",
         liveUrl: "https://louiseka.github.io/recipe-roulette/",
-        gridPosition: "seven",
+        gridPosition: "six",
         cardLayout: "normal"
     },
 
     {
-        id: "7",
+        id: "6",
         name: "Dish Diaries",
         urlSlug: "dish-diaries",
         shortDescription: "A solo project that was created as a final presentation piece for Code First Girls Kickstarter course.",
@@ -150,27 +131,8 @@ export const projectData = [
         skills: ["HTML", "CSS", "Bootstrap", "JavaScript"],
         githubUrl: "https://github.com/louiseka/CFG-Project",
         liveUrl: "https://louiseka.github.io/CFG-Project/",
-        gridPosition: "eight",
-        cardLayout: "wide"
-    },
-    {
-        id: "8",
-        name: "BoredBot",
-        urlSlug: "bored-bot",
-        shortDescription: "A random idea generator for when you're bored.",
-        longDescription: "BoredBot is an idea generator powered by the 'Bored API'. Click the button to generate a random idea. Don't like the idea? Just keep clicking until you find one you love! I chose JavaScript for this project to handle button clicks with event listeners, fetch data efficiently from the Bored API, and dynamically manipulate the DOM to display the generated ideas.",
-        img1: "/assets/project-imgs/boredbot-1.jpg",
-        img1Alt: "A screenshot of BoredBot with a button to click to generate a random idea.",
-        img2: "/assets/project-imgs/boredbot-2.jpg",
-        img2Alt: "Text displays 'BoredBot', accompanied by a graphic of a lightbulb.",
-        img3: "/assets/project-imgs/boredbot-3.jpg",
-        img3Alt: "A screenshot of a generated idea and a button to click to generate another random idea.",
-        thumbnailImg: "/assets/project-imgs/boredbot-thumbnail.jpg",
-        skills: ["JavaScript", "APIs", "HTML", "CSS"],
-        githubUrl: "https://github.com/louiseka/idea-generator",
-        liveUrl: "https://louiseka.github.io/idea-generator/",
-        gridPosition: "nine",
+        gridPosition: "seven",
         cardLayout: "normal"
-    },
+    }
 
 ] 

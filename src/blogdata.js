@@ -43,6 +43,17 @@ export const blogData = [
         gridPosition: "four",
         cardLayout: "normal",
         urlSlug: "marketing-to-frontend-development"
+    },
+    {
+        id: "15",
+        name: "Bootcamp Week 1 – Learning Agile and Pair Programming",
+        date: "19 September 2025",
+        shortDescription: "This week, I completed the first week of TechNative Digital’s Software Development – Tech Finishing School Bootcamp, a 12-week program designed to take coding skills to a job-ready level.",
+        thumbnailImg: "/assets/blog-imgs/pears.png",
+        altText: "A cat sitting infront of a Mac screen with code on it.",
+        gridPosition: "five",
+        cardLayout: "normal",
+        urlSlug: "bootcamp-week1-agile-and-pair-programming"
     }
 
 ]

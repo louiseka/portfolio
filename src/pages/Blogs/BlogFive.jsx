@@ -12,7 +12,7 @@ export default function BlogFive() {
 
     return (
         <>
-            <title>From Marketing to Frontend Development - Blogs - Louise Aldridge</title>
+            <title>Bootcamp Week 1 – Learning Agile and Pair Programming - Blogs - Louise Aldridge</title>
             <main className="project-details">
                 <Link className="back-link" to={"/blogs"} title="An overview page of Louise Aldridge's blogs"><FaArrowLeft className="icon" />
                     Back to all blogs</Link>

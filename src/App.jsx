@@ -16,6 +16,7 @@ import BlogOne from "./pages/Blogs/BlogOne"
 import BlogTwo from "./pages/Blogs/BlogTwo"
 import BlogThree from "./pages/Blogs/BlogThree"
 import BlogFour from "./pages/Blogs/BlogFour"
+import BlogFive from "./pages/Blogs/BlogFive"
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
           <Route path="blogs/designing-pinpoint" element={<BlogTwo />} />
           <Route path="blogs/fine-prop-drilling" element={<BlogThree />} />
           <Route path="blogs/marketing-to-frontend-development" element={<BlogFour />} />
+          <Route path="blogs/bootcamp-week1-agile-and-pair-programming" element={<BlogFive />} />
         </Route>
       </Routes>
       <ScrollToAnchor />

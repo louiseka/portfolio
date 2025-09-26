@@ -38,7 +38,7 @@ export default function BlogSix() {
                         {`.container > img`}
                     </SyntaxHighlighter>
 
-                    <p>With BEM, I can instead use classes like the below, making the styling more reusable across similar components.: </p>
+                    <p>With BEM, I can instead use classes like the below, making the styling more reusable across similar components: </p>
                     <SyntaxHighlighter language="javascript" style={a11yDark} className="code-snippet" >
                         {`.container 
 .container__img`}
@@ -48,8 +48,8 @@ export default function BlogSix() {
 
                     <h2>Code Conflicts</h2>
                     <p className="blog-text">Code conflicts were something I really wanted to understand better before starting this bootcamp, as I’d always wondered how to avoid writing the same code as a partner and then having to resolve conflicts.</p>
-                    <p className="blog-text">On Day 1, we did a short pair programming task in the afternoon. We branched off from the GitHub repo—one branch for the header and one for the main section. We ran into a few conflicts, mostly around class names in the HTML files and the layout in index.css. Since we were working side by side, we were able to discuss and resolve these issues together. Experiencing conflicts for the first time with a partner made me think more critically about how to prevent them.</p>
-                    <p className="blog-text">On Day 2, I tried a different approach. Similar to how components are built separately in React, I created GitHub issues for each HTML and CSS component that needed structuring and styling (something I usually do when working independently). From there, we branched off to tackle individual issues. To minimize conflicts in the shared index.css, we each created our own CSS stylesheets. This approach worked well, and the only minor conflicts we faced were around the placement of style links in the HTML file when merging back into the main branch.</p>
+                    <p className="blog-text">On Day 1, we did a short pair programming task in the afternoon. We branched off from the GitHub repo - one branch for the header and one for the main section. We ran into a few conflicts, mostly around class names in the HTML files and the layout in index.css. Since we were working side by side, we were able to discuss and resolve these issues together. Experiencing conflicts for the first time with a partner made me think more critically about how to prevent them.</p>
+                    <p className="blog-text">On Day 2, I tried a different approach. Similar to how components are built separately in React, I created GitHub issues for each HTML and CSS component that needed structuring and styling (something I usually do when working independently). From there, we branched off to tackle individual issues. To minimise conflicts in the shared index.css, we each created our own CSS stylesheets. This approach worked well, and the only minor conflicts we faced were around the placement of style links in the HTML file when merging back into the main branch.</p>
                     <p className="blog-text">In reflection, one improvement for Day 2 would have been to set up global styles (such as fonts and colors) in the initial branch before splitting off. Even so, I was pleasantly surprised when I committed changes and had no conflicts!</p>
 
 

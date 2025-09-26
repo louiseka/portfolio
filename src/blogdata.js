@@ -59,7 +59,7 @@ export const blogData = [
         id: "16",
         name: "Bootcamp Week 2 – CSS Naming Conventions and Code Conflicts",
         date: "26 September 2025",
-        shortDescription: "This week’s bootcamp focus was on CSS and pair programming. We started with a solo CSS tutorial, which served as a great refresher,",
+        shortDescription: "This week’s bootcamp focus was on CSS and pair programming. We started with a solo CSS tutorial, which served as a great refresher...",
         thumbnailImg: "/assets/blog-imgs/conflict-deer.png",
         altText: "Two deers hitting horns with eachother.",
         gridPosition: "six",

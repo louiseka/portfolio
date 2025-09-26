@@ -19,7 +19,7 @@ export const blogData = [
         thumbnailImg: "/assets/blog-imgs/wireframe.png",
         altText: "A notepad with a hand drawn wireframe of a website.",
         gridPosition: "two",
-        cardLayout: "wide",
+        cardLayout: "normal",
         urlSlug: "designing-pinpoint"
     },
     {
@@ -30,7 +30,7 @@ export const blogData = [
         thumbnailImg: "/assets/blog-imgs/Drilling.png",
         altText: "A person using a drill.",
         gridPosition: "three",
-        cardLayout: "wide",
+        cardLayout: "normal",
         urlSlug: "fine-prop-drilling"
     },
     {
@@ -41,7 +41,7 @@ export const blogData = [
         thumbnailImg: "/assets/blog-imgs/cat-code.png",
         altText: "A cat sitting infront of a Mac screen with code on it.",
         gridPosition: "four",
-        cardLayout: "normal",
+        cardLayout: "wide",
         urlSlug: "marketing-to-frontend-development"
     },
     {
@@ -52,7 +52,7 @@ export const blogData = [
         thumbnailImg: "/assets/blog-imgs/pears.png",
         altText: "Two pears",
         gridPosition: "five",
-        cardLayout: "normal",
+        cardLayout: "wide",
         urlSlug: "bootcamp-week1-agile-and-pair-programming"
     },
     {

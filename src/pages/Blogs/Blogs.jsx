@@ -4,22 +4,23 @@ import { FaArrowRight } from "react-icons/fa"
 
 export default function Blogs() {
 
-    const blogElements = blogData.map(blog => {
+    const gridClasses = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
+
+    const sortedBlogs = [...blogData].sort((a, b) => new Date(b.date) - new Date(a.date))
+
+    const blogElements = sortedBlogs.map((blog, index) => {
 
         const isWide = blog.cardLayout === "wide"
-
+        const gridClass = gridClasses[index % gridClasses.length]
         const blogName = blog.name
         const blogDate = blog.date
         const blogShortDesc = blog.shortDescription
         const blogThumbnail = blog.thumbnailImg
-        const blogGridPosition = `${blog.gridPosition} card `
         const blogSlugUrl = blog.urlSlug
         const blogAltText = blog.altText
 
-
-
         return (
-            <section key={blog.id} className={blogGridPosition}>
+            <section key={blog.id} className={`${gridClass} card`}>
                 <div className={isWide ? "wide-inner-content" : ""}>
                     <img className={isWide ? "wide-grid-img" : "normal-grid-img"} src={blogThumbnail} alt={blogAltText} />
                     <div className={isWide ? "wider-inner-text" : ""}>
@@ -32,9 +33,6 @@ export default function Blogs() {
             </section>
         )
     })
-
-
-
 
     return (
         <>
@@ -49,9 +47,5 @@ export default function Blogs() {
         </>
 
     )
-
-
-
-
 }
 

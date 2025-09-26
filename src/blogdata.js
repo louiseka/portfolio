@@ -50,10 +50,21 @@ export const blogData = [
         date: "19 September 2025",
         shortDescription: "This week, I completed the first week of TechNative Digital’s Software Development – Tech Finishing School Bootcamp, a 12-week program designed to take coding skills to a job-ready level.",
         thumbnailImg: "/assets/blog-imgs/pears.png",
-        altText: "A cat sitting infront of a Mac screen with code on it.",
+        altText: "Two pears",
         gridPosition: "five",
         cardLayout: "normal",
         urlSlug: "bootcamp-week1-agile-and-pair-programming"
+    },
+    {
+        id: "16",
+        name: "Bootcamp Week 2 – CSS Naming Conventions and Code Conflicts",
+        date: "26 September 2025",
+        shortDescription: "This week’s bootcamp focus was on CSS and pair programming. We started with a solo CSS tutorial, which served as a great refresher,",
+        thumbnailImg: "/assets/blog-imgs/conflict-deer.png",
+        altText: "Two deers hitting horns with eachother.",
+        gridPosition: "six",
+        cardLayout: "normal",
+        urlSlug: "bootcamp-week2-css-naming-conventions-and-code-conflicts"
     }
 
 ]

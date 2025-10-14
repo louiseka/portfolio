@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import { FaArrowLeft } from "react-icons/fa";
 import { useEffect } from "react";
 
-export default function BlogFive() {
+export default function BlogSeven() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

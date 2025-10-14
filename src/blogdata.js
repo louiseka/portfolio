@@ -8,7 +8,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/moodboard.png",
     altText: "A lady pinning items to a moodboard.",
     gridPosition: "one",
-    cardLayout: "normal",
+    cardLayout: "wide",
     urlSlug: "kickstarting-new-project",
   },
 
@@ -53,11 +53,11 @@ export const blogData = [
     name: "Bootcamp Week 1 – Learning Agile and Pair Programming",
     date: "19 September 2025",
     shortDescription:
-      "This week, I completed the first week of TechNative Digital’s Software Development – Tech Finishing School Bootcamp, a 12-week program designed to take coding skills to a job-ready level.",
+      "This week, I completed the first week of TechNative Digital’s Software Development – Tech Finishing School Bootcamp...",
     thumbnailImg: "/assets/blog-imgs/pears.png",
     altText: "Two pears",
     gridPosition: "five",
-    cardLayout: "wide",
+    cardLayout: "normal",
     urlSlug: "bootcamp-week1-agile-and-pair-programming",
   },
   {
@@ -81,7 +81,19 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/learning.png",
     altText: "A post it note that says keep learning",
     gridPosition: "seven",
-    cardLayout: "normal",
+    cardLayout: "wide",
     urlSlug: "bootcamp-week3-javascript-and-peer-learning",
+  },
+  {
+    id: "18",
+    name: "Bootcamp Week 4 – Collaboration and Workflow",
+    date: "10 October 2025",
+    shortDescription:
+      "This week, we were tasked with creating a website for a new company, using a provided Figma design...",
+    thumbnailImg: "/assets/blog-imgs/collaboration.png",
+    altText: "A ripped piece of paper revealing the word Collaboration",
+    gridPosition: "eight",
+    cardLayout: "normal",
+    urlSlug: "bootcamp-week4-collaboration-and-workflow",
   },
 ];

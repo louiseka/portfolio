@@ -20,6 +20,7 @@ import BlogSix from "./pages/Blogs/BlogSix";
 import BlogSeven from "./pages/Blogs/BlogSeven";
 import BlogEight from "./pages/Blogs/BlogEight";
 import BlogNine from "./pages/Blogs/BlogNine";
+import BlogTen from "./pages/Blogs/BlogTen";
 
 function App() {
   return (
@@ -62,6 +63,10 @@ function App() {
           <Route
             path="blogs/bootcamp-week5-working-existing-codebase"
             element={<BlogNine />}
+          />
+          <Route
+            path="blogs/bootcamp-week6-falling-for-react-again"
+            element={<BlogTen />}
           />
         </Route>
       </Routes>

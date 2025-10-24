@@ -21,7 +21,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/wireframe.png",
     altText: "A notepad with a hand drawn wireframe of a website.",
     gridPosition: "two",
-    cardLayout: "wide",
+    cardLayout: "normal",
     urlSlug: "designing-pinpoint",
   },
   {
@@ -33,7 +33,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/Drilling.png",
     altText: "A person using a drill.",
     gridPosition: "three",
-    cardLayout: "normal",
+    cardLayout: "wide",
     urlSlug: "fine-prop-drilling",
   },
   {
@@ -81,7 +81,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/learning.png",
     altText: "A post it note that says keep learning",
     gridPosition: "seven",
-    cardLayout: "wide",
+    cardLayout: "normal",
     urlSlug: "bootcamp-week3-javascript-and-peer-learning",
   },
   {
@@ -105,7 +105,19 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/ai-lightbulb.png",
     altText: "A lightbulb with a brain inside of it.",
     gridPosition: "nine",
-    cardLayout: "normal",
+    cardLayout: "wide",
     urlSlug: "bootcamp-week5-working-existing-codebase",
+  },
+  {
+    id: "20",
+    name: "Bootcamp Week 6 – Falling for React. Again.",
+    date: "24 October 2025",
+    shortDescription:
+      "This week, we decided whether to take the frontend or backend path. I chose the frontend path, which meant diving back into React...",
+    thumbnailImg: "/assets/blog-imgs/love-cat.png",
+    altText: "A cat holding a love heart whilst wearing sunglasses.",
+    gridPosition: "ten",
+    cardLayout: "normal",
+    urlSlug: "bootcamp-week6-falling-for-react-again",
   },
 ];

@@ -72,6 +72,10 @@ p {
   font-weight: 600;
 }
 
+.italic-text {
+  font-style: italic;
+}
+
 /* Links */
 
 .cta-link {
@@ -391,7 +395,7 @@ header {
 }
 
 .nine {
-  grid-column: 3 / 3;
+  grid-column: 3 /5;
   grid-row: 5/ 6;
 }
 
@@ -436,7 +440,7 @@ header {
 /* Blogs Pages */
 
 article h2 {
-  padding: 0.46em 0 0.11em 0;
+  padding: 0.8em 0 0.11em 0;
 }
 
 article h3 {

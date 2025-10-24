@@ -101,7 +101,7 @@ export const blogData = [
     name: "Bootcamp Week 5 – Working with an existing code base",
     date: "17 October 2025",
     shortDescription:
-      "This week, we were tasked with creating a website for a new company, using a provided Figma design...",
+      "Similar to week 4, this week we were tasked with creating a website that utilised two different APIs ...",
     thumbnailImg: "/assets/blog-imgs/ai-lightbulb.png",
     altText: "A lightbulb with a brain inside of it.",
     gridPosition: "nine",

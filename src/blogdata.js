@@ -8,7 +8,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/moodboard.png",
     altText: "A lady pinning items to a moodboard.",
     gridPosition: "one",
-    cardLayout: "wide",
+    cardLayout: "normal",
     urlSlug: "kickstarting-new-project",
   },
 
@@ -21,7 +21,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/wireframe.png",
     altText: "A notepad with a hand drawn wireframe of a website.",
     gridPosition: "two",
-    cardLayout: "normal",
+    cardLayout: "wide",
     urlSlug: "designing-pinpoint",
   },
   {
@@ -69,7 +69,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/conflict-deer.png",
     altText: "Two deers hitting horns with eachother.",
     gridPosition: "six",
-    cardLayout: "wide",
+    cardLayout: "normal",
     urlSlug: "bootcamp-week2-css-naming-conventions-and-code-conflicts",
   },
   {
@@ -93,7 +93,19 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/collaboration.png",
     altText: "A ripped piece of paper revealing the word Collaboration",
     gridPosition: "eight",
-    cardLayout: "normal",
+    cardLayout: "wide",
     urlSlug: "bootcamp-week4-collaboration-and-workflow",
+  },
+  {
+    id: "19",
+    name: "Bootcamp Week 5 – Working with an existing code base",
+    date: "17 October 2025",
+    shortDescription:
+      "This week, we were tasked with creating a website for a new company, using a provided Figma design...",
+    thumbnailImg: "/assets/blog-imgs/ai-lightbulb.png",
+    altText: "A lightbulb with a brain inside of it.",
+    gridPosition: "nine",
+    cardLayout: "normal",
+    urlSlug: "bootcamp-week5-working-existing-codebase",
   },
 ];

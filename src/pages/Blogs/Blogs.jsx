@@ -1,51 +1,74 @@
-import { blogData } from "../../blogdata"
-import { Link } from "react-router"
-import { FaArrowRight } from "react-icons/fa"
+import { blogData } from "../../blogdata";
+import { Link } from "react-router";
+import { FaArrowRight } from "react-icons/fa";
 
 export default function Blogs() {
+  const gridClasses = [
+    "one",
+    "two",
+    "three",
+    "four",
+    "five",
+    "six",
+    "seven",
+    "eight",
+    "nine",
+    "ten",
+  ];
 
-    const gridClasses = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
+  const sortedBlogs = [...blogData].sort(
+    (a, b) => new Date(b.date) - new Date(a.date)
+  );
 
-    const sortedBlogs = [...blogData].sort((a, b) => new Date(b.date) - new Date(a.date))
-
-    const blogElements = sortedBlogs.map((blog, index) => {
-
-        const isWide = blog.cardLayout === "wide"
-        const gridClass = gridClasses[index % gridClasses.length]
-        const blogName = blog.name
-        const blogDate = blog.date
-        const blogShortDesc = blog.shortDescription
-        const blogThumbnail = blog.thumbnailImg
-        const blogSlugUrl = blog.urlSlug
-        const blogAltText = blog.altText
-
-        return (
-            <section key={blog.id} className={`${gridClass} card`}>
-                <div className={isWide ? "wide-inner-content" : ""}>
-                    <img className={isWide ? "wide-grid-img" : "normal-grid-img"} src={blogThumbnail} alt={blogAltText} />
-                    <div className={isWide ? "wider-inner-text" : ""}>
-                        <h3 className="project-title">{blogName}</h3>
-                        <time className="small-text-grid">{blogDate}</time>
-                        <p className="project-desc">{blogShortDesc}</p>
-                        <Link className="small-cta-link" to={`${blogSlugUrl}`} title={`Read the blog titled ${blogName}`} key={blog.id}>Read the blog <FaArrowRight className="icon" /> </Link>
-                    </div>
-                </div>
-            </section>
-        )
-    })
+  const blogElements = sortedBlogs.map((blog, index) => {
+    const isWide = blog.cardLayout === "wide";
+    const gridClass = gridClasses[index % gridClasses.length];
+    const blogName = blog.name;
+    const blogDate = blog.date;
+    const blogShortDesc = blog.shortDescription;
+    const blogThumbnail = blog.thumbnailImg;
+    const blogSlugUrl = blog.urlSlug;
+    const blogAltText = blog.altText;
 
     return (
-        <>
-            <title>Blogs - Louise Aldridge</title>
-            <main className="projects-grid" id="projects">
-                <h1>Follow my coding journey</h1>
-                <p className="sub-text"> As I continue developing my coding skills, I want to document my learnings and share the thought processes behind both my current and past solo projects. Read my latest blog articles below: </p>
-                <div className="wrapper">
-                    {blogElements}
-                </div>
-            </main>
-        </>
+      <section key={blog.id} className={`${gridClass} card`}>
+        <div className={isWide ? "wide-inner-content" : ""}>
+          <img
+            className={isWide ? "wide-grid-img" : "normal-grid-img"}
+            src={blogThumbnail}
+            alt={blogAltText}
+          />
+          <div className={isWide ? "wider-inner-text" : ""}>
+            <h3 className="project-title">{blogName}</h3>
+            <time className="small-text-grid">{blogDate}</time>
+            <p className="project-desc">{blogShortDesc}</p>
+            <Link
+              className="small-cta-link"
+              to={`${blogSlugUrl}`}
+              title={`Read the blog titled ${blogName}`}
+              key={blog.id}
+            >
+              Read the blog <FaArrowRight className="icon" />{" "}
+            </Link>
+          </div>
+        </div>
+      </section>
+    );
+  });
 
-    )
+  return (
+    <>
+      <title>Blogs - Louise Aldridge</title>
+      <main className="projects-grid" id="projects">
+        <h1>Follow my coding journey</h1>
+        <p className="sub-text">
+          {" "}
+          As I continue developing my coding skills, I want to document my
+          learnings and share the thought processes behind both my current and
+          past solo projects. Read my latest blog articles below:{" "}
+        </p>
+        <div className="wrapper">{blogElements}</div>
+      </main>
+    </>
+  );
 }
-

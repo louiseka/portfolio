@@ -11,6 +11,9 @@ export default function Projects() {
     five: "pink-bg",
     six: "green-bg",
     seven: "purple-bg",
+    eight: "green-bg",
+    nine: "pink-bg",
+    ten: "purple-bg",
   };
 
   function getSkillClass(index, backgroundColour) {

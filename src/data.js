@@ -1,27 +1,6 @@
 export const projectData = [
   {
     id: "1",
-    name: "Farm Tycoon",
-    urlSlug: "farm-tycoon",
-    shortDescription:
-      "I am currently building a Farm Tycoon game with React and TypeScript.",
-    longDescription:
-      "I’m currently building a Farm Tycoon game with TypeScript and React. It features a dashboard, shop, farm, and stats tab, allowing users to buy/sell animals and crops, earn daily balances, grow and harvest crops, produce goods from animals, and track profits and expenses.",
-    img1: "/assets/project-imgs/farm-tycoon-1.png",
-    img1Alt: "A screenshot of Crops to buy from the farm shop.",
-    img2: "/assets/project-imgs/farm-tycoon-2.png",
-    img2Alt: "A graphic of a tractor under the text Farm Tycoon.",
-    img3: "/assets/project-imgs/farm-tycoon-3.png",
-    img3Alt: "A screenshot of Animals to buy from the farm shop.",
-    thumbnailImg: "/assets/project-imgs/farm-tycoon-thumbnail.png",
-    skills: ["TypeScript", "React", "JavaScript", "HTML", "CSS"],
-    githubUrl: "https://github.com/louiseka/farm-tycoon",
-    liveUrl: "",
-    gridPosition: "one",
-    cardLayout: "normal",
-  },
-  {
-    id: "2",
     name: "Pinpoint",
     urlSlug: "pinpoint",
     shortDescription:
@@ -40,29 +19,52 @@ export const projectData = [
     skills: ["React", "JavaScript", "HTML", "CSS"],
     githubUrl: "https://github.com/louiseka/pinpoint",
     liveUrl: "https://louiseka.github.io/pinpoint/",
+    gridPosition: "one",
+    cardLayout: "normal",
+  },
+  {
+    id: "2",
+    name: "Password Reset",
+    urlSlug: "password-reset",
+    shortDescription:
+      "A reset your password form made with React and TypeScript.",
+    longDescription:
+      "A password reset form built with React and TypeScript. This form is part of the reset process after a user clicks 'Forgotten Password', submits their email to verify their account, and follows the link sent to their email.",
+    img1: "/assets/project-imgs/resetpassword-1.jpg",
+    img1Alt: "A screenshot of an empty password reset form.",
+    img2: "/assets/project-imgs/resetpassword-2.jpg",
+    img2Alt:
+      "A screenshot of a password reset form filled out with two passwords which do not match.",
+    img3: "/assets/project-imgs/resetpassword-3.jpg",
+    img3Alt: "A screenshot of a password reset form with an invalid password.",
+    thumbnailImg: "/assets/project-imgs/resetpassword-thumbnail.jpg",
+    skills: ["TypeScript", "React", "JavaScript", "HTML", "CSS"],
+    githubUrl: "https://github.com/louiseka/password-reset",
+    liveUrl: "https://louiseka.github.io/password-reset/",
     gridPosition: "two",
     cardLayout: "wide",
   },
   {
     id: "3",
-    name: "Quizzical",
-    urlSlug: "quizzical",
+    name: "Component Garden",
+    urlSlug: "component-garden",
     shortDescription:
-      "Quizzical is a five-question general knowledge quiz, using the Open Trivia Database API.",
+      "I am currently building a playground of components built with React. Featuring use of Zustand and React Router.",
     longDescription:
-      "Quizzical is a five-question general knowledge quiz, using the Open Trivia Database API. I chose React for this project to create reusable components for each question and answer, manage and track state throughout the quiz, and leverage useEffect to execute code based on dependencies.",
-    img1: "/assets/project-imgs/quizzical-1.jpg",
+      "Component Garden is a React playground (garden) showcasing my knowledge and practice of React Hooks, reusable components, and state management (including Zustand). It serves as a personal space to experiment, refine patterns, and demonstrate component design.",
+    img1: "/assets/project-imgs/componentgarden-1.jpg",
     img1Alt:
-      "A screenshot of Quzzical displaying 5 general knowledge questions and 4 answer options.",
-    img2: "/assets/project-imgs/quizzical-2.jpg",
-    img2Alt: "A graphic of a question mark above the text Quizzical",
-    img3: "/assets/project-imgs/quizzical-3.jpg",
+      "A screenshot of a plant and a timer with a button to click to water the plant.",
+    img2: "/assets/project-imgs/componentgarden-2.jpg",
+    img2Alt:
+      "A screenshot of a plant that you can grow and kill by clicking a button.",
+    img3: "/assets/project-imgs/componentgarden-3.jpg",
     img3Alt:
-      "A screenshot of Quizzical displaying 5 answered general knowledge questions. Four questions are answered correctly and one incorrectly.",
-    thumbnailImg: "/assets/project-imgs/quizzical-thumbnail.jpg",
-    skills: ["React", "JavaScript", "HTML", "CSS", "APIs"],
-    githubUrl: "https://github.com/louiseka/quizzical",
-    liveUrl: "https://louiseka.github.io/quizzical/",
+      "A screenshot of an input field, where you can add items to a plant wishlist.",
+    thumbnailImg: "/assets/project-imgs/componentgarden-thumbnail.jpg",
+    skills: ["React", "Zustand", "JavaScript", "CSS Modules"],
+    githubUrl: "https://github.com/louiseka/component-garden",
+    liveUrl: "https://component-garden.netlify.app/",
     gridPosition: "three",
     cardLayout: "wide",
   },
@@ -91,10 +93,78 @@ export const projectData = [
   },
   {
     id: "5",
+    name: "Rock Paper Scissors",
+    urlSlug: "rock-paper-scissors",
+    shortDescription:
+      "The classic playground game Rock Paper Scissors recreated with React. ",
+    longDescription:
+      "The classic playground game Rock Paper Scissors recreated with React. I have used React for this project, becuase I have the ability to create and maintain state and use of useEffect to allow saving to localStorage whenever state changes and avoid unnecessary re-renders. ",
+    img1: "/assets/project-imgs/rps-1.jpg",
+    img1Alt:
+      "A screenshot of the results of a game of Rock Paper Scissors. It was a draw.",
+    img2: "/assets/project-imgs/rps-2.jpg",
+    img2Alt: "A screenshot of the game of Rock Paper Scissors.",
+    img3: "/assets/project-imgs/rps-3.jpg",
+    img3Alt:
+      "A screenshot of the results of a game of Rock Paper Scissors. I won.",
+    thumbnailImg: "/assets/project-imgs/rps-thumbnail.jpg",
+    skills: ["React", "JavaScript", "HTML", "CSS"],
+    githubUrl: "https://github.com/louiseka/rock-paper-scissors",
+    liveUrl: "https://louiseka.github.io/rock-paper-scissors/",
+    gridPosition: "five",
+    cardLayout: "normal",
+  },
+  {
+    id: "6",
+    name: "Farm Tycoon",
+    urlSlug: "farm-tycoon",
+    shortDescription:
+      "I am currently building a Farm Tycoon game with React and TypeScript.",
+    longDescription:
+      "I’m currently building a Farm Tycoon game with TypeScript and React. It features a dashboard, shop, farm, and stats tab, allowing users to buy/sell animals and crops, earn daily balances, grow and harvest crops, produce goods from animals, and track profits and expenses.",
+    img1: "/assets/project-imgs/farm-tycoon-1.png",
+    img1Alt: "A screenshot of Crops to buy from the farm shop.",
+    img2: "/assets/project-imgs/farm-tycoon-2.png",
+    img2Alt: "A graphic of a tractor under the text Farm Tycoon.",
+    img3: "/assets/project-imgs/farm-tycoon-3.png",
+    img3Alt: "A screenshot of Animals to buy from the farm shop.",
+    thumbnailImg: "/assets/project-imgs/farm-tycoon-thumbnail.png",
+    skills: ["TypeScript", "React", "JavaScript", "HTML", "CSS"],
+    githubUrl: "https://github.com/louiseka/farm-tycoon",
+    liveUrl: "",
+    gridPosition: "six",
+    cardLayout: "normal",
+  },
+  {
+    id: "7",
+    name: "Quizzical",
+    urlSlug: "quizzical",
+    shortDescription:
+      "Quizzical is a five-question general knowledge quiz, using React and the Open Trivia Database API.",
+    longDescription:
+      "Quizzical is a five-question general knowledge quiz, using React and the Open Trivia Database API. I chose React for this project to create reusable components for each question and answer, manage and track state throughout the quiz, and leverage useEffect to execute code based on dependencies.",
+    img1: "/assets/project-imgs/quizzical-1.jpg",
+    img1Alt:
+      "A screenshot of Quzzical displaying 5 general knowledge questions and 4 answer options.",
+    img2: "/assets/project-imgs/quizzical-2.jpg",
+    img2Alt: "A graphic of a question mark above the text Quizzical",
+    img3: "/assets/project-imgs/quizzical-3.jpg",
+    img3Alt:
+      "A screenshot of Quizzical displaying 5 answered general knowledge questions. Four questions are answered correctly and one incorrectly.",
+    thumbnailImg: "/assets/project-imgs/quizzical-thumbnail.jpg",
+    skills: ["React", "JavaScript", "HTML", "CSS", "APIs"],
+    githubUrl: "https://github.com/louiseka/quizzical",
+    liveUrl: "https://louiseka.github.io/quizzical/",
+    gridPosition: "seven",
+    cardLayout: "normal",
+  },
+
+  {
+    id: "8",
     name: "Film Watchlist",
     urlSlug: "film-watchlist",
     shortDescription:
-      "A Film Watchlist, enabling users to search for films they want to watch.",
+      "A Film Watchlist built with JavaScript, enabling users to search for films they want to watch.",
     longDescription:
       "This Film Watchlist leverages the Open Movie Database API, enabling users to search for films they want to watch. Users can add films to a watchlist or remove them as needed, with all data saved to and removed from their local storage. I chose JavaScript for this project for easy API handling, use of localStorage, and to enhance user experience.",
     img1: "/assets/project-imgs/filmwatchlist-1.jpg",
@@ -108,15 +178,15 @@ export const projectData = [
     skills: ["JavaScript", "APIs", "HTML", "CSS"],
     githubUrl: "https://github.com/louiseka/film-watchlist",
     liveUrl: "https://louiseka.github.io/film-watchlist/",
-    gridPosition: "five",
-    cardLayout: "normal",
+    gridPosition: "eight",
+    cardLayout: "wide",
   },
   {
-    id: "6",
+    id: "9",
     name: "Recipe Roulette",
     urlSlug: "recipe-roulette",
     shortDescription:
-      "A random meal generator to help you choose tonight's dinner.",
+      "A random meal generator built with JavaScript to help you choose tonight's dinner.",
     longDescription:
       "Recipe Roulette' is a random meal generator. Choose a cuisine, click 'Get Random Recipe,' and a recipe will appear in a pop-up with an image and a link to the full recipe. Don't like it? Close the pop-up and try again! I used JavaScript for this project to make use of a flexible dataset, to be able to use Math.random to generate random recipes from an array, and to handle user interactions easily. ",
     img1: "/assets/project-imgs/roulette-1.jpg",
@@ -132,12 +202,12 @@ export const projectData = [
     skills: ["JavaScript", "HTML", "CSS"],
     githubUrl: "https://github.com/louiseka/recipe-roulette",
     liveUrl: "https://louiseka.github.io/recipe-roulette/",
-    gridPosition: "six",
+    gridPosition: "nine",
     cardLayout: "normal",
   },
 
   {
-    id: "7",
+    id: "10",
     name: "Dish Diaries",
     urlSlug: "dish-diaries",
     shortDescription:
@@ -155,7 +225,7 @@ export const projectData = [
     skills: ["HTML", "CSS", "Bootstrap", "JavaScript"],
     githubUrl: "https://github.com/louiseka/CFG-Project",
     liveUrl: "https://louiseka.github.io/CFG-Project/",
-    gridPosition: "seven",
-    cardLayout: "normal",
+    gridPosition: "ten",
+    cardLayout: "wide",
   },
 ];

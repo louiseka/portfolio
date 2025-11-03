@@ -8,7 +8,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/moodboard.png",
     altText: "A lady pinning items to a moodboard.",
     gridPosition: "one",
-    cardLayout: "normal",
+    cardLayout: "wide",
     urlSlug: "kickstarting-new-project",
   },
 

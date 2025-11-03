@@ -85,7 +85,7 @@ export const projectData = [
     img3Alt:
       "A screenshot of Dash and Dine with a pop up modal asking user to enter their card details to pay for their order.",
     thumbnailImg: "/assets/project-imgs/dash-dine-thumbnail.jpg",
-    skills: ["TypeScript", "JavaScript", "Tailwind", "HTML", "CSS"],
+    skills: ["TypeScript", "JavaScript", "Tailwind", "HTML"],
     githubUrl: "https://github.com/louiseka/restaurant-ordering-app",
     liveUrl: "https://louiseka.github.io/restaurant-ordering-app/",
     gridPosition: "four",
@@ -129,7 +129,7 @@ export const projectData = [
     img3: "/assets/project-imgs/farm-tycoon-3.png",
     img3Alt: "A screenshot of Animals to buy from the farm shop.",
     thumbnailImg: "/assets/project-imgs/farm-tycoon-thumbnail.png",
-    skills: ["TypeScript", "React", "JavaScript", "HTML", "CSS"],
+    skills: ["TypeScript", "React", "JavaScript", "CSS"],
     githubUrl: "https://github.com/louiseka/farm-tycoon",
     liveUrl: "",
     gridPosition: "six",

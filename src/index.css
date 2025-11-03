@@ -502,7 +502,7 @@ article h3 {
 .skills-container,
 .project-skills-container {
   display: flex;
-  margin: 1.56em 0;
+  margin: 1.56em 0 0;
   justify-content: flex-start;
   gap: 15px;
   flex-wrap: wrap;
@@ -516,7 +516,7 @@ article h3 {
   padding: 0.55em 1.04em;
   border-radius: 6px;
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   white-space: nowrap;
 }
 
@@ -710,14 +710,14 @@ article h3 {
   }
 
   .project-skills-container > .pink-label {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .project-skills-container > .green-label {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .project-skills-container > .yellow-label {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   .pink-label,
@@ -763,7 +763,6 @@ article h3 {
 
   .wide-grid-img {
     width: 50%;
-    padding: 0.625em;
   }
 
   .wide-inner-content {

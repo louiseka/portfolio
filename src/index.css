@@ -352,7 +352,8 @@ header {
 
 .three,
 .seven,
-.eight {
+.eight,
+.eleven {
   background-color: #d1cfff;
 }
 
@@ -403,6 +404,11 @@ header {
 
 .ten {
   grid-column: 1 /3;
+  grid-row: 6/7;
+}
+
+.eleven {
+  grid-column: 3;
   grid-row: 6/7;
 }
 

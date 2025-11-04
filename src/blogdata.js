@@ -8,7 +8,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/moodboard.png",
     altText: "A lady pinning items to a moodboard.",
     gridPosition: "one",
-    cardLayout: "wide",
+    cardLayout: "normal",
     urlSlug: "kickstarting-new-project",
   },
 
@@ -21,7 +21,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/wireframe.png",
     altText: "A notepad with a hand drawn wireframe of a website.",
     gridPosition: "two",
-    cardLayout: "normal",
+    cardLayout: "wide",
     urlSlug: "designing-pinpoint",
   },
   {
@@ -33,7 +33,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/Drilling.png",
     altText: "A person using a drill.",
     gridPosition: "three",
-    cardLayout: "wide",
+    cardLayout: "normal",
     urlSlug: "fine-prop-drilling",
   },
   {
@@ -45,7 +45,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/cat-code.png",
     altText: "A cat sitting infront of a Mac screen with code on it.",
     gridPosition: "four",
-    cardLayout: "normal",
+    cardLayout: "wide",
     urlSlug: "marketing-to-frontend-development",
   },
   {
@@ -93,7 +93,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/collaboration.png",
     altText: "A ripped piece of paper revealing the word Collaboration",
     gridPosition: "eight",
-    cardLayout: "wide",
+    cardLayout: "normal",
     urlSlug: "bootcamp-week4-collaboration-and-workflow",
   },
   {
@@ -117,7 +117,19 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/love-cat.png",
     altText: "A cat holding a love heart whilst wearing sunglasses.",
     gridPosition: "ten",
-    cardLayout: "normal",
+    cardLayout: "wide",
     urlSlug: "bootcamp-week6-falling-for-react-again",
+  },
+  {
+    id: "21",
+    name: "Bootcamp Week 7 – Creating a React Playground",
+    date: "31 October 2025",
+    shortDescription:
+      "I began building a React playground called “Component Garden”, a space for experimenting with and showcasing core React concepts ",
+    thumbnailImg: "/assets/blog-imgs/playground.png",
+    altText: "A colourful children's playground surrounded by autumn leaves",
+    gridPosition: "eleven",
+    cardLayout: "normal",
+    urlSlug: "bootcamp-week7-creating-react-playground",
   },
 ];

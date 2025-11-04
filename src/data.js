@@ -152,7 +152,7 @@ export const projectData = [
     img3Alt:
       "A screenshot of Quizzical displaying 5 answered general knowledge questions. Four questions are answered correctly and one incorrectly.",
     thumbnailImg: "/assets/project-imgs/quizzical-thumbnail.jpg",
-    skills: ["React", "JavaScript", "HTML", "CSS", "APIs"],
+    skills: ["React", "JavaScript", "Vitest", "CSS", "APIs"],
     githubUrl: "https://github.com/louiseka/quizzical",
     liveUrl: "https://louiseka.github.io/quizzical/",
     gridPosition: "seven",

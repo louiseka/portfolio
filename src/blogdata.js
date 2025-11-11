@@ -8,7 +8,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/moodboard.png",
     altText: "A lady pinning items to a moodboard.",
     gridPosition: "one",
-    cardLayout: "normal",
+    cardLayout: "wide",
     urlSlug: "kickstarting-new-project",
   },
 
@@ -21,7 +21,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/wireframe.png",
     altText: "A notepad with a hand drawn wireframe of a website.",
     gridPosition: "two",
-    cardLayout: "wide",
+    cardLayout: "normal",
     urlSlug: "designing-pinpoint",
   },
   {
@@ -33,7 +33,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/Drilling.png",
     altText: "A person using a drill.",
     gridPosition: "three",
-    cardLayout: "normal",
+    cardLayout: "wide",
     urlSlug: "fine-prop-drilling",
   },
   {
@@ -45,7 +45,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/cat-code.png",
     altText: "A cat sitting infront of a Mac screen with code on it.",
     gridPosition: "four",
-    cardLayout: "wide",
+    cardLayout: "normal",
     urlSlug: "marketing-to-frontend-development",
   },
   {
@@ -57,7 +57,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/pears.png",
     altText: "Two pears",
     gridPosition: "five",
-    cardLayout: "normal",
+    cardLayout: "wide",
     urlSlug: "bootcamp-week1-agile-and-pair-programming",
   },
   {
@@ -105,7 +105,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/ai-lightbulb.png",
     altText: "A lightbulb with a brain inside of it.",
     gridPosition: "nine",
-    cardLayout: "wide",
+    cardLayout: "normal",
     urlSlug: "bootcamp-week5-working-existing-codebase",
   },
   {
@@ -129,7 +129,19 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/playground.png",
     altText: "A colourful children's playground surrounded by autumn leaves",
     gridPosition: "eleven",
-    cardLayout: "normal",
+    cardLayout: "wide",
     urlSlug: "bootcamp-week7-creating-react-playground",
+  },
+  {
+    id: "22",
+    name: "Bootcamp Week 8 – Starting a FullStack Final Project",
+    date: "11 November 2025",
+    shortDescription:
+      "This week, we began our final project, which includes a React frontend and node.js backend...",
+    thumbnailImg: "/assets/blog-imgs/plan.png",
+    altText: "A notepad that reads plan",
+    gridPosition: "twelve",
+    cardLayout: "normal",
+    urlSlug: "bootcamp-week8-starting-fullstack-final-project",
   },
 ];

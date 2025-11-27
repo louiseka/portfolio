@@ -71,18 +71,32 @@ export default function BlogThirteen() {
               (editItem) that sends a PATCH request to the API with the updated
               animal data, then returns the response.
             </li>
-
+            <img
+              className="blog-img"
+              src="/assets/blog-imgs/thunk-rarekind.png"
+              alt="A screenshot of a Redux Async Thunk."
+            />
             <li>
               <span className="bold-text">Using a slice</span> (editItemSlice)
               to keep track of the current animal being edited (item) and the
               collection it belongs to (collectionId):
             </li>
+            <img
+              className="blog-img"
+              src="/assets/blog-imgs/addslice-rarekind.png"
+              alt="A screenshot of a Redux slice."
+            />
             <li>
               <span className="bold-text">Providing reducer actions</span>
               (setItemToEdit, clearItemToEdit, etc.) that let the UI set or
               clear which item(animal) is being edited before making the API
               call.
             </li>
+            <img
+              className="blog-img"
+              src="/assets/blog-imgs/reducers-rarekind.png"
+              alt="A screenshot of Redux reducers."
+            />
           </ul>
           <p className="blog-text">
             By keeping the edit state and API request in one place, we make the

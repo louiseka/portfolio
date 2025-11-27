@@ -8,7 +8,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/moodboard.png",
     altText: "A lady pinning items to a moodboard.",
     gridPosition: "one",
-    cardLayout: "wide",
+    cardLayout: "normal",
     urlSlug: "kickstarting-new-project",
   },
 
@@ -33,7 +33,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/Drilling.png",
     altText: "A person using a drill.",
     gridPosition: "three",
-    cardLayout: "wide",
+    cardLayout: "normal",
     urlSlug: "fine-prop-drilling",
   },
   {
@@ -57,7 +57,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/pears.png",
     altText: "Two pears",
     gridPosition: "five",
-    cardLayout: "wide",
+    cardLayout: "normal",
     urlSlug: "bootcamp-week1-agile-and-pair-programming",
   },
   {
@@ -69,7 +69,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/conflict-deer.png",
     altText: "Two deers hitting horns with eachother.",
     gridPosition: "six",
-    cardLayout: "normal",
+    cardLayout: "wide",
     urlSlug: "bootcamp-week2-css-naming-conventions-and-code-conflicts",
   },
   {
@@ -117,7 +117,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/love-cat.png",
     altText: "A cat holding a love heart whilst wearing sunglasses.",
     gridPosition: "ten",
-    cardLayout: "wide",
+    cardLayout: "normal",
     urlSlug: "bootcamp-week6-falling-for-react-again",
   },
   {
@@ -141,7 +141,19 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/plan.png",
     altText: "A notepad that reads plan",
     gridPosition: "twelve",
-    cardLayout: "normal",
+    cardLayout: "wide",
     urlSlug: "bootcamp-week8-starting-fullstack-final-project",
+  },
+  {
+    id: "22",
+    name: "Bootcamp Week 9 & 10 – Creating a Frontend for a FullStack Project",
+    date: "21 November 2025",
+    shortDescription:
+      "We continued work on our final project, RareKind, which features a Node.js backend and a React frontend.",
+    thumbnailImg: "/assets/blog-imgs/ux-ui.png",
+    altText: "A notepad that shows a wireframe template.",
+    gridPosition: "thirteen",
+    cardLayout: "normal",
+    urlSlug: "bootcamp-week9-10-frontend-fullstack-project",
   },
 ];

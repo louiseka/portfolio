@@ -23,6 +23,7 @@ import BlogNine from "./pages/Blogs/BlogNine";
 import BlogTen from "./pages/Blogs/BlogTen";
 import BlogEleven from "./pages/Blogs/BlogEleven";
 import BlogTwelve from "./pages/Blogs/BlogTwelve";
+import BlogThirteen from "./pages/Blogs/BlogThirteen";
 
 function App() {
   return (
@@ -77,6 +78,10 @@ function App() {
           <Route
             path="blogs/bootcamp-week8-starting-fullstack-final-project"
             element={<BlogTwelve />}
+          />
+          <Route
+            path="blogs/bootcamp-week9-10-frontend-fullstack-project"
+            element={<BlogThirteen />}
           />
         </Route>
       </Routes>

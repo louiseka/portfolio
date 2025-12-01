@@ -348,7 +348,8 @@ header {
 .two,
 .five,
 .nine,
-.twelve {
+.twelve,
+.fourteen {
   background-color: #ebb1dc;
 }
 
@@ -421,6 +422,11 @@ header {
 
 .thirteen {
   grid-column: 1;
+  grid-row: 7/8;
+}
+
+.fourteen {
+  grid-column: 2/3;
   grid-row: 7/8;
 }
 

@@ -17,6 +17,7 @@ export default function Blogs() {
     "eleven",
     "twelve",
     "thirteen",
+    "fourteen",
   ];
 
   const sortedBlogs = [...blogData].sort(

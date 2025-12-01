@@ -69,7 +69,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/conflict-deer.png",
     altText: "Two deers hitting horns with eachother.",
     gridPosition: "six",
-    cardLayout: "wide",
+    cardLayout: "normal",
     urlSlug: "bootcamp-week2-css-naming-conventions-and-code-conflicts",
   },
   {
@@ -81,7 +81,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/learning.png",
     altText: "A post it note that says keep learning",
     gridPosition: "seven",
-    cardLayout: "normal",
+    cardLayout: "wide",
     urlSlug: "bootcamp-week3-javascript-and-peer-learning",
   },
   {
@@ -129,7 +129,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/playground.png",
     altText: "A colourful children's playground surrounded by autumn leaves",
     gridPosition: "eleven",
-    cardLayout: "wide",
+    cardLayout: "normal",
     urlSlug: "bootcamp-week7-creating-react-playground",
   },
   {
@@ -153,7 +153,19 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/ux-ui.png",
     altText: "A notepad that shows a wireframe template.",
     gridPosition: "thirteen",
-    cardLayout: "normal",
+    cardLayout: "wide",
     urlSlug: "bootcamp-week9-10-frontend-fullstack-project",
+  },
+  {
+    id: "23",
+    name: "Bootcamp Week 11 – Wrapping Up With a Retrospective",
+    date: "28 November 2025",
+    shortDescription:
+      "After the presentations, our class held a full retrospective to reflect on the project as a whole...",
+    thumbnailImg: "/assets/blog-imgs/post-it-notes.png",
+    altText: "A bunch of pens and colourful post it notes",
+    gridPosition: "fourteen",
+    cardLayout: "normal",
+    urlSlug: "bootcamp-week11-wrapping-up-with-retrospective",
   },
 ];

@@ -63,7 +63,6 @@ export default function BlogThirteen() {
             For instance, I worked on editing animals on the frontend and with
             its own Redux Slice I was:
           </p>
-          <p className="blog-text"></p>
 
           <ul className="blog-bullets">
             <li>

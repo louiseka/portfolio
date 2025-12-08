@@ -8,7 +8,7 @@ export default function Education() {
         <div className="details-section-green">
           <h3>Software Development Tech Finishing School Bootcamp</h3>
           <p className="detail-sub">TechNative Digital</p>
-          <p className="small-text"> September - Present </p>
+          <p className="small-text"> September - December 2025 </p>
           <ul>
             <li>
               <span className="bold-text">JavaScript</span> fundamentals,

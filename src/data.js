@@ -1,6 +1,28 @@
 export const projectData = [
   {
     id: "1",
+    name: "RareKind",
+    urlSlug: "rarekind",
+    shortDescription:
+      "RareKind is a full-stack web application with a frontend built in React. ",
+    longDescription:
+      "RareKind is a full-stack web application with a frontend built in React and a backend powered by Node.js and Express. I developed the frontend interface, enabling users to browse public collections, create and edit their own collections, and manage individual animals. The application integrates with the backend API using Redux Toolkit for state management and CSS Modules for a modular, maintainable codebase.",
+    img1: "/assets/project-imgs/rarekind-1.jpg",
+    img1Alt:
+      "A screenshot of RareKind All Collections page, showing cards in a grid with different collections of animals.",
+    img2: "/assets/project-imgs/rarekind-2.jpg",
+    img2Alt: "RareKind logo",
+    img3: "/assets/project-imgs/rarekind-3.jpg",
+    img3Alt: "A screenshot of the Add Animal form open on RareKind. .",
+    thumbnailImg: "/assets/project-imgs/rarekind-1.jpg",
+    skills: ["React", "Redux Toolkit", "CSS Modules", "React Router"],
+    githubUrl: "https://rarekind-frontend.vercel.app/",
+    liveUrl: "https://github.com/technative-academy/rarekind-frontend",
+    gridPosition: "one",
+    cardLayout: "normal",
+  },
+  {
+    id: "2",
     name: "Pinpoint",
     urlSlug: "pinpoint",
     shortDescription:
@@ -19,11 +41,11 @@ export const projectData = [
     skills: ["React", "JavaScript", "HTML", "CSS"],
     githubUrl: "https://github.com/louiseka/pinpoint",
     liveUrl: "https://louiseka.github.io/pinpoint/",
-    gridPosition: "one",
-    cardLayout: "normal",
+    gridPosition: "two",
+    cardLayout: "wide",
   },
   {
-    id: "2",
+    id: "3",
     name: "Password Reset",
     urlSlug: "password-reset",
     shortDescription:
@@ -41,11 +63,11 @@ export const projectData = [
     skills: ["TypeScript", "React", "JavaScript", "HTML", "CSS"],
     githubUrl: "https://github.com/louiseka/password-reset",
     liveUrl: "https://louiseka.github.io/password-reset/",
-    gridPosition: "two",
+    gridPosition: "three",
     cardLayout: "wide",
   },
   {
-    id: "3",
+    id: "4",
     name: "Component Garden",
     urlSlug: "component-garden",
     shortDescription:
@@ -65,11 +87,11 @@ export const projectData = [
     skills: ["React", "Zustand", "JavaScript", "CSS Modules"],
     githubUrl: "https://github.com/louiseka/component-garden",
     liveUrl: "https://component-garden.netlify.app/",
-    gridPosition: "three",
-    cardLayout: "wide",
+    gridPosition: "four",
+    cardLayout: "normal",
   },
   {
-    id: "4",
+    id: "5",
     name: "Dash and Dine",
     urlSlug: "dash-and-dine",
     shortDescription:
@@ -88,11 +110,11 @@ export const projectData = [
     skills: ["TypeScript", "JavaScript", "Tailwind", "HTML"],
     githubUrl: "https://github.com/louiseka/restaurant-ordering-app",
     liveUrl: "https://louiseka.github.io/restaurant-ordering-app/",
-    gridPosition: "four",
+    gridPosition: "five",
     cardLayout: "normal",
   },
   {
-    id: "5",
+    id: "6",
     name: "Rock Paper Scissors",
     urlSlug: "rock-paper-scissors",
     shortDescription:
@@ -111,11 +133,11 @@ export const projectData = [
     skills: ["React", "JavaScript", "HTML", "CSS"],
     githubUrl: "https://github.com/louiseka/rock-paper-scissors",
     liveUrl: "https://louiseka.github.io/rock-paper-scissors/",
-    gridPosition: "five",
+    gridPosition: "six",
     cardLayout: "normal",
   },
   {
-    id: "6",
+    id: "7",
     name: "Farm Tycoon",
     urlSlug: "farm-tycoon",
     shortDescription:
@@ -132,11 +154,11 @@ export const projectData = [
     skills: ["TypeScript", "React", "JavaScript", "CSS"],
     githubUrl: "https://github.com/louiseka/farm-tycoon",
     liveUrl: "",
-    gridPosition: "six",
+    gridPosition: "seven",
     cardLayout: "normal",
   },
   {
-    id: "7",
+    id: "8",
     name: "Quizzical",
     urlSlug: "quizzical",
     shortDescription:
@@ -155,12 +177,12 @@ export const projectData = [
     skills: ["React", "JavaScript", "Vitest", "CSS", "APIs"],
     githubUrl: "https://github.com/louiseka/quizzical",
     liveUrl: "https://louiseka.github.io/quizzical/",
-    gridPosition: "seven",
-    cardLayout: "normal",
+    gridPosition: "eight",
+    cardLayout: "wide",
   },
 
   {
-    id: "8",
+    id: "9",
     name: "Film Watchlist",
     urlSlug: "film-watchlist",
     shortDescription:
@@ -178,11 +200,11 @@ export const projectData = [
     skills: ["JavaScript", "APIs", "HTML", "CSS"],
     githubUrl: "https://github.com/louiseka/film-watchlist",
     liveUrl: "https://louiseka.github.io/film-watchlist/",
-    gridPosition: "eight",
-    cardLayout: "wide",
+    gridPosition: "nine",
+    cardLayout: "normal",
   },
   {
-    id: "9",
+    id: "10",
     name: "Recipe Roulette",
     urlSlug: "recipe-roulette",
     shortDescription:
@@ -202,12 +224,12 @@ export const projectData = [
     skills: ["JavaScript", "HTML", "CSS"],
     githubUrl: "https://github.com/louiseka/recipe-roulette",
     liveUrl: "https://louiseka.github.io/recipe-roulette/",
-    gridPosition: "nine",
+    gridPosition: "ten",
     cardLayout: "normal",
   },
 
   {
-    id: "10",
+    id: "11",
     name: "Dish Diaries",
     urlSlug: "dish-diaries",
     shortDescription:
@@ -225,7 +247,7 @@ export const projectData = [
     skills: ["HTML", "CSS", "Bootstrap", "JavaScript"],
     githubUrl: "https://github.com/louiseka/CFG-Project",
     liveUrl: "https://louiseka.github.io/CFG-Project/",
-    gridPosition: "ten",
-    cardLayout: "wide",
+    gridPosition: "eleven",
+    cardLayout: "normal",
   },
 ];

@@ -356,7 +356,8 @@ header {
 .three,
 .seven,
 .eight,
-.eleven {
+.eleven,
+.fifteen {
   background-color: #d1cfff;
 }
 
@@ -426,7 +427,12 @@ header {
 }
 
 .fourteen {
-  grid-column: 2/3;
+  grid-column: 2;
+  grid-row: 7/8;
+}
+
+.fifteen {
+  grid-column: 3;
   grid-row: 7/8;
 }
 
@@ -487,6 +493,19 @@ article h3 {
   max-width: 100%;
   margin: 0 auto;
   padding: 1.25em 0;
+}
+
+.blog-img-sm {
+  width: 400px;
+}
+
+figcaption {
+  background-color: #18191a;
+  color: #fbfcf8;
+  font-style: italic;
+  font-size: 0.8rem;
+  padding: 1em;
+  text-align: center;
 }
 
 .code-snippet {

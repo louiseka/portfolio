@@ -81,7 +81,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/learning.png",
     altText: "A post it note that says keep learning",
     gridPosition: "seven",
-    cardLayout: "wide",
+    cardLayout: "normal",
     urlSlug: "bootcamp-week3-javascript-and-peer-learning",
   },
   {
@@ -93,7 +93,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/collaboration.png",
     altText: "A ripped piece of paper revealing the word Collaboration",
     gridPosition: "eight",
-    cardLayout: "normal",
+    cardLayout: "wide",
     urlSlug: "bootcamp-week4-collaboration-and-workflow",
   },
   {
@@ -141,11 +141,11 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/plan.png",
     altText: "A notepad that reads plan",
     gridPosition: "twelve",
-    cardLayout: "wide",
+    cardLayout: "normal",
     urlSlug: "bootcamp-week8-starting-fullstack-final-project",
   },
   {
-    id: "22",
+    id: "23",
     name: "Bootcamp Week 9 & 10 – Creating a Frontend for a FullStack Project",
     date: "21 November 2025",
     shortDescription:
@@ -157,7 +157,7 @@ export const blogData = [
     urlSlug: "bootcamp-week9-10-frontend-fullstack-project",
   },
   {
-    id: "23",
+    id: "24",
     name: "Bootcamp Week 11 – Wrapping Up With a Retrospective",
     date: "28 November 2025",
     shortDescription:
@@ -165,7 +165,19 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/post-it-notes.png",
     altText: "A bunch of pens and colourful post it notes",
     gridPosition: "fourteen",
-    cardLayout: "normal",
+    cardLayout: "wide",
     urlSlug: "bootcamp-week11-wrapping-up-with-retrospective",
+  },
+  {
+    id: "25",
+    name: "Bootcamp Week 12 – Vibe Coding",
+    date: "5 December 2025",
+    shortDescription:
+      "We spent some time vibe coding. As a group, we were given a list of different vibe coding tools...",
+    thumbnailImg: "/assets/blog-imgs/ai-image.png",
+    altText: "A bunch of pens and colourful post it notes",
+    gridPosition: "fifteen",
+    cardLayout: "normal",
+    urlSlug: "bootcamp-week12-vibe-coding",
   },
 ];

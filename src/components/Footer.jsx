@@ -17,7 +17,6 @@ export default function Footer() {
       </div>
       <div className="footer-container">
         <div className="footer-about">
-          {/* <p className="footer-logo"> <FaTerminal /> louise.codes</p> */}
           <p className="small-title"> Hello, I'm Louise</p>
           <p>
             I’m a frontend developer specialising in React, TypeScript, and

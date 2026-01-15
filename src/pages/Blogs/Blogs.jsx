@@ -36,7 +36,10 @@ export default function Blogs() {
     const blogAltText = blog.altText;
 
     return (
-      <section key={blog.id} className={`${gridClass} card`}>
+      <section
+        key={blog.id}
+        className={`${gridClass} card ${isWide ? "wideCard" : ""}`}
+      >
         <div className={isWide ? "wide-inner-content" : ""}>
           <img
             className={isWide ? "wide-grid-img" : "normal-grid-img"}

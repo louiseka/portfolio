@@ -15,7 +15,7 @@ export const projectData = [
     img3: "/assets/project-imgs/rarekind-3.jpg",
     img3Alt: "A screenshot of the Add Animal form open on RareKind. .",
     thumbnailImg: "/assets/project-imgs/rarekind-1.jpg",
-    skills: ["React", "Redux Toolkit", "CSS Modules", "React Router"],
+    skills: ["React", "Redux Toolkit", "CSS Modules"],
     githubUrl: "https://rarekind-frontend.vercel.app/",
     liveUrl: "https://github.com/technative-academy/rarekind-frontend",
     gridPosition: "one",
@@ -84,7 +84,7 @@ export const projectData = [
     img3Alt:
       "A screenshot of an input field, where you can add items to a plant wishlist.",
     thumbnailImg: "/assets/project-imgs/componentgarden-thumbnail.jpg",
-    skills: ["React", "Zustand", "JavaScript", "CSS Modules"],
+    skills: ["React", "Zustand", "CSS Modules"],
     githubUrl: "https://github.com/louiseka/component-garden",
     liveUrl: "https://component-garden.netlify.app/",
     gridPosition: "four",

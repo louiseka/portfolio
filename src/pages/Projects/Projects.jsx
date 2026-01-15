@@ -56,7 +56,10 @@ export default function Projects() {
     const projectGridPosition = `${project.gridPosition} card `;
 
     return (
-      <section key={project.id} className={projectGridPosition}>
+      <section
+        key={project.id}
+        className={`${projectGridPosition} ${isWide ? "wideCard" : ""}`}
+      >
         <div className={isWide ? "wide-inner-content" : ""}>
           <img
             className={isWide ? "wide-grid-img" : "normal-grid-img"}

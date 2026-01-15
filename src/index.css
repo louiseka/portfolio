@@ -804,6 +804,11 @@ figcaption {
     display: flex;
   }
 
+  .wideCard {
+    display: flex;
+    align-items: center;
+  }
+
   .wide-grid-img {
     width: 50%;
   }

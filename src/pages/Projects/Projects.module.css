@@ -1,0 +1,83 @@
+/* ----------------------
+   Bento Grid
+---------------------- */
+.bentoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-auto-rows: auto; /* Cards fit their content naturally */
+  gap: 16px;
+  column-count: 3; /* number of columns */
+  column-gap: 16px;
+}
+
+/* ----------------------
+   Grid Items
+---------------------- */
+.bentoItem {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.projectImg {
+  width: 100%;
+  height: auto; /* Image height scales naturally */
+  object-fit: cover;
+  display: block;
+}
+
+.content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* ----------------------
+   Typography
+---------------------- */
+.projectTitle {
+  font-size: var(--fs-md);
+  font-weight: 500;
+  margin: 0;
+}
+
+.projectDesc {
+  font-size: var(--fs-reg);
+  margin: 0;
+  color: var(--black);
+}
+
+.smallCtaLink {
+  text-decoration: none;
+  color: var(--primary-base);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: auto; /* pushes link to bottom if content grows */
+}
+
+.icon {
+  margin-left: 0.25rem;
+}
+
+/* ----------------------
+   Responsive adjustments
+---------------------- */
+@media (max-width: 1024px) {
+  .bentoGrid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .bentoGrid {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  }
+}

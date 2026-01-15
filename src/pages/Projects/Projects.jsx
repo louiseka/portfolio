@@ -1,96 +1,39 @@
 import { projectData } from "../../data";
 import { Link } from "react-router";
 import { FaArrowRight } from "react-icons/fa";
+import styles from "./Projects.module.css";
 
 export default function Projects() {
-  const gridBackground = {
-    one: "green-bg",
-    two: "pink-bg",
-    three: "purple-bg",
-    four: "green-bg",
-    five: "pink-bg",
-    six: "green-bg",
-    seven: "purple-bg",
-    eight: "green-bg",
-    nine: "pink-bg",
-    ten: "purple-bg",
-    eleven: "green-bg",
-  };
-
-  function getSkillClass(index, backgroundColour) {
-    const labelClasses = ["green-label", "pink-label", "yellow-label"];
-    let label = labelClasses[index % labelClasses.length];
-
-    switch (backgroundColour) {
-      case "green-bg":
-        label = "pink-label";
-        break;
-      case "pink-bg":
-        label = "green-label";
-        break;
-      case "purple-bg":
-        label = "yellow-label";
-        break;
-      default:
-        label = labelClasses[index % labelClasses.length];
-    }
-    return label;
-  }
-
   const projectElements = projectData.map((project) => {
-    const isWide = project.cardLayout === "wide";
-    const backgroundColour = gridBackground[project.gridPosition];
-
-    const projectSkills = project.skills.map((skill, index) => {
-      return (
-        <p key={index} className={getSkillClass(index, backgroundColour)}>
-          {skill}
-        </p>
-      );
-    });
-
-    const projectName = project.name;
-    const projectShortDesc = project.shortDescription;
-    const projectThumbnail = project.thumbnailImg;
-    const projectAltText = project.img1Alt;
-    const projectGridPosition = `${project.gridPosition} card `;
+    const { id, name, shortDescription, thumbnailImg, img1Alt, urlSlug } =
+      project;
 
     return (
-      <section key={project.id} className={projectGridPosition}>
-        <div className={isWide ? "wide-inner-content" : ""}>
-          <img
-            className={isWide ? "wide-grid-img" : "normal-grid-img"}
-            alt={projectAltText}
-            src={projectThumbnail}
-          />
-          <div className={isWide ? "wider-inner-text" : ""}>
-            <h3 className="project-title">{projectName}</h3>
-            <p className="project-desc">{projectShortDesc}</p>
-            <Link
-              className="small-cta-link"
-              to={`projects/${project.urlSlug}`}
-              title={`More details about ${projectName}`}
-              key={project.id}
-            >
-              Find out more <FaArrowRight className="icon" />{" "}
-            </Link>
-            <div className="project-skills-container">{projectSkills}</div>
-          </div>
+      <div key={id} className={`${styles.bentoItem} ${styles[`item${id}`]}`}>
+        <img alt={img1Alt} src={thumbnailImg} className={styles.projectImg} />
+        <div className={styles.content}>
+          <h3 className={styles.projectTitle}>{name}</h3>
+          <p className={styles.projectDesc}>{shortDescription}</p>
+          <Link
+            className={styles.smallCtaLink}
+            to={`projects/${urlSlug}`}
+            title={`More details about ${name}`}
+          >
+            Find out more <FaArrowRight className={styles.icon} />
+          </Link>
         </div>
-      </section>
+      </div>
     );
   });
 
   return (
-    <main className="projects-grid" id="projects">
-      <h2>My portfolio of projects</h2>
-      <p className="sub-text">
-        While learning the fundamentals of frontend development, I have been
-        practicing my skills and applying the languages and frameworks I've
-        learned by creating various projects. Over time, I’ve also revisited
-        these projects to improve them with my new knowledge.{" "}
+    <main id="projects" className={styles.projects}>
+      <h2 className={styles.sectionTitle}>My Portfolio of Projects</h2>
+      <p className={styles.subText}>
+        While learning frontend development, I’ve been building projects to
+        practice my skills and improve them over time.
       </p>
-      <div className="wrapper">{projectElements}</div>
+      <div className={styles.bentoGrid}>{projectElements}</div>
     </main>
   );
 }

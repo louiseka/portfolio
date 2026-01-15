@@ -11,7 +11,6 @@ export default function Header() {
         to="/"
         title="Louise Aldridge's portfolio homepage"
       >
-        {" "}
         <FaTerminal /> louise.codes
       </NavLink>
       <div className={styles.navLinks}>

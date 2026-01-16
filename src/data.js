@@ -109,7 +109,7 @@ export const projectData = [
     thumbnailImg: "/assets/project-imgs/dash-dine-thumbnail.webp",
     skills: ["TypeScript", "JavaScript", "Tailwind", "HTML"],
     githubUrl: "https://github.com/louiseka/restaurant-ordering-app",
-    liveUrl: "https://louiseka.github.io/restaurant-ordering-app/",
+    liveUrl: "https://dash-dine.netlify.app/",
     gridPosition: "five",
     cardLayout: "normal",
   },

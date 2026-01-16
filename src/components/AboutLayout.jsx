@@ -37,7 +37,7 @@ export default function AboutLayout() {
 
           <img
             className="profile-img"
-            src="/assets/louise-profile.png"
+            src="/assets/louise-profile.webp"
             alt="Profile image of Louise smiling"
           />
         </section>

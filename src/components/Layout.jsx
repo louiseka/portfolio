@@ -1,18 +1,16 @@
-import { Outlet } from "react-router"
+import { Outlet } from "react-router";
 
-import Header from "./Header"
-import Footer from "./Footer"
-
-
+import SiteNav from "./SiteNav";
+import Footer from "./Footer";
 
 export default function Layout() {
-    return (
-        <>
-            <div className="main-container">
-                <Header />
-                <Outlet />
-            </div>
-            <Footer />
-        </>
-    )
+  return (
+    <>
+      <div className="main-container">
+        <SiteNav />
+        <Outlet />
+      </div>
+      <Footer />
+    </>
+  );
 }

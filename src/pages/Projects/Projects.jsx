@@ -85,7 +85,7 @@ export default function Projects() {
   });
 
   return (
-    <main className="projects-grid" id="projects">
+    <section className="projects-grid" id="projects">
       <h2>My portfolio of projects</h2>
       <p className="sub-text">
         While learning the fundamentals of frontend development, I have been
@@ -94,6 +94,6 @@ export default function Projects() {
         these projects to improve them with my new knowledge.{" "}
       </p>
       <div className="wrapper">{projectElements}</div>
-    </main>
+    </section>
   );
 }

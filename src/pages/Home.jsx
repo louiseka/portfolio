@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <>
+    <main>
       <section className="hero">
         <div className="hero-text">
           <h1> Hello, I'm Louise</h1>
@@ -34,6 +34,6 @@ export default function Home() {
         />
       </section>
       <Projects />
-    </>
+    </main>
   );
 }

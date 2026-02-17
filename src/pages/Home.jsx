@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 export default function Home() {
   return (
     <>
-      <header>
+      <section className="hero">
         <div className="hero-text">
           <h1> Hello, I'm Louise</h1>
           <p>
@@ -32,7 +32,7 @@ export default function Home() {
           src="./assets/louise-profile.webp"
           alt="Profile image of Louise smiling"
         />
-      </header>
+      </section>
       <Projects />
     </>
   );

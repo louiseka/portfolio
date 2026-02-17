@@ -166,6 +166,13 @@ nav a {
   color: #000;
 }
 
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
 .nav-links a {
   padding-left: 1.875em;
   padding-right: 1.25em;
@@ -252,7 +259,7 @@ a[href^="mailto:"] {
 /* Home */
 /* Header */
 
-header {
+.hero {
   max-width: 90%;
   margin: 0 auto 3.125em;
 }
@@ -690,12 +697,12 @@ figcaption {
     max-width: 40%;
   }
 
-  header,
+  .hero,
   .about-section {
     display: flex;
   }
 
-  header .hero-text {
+  .hero .hero-text {
     padding-right: 3.75em;
   }
 
@@ -846,7 +853,7 @@ figcaption {
 
 @media (min-width: 1274px) {
   /* Typography */
-  header h1 {
+  .hero h1 {
     font-size: 4rem;
   }
 

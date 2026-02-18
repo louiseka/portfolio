@@ -1,6 +1,6 @@
 import { Outlet } from "react-router";
 
-import SiteNav from "./SiteNav";
+import SiteNav from "./SiteNav/SiteNav";
 import Footer from "./Footer";
 
 export default function Layout() {

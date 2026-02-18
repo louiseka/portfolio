@@ -1,0 +1,80 @@
+/* Logo */
+.logo {
+  font-weight: 600;
+  font-size: var(--font-body);
+  background-color: var(--pink);
+  border-radius: var(--border-radius-xs);
+  padding: 0.625em;
+}
+
+.logo:hover {
+  background-color: var(--green);
+}
+
+.logo.active,
+.logo.active:hover {
+  background-color: var(--pink);
+}
+
+/* Main Navigation */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2.5em 0.94em 0.625em;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--text-black);
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.navLinks a {
+  padding-left: 1.875em;
+  padding-right: 1.25em;
+  cursor: pointer;
+  font-size: var(--font-body);
+}
+
+.navLinks a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--green);
+  text-decoration-thickness: 3px;
+}
+
+.navLinks a.active,
+.navLinks a.active:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--pink);
+  text-decoration-thickness: 3px;
+}
+
+/* ACTIVE STATE */
+.active {
+  text-decoration: underline;
+  text-decoration-color: var(--pink);
+  text-decoration-thickness: 3px;
+  line-height: 1.5;
+}
+
+@media (min-width: 1024px) {
+  .nav {
+    margin: 3.75em;
+  }
+
+  .navLinks a {
+    font-size: var(--font-medium-cta);
+    padding-right: 4em;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+}

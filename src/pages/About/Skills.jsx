@@ -6,27 +6,27 @@ export default function Skills() {
     <>
       <section className="skills-section">
         <h2>Skills</h2>
-        <div className="skills-container">
-          <p className="green-label">React.js</p>
-          <p className="pink-label">Redux</p>
-          <p className="purple-label">Tailwind</p>
-          <p className="pink-label">TypeScript</p>
-          <p className="green-label">ARIA</p>
-          <p className="purple-label">JavaScript</p>
-          <p className="pink-label">HTML</p>
-          <p className="green-label">CSS</p>
-          <p className="purple-label">RESTful APIs</p>
-          <p className="green-label">React Router</p>
-          <p className="purple-label">Figma</p>
-          <p className="pink-label">Git</p>
-          <p className="green-label">GitHub</p>
-          <p className="pink-label">Jira</p>
-          <p className="green-label">Bootstrap</p>
-          <p className="purple-label">Magento</p>
-          <p className="pink-label">SEO</p>
-          <p className="green-label">Responsive Design</p>
-          <p className="purple-label">Accessibility</p>
-        </div>
+        <ul className="skills-container">
+          <li className="green-label">React.js</li>
+          <li className="pink-label">Redux</li>
+          <li className="purple-label">Tailwind</li>
+          <li className="pink-label">TypeScript</li>
+          <li className="green-label">ARIA</li>
+          <li className="purple-label">JavaScript</li>
+          <li className="pink-label">HTML</li>
+          <li className="green-label">CSS</li>
+          <li className="purple-label">RESTful APIs</li>
+          <li className="green-label">React Router</li>
+          <li className="purple-label">Figma</li>
+          <li className="pink-label">Git</li>
+          <li className="green-label">GitHub</li>
+          <li className="pink-label">Jira</li>
+          <li className="green-label">Bootstrap</li>
+          <li className="purple-label">Magento</li>
+          <li className="pink-label">SEO</li>
+          <li className="green-label">Responsive Design</li>
+          <li className="purple-label">Accessibility</li>
+        </ul>
         <Link
           className="medium-cta-link"
           to="https://github.com/louiseka"

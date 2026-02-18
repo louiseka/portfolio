@@ -1,63 +1,11 @@
 @import "./variables.css";
-
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
+@import "./global.css";
 
 /* Page Layout */
-body {
-  margin: 0 auto;
-  background-color: var(--bg-white);
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  color: var(--text-black);
-}
 
 /* Main */
 .projects-grid {
   margin: 0 auto;
-}
-
-.main-container {
-  max-width: 1920px;
-  margin: 0 auto;
-}
-
-/* Typography */
-h1,
-h2,
-h3,
-h4 {
-  margin: 0;
-}
-
-h1 {
-  font-size: var(--font-h1);
-  padding: 0.625em 0 0;
-}
-
-h2 {
-  font-size: var(--font-h2);
-  font-weight: 600;
-}
-
-h3 {
-  font-weight: 500;
-  font-size: var(--font-h3);
-}
-
-h4 {
-  font-weight: 400;
-}
-
-p {
-  margin: 0.625em 0 0.125em;
 }
 
 .small-text {
@@ -143,18 +91,6 @@ p {
 }
 
 /* Navbar */
-
-.logo {
-  font-weight: 600;
-  font-size: var(--font-body);
-  background-color: var(--pink);
-  border-radius: var(--border-radius-xs);
-  padding: 0.625em;
-}
-
-.logo:hover:not(.active) {
-  background-color: var(--green);
-}
 
 nav {
   display: flex;
@@ -661,7 +597,7 @@ figcaption {
   }
 
   /* Footer */
-  .logo,
+
   .footer-logo {
     font-size: 1.5rem;
   }

@@ -1,0 +1,33 @@
+:root {
+  /* Colours */
+  --text-black: #18191a;
+  --pink: #ebb1dc;
+  --green: #b1ebc0;
+  --purple: #d1cfff;
+  --yellow: #eaebb1;
+  --bg-white: #fbfcf8;
+
+  /* Border Radius */
+  --border-radius-xs: 3px;
+  --border-radius-sm: 6px;
+  --border-radius-lg: 18px;
+
+  /* Font Sizes */
+  /* Headings */
+  --font-h1: 2rem;
+  --font-h2: 1.8rem;
+  --font-h3: 1.3rem;
+  --font-h4: 1rem;
+
+  /* Body text */
+  --font-body: 1rem;
+  --font-small: 0.875rem;
+
+  /* Links & buttons */
+  --font-cta: 1rem;
+  --font-medium-cta: 1.25rem;
+
+  /* Responsive scaling (optional) */
+  --font-h1-lg: 2.8rem;
+  --font-h1-xl: 4rem;
+}

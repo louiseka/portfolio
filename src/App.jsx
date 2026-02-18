@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import ScrollToAnchor from "./components/ScrollToAnchor";
 
 import Layout from "./components/Layout";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 import Projects from "./pages/Projects/Projects";
 import ProjectDetails from "./pages/Projects/ProjectDetails";
 import AboutLayout from "./components/AboutLayout";

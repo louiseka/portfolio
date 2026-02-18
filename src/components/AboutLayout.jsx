@@ -30,7 +30,7 @@ export default function AboutLayout() {
                 target="_blank"
                 title="Download a PDF copy of Louise Aldridge's CV."
               >
-                Download a copy of my CV <FaFileDownload className="icon" />{" "}
+                Download a copy of my CV <FaFileDownload className="icon" />
               </a>{" "}
             </p>
           </div>

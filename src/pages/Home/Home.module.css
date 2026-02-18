@@ -1,0 +1,36 @@
+.hero {
+  max-width: 90%;
+  margin: 0 auto 3.125em;
+}
+
+.heroText {
+  max-width: 100%;
+  line-height: 1.7;
+  font-size: var(--font-body);
+}
+
+@media (min-width: 1830px) {
+  .heroText {
+    padding-right: 3.75em;
+  }
+}
+
+@media (min-width: 1274px) {
+  .hero h1 {
+    font-size: var(--font-h1-xl);
+  }
+  .heroText {
+    font-size: var(--font-medium-cta);
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    display: flex;
+  }
+
+  .heroText {
+    display: flex;
+    flex-direction: column;
+  }
+}

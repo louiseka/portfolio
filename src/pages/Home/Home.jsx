@@ -1,20 +1,21 @@
-import Projects from "./Projects/Projects";
+import Projects from "../Projects/Projects";
+import styles from "./Home.module.css";
 import { Link } from "react-router";
 import { FaArrowRight } from "react-icons/fa";
 
 export default function Home() {
   return (
     <main>
-      <section className="hero">
-        <div className="hero-text">
+      <section className={styles.hero}>
+        <div className={styles.heroText}>
           <h1> Hello, I'm Louise</h1>
           <p>
-            I’m a frontend developer specialising in{" "}
-            <span className="bold-text">React</span>,{" "}
+            I’m a frontend developer working with
+            <span className="bold-text"> React</span>,{" "}
             <span className="bold-text">TypeScript</span>, and{" "}
             <span className="bold-text">JavaScript</span>. I combine strong
-            coding skills with a focus on{" "}
-            <span className="bold-text">digital accessibility</span>, creating
+            coding skills with a focus on
+            <span className="bold-text"> digital accessibility</span>, creating
             websites and applications that are both user-friendly and
             mission-focused.
           </p>
@@ -22,7 +23,7 @@ export default function Home() {
             className="medium-cta-link"
             to="https://github.com/louiseka"
             target="_blank"
-            title="Louise Aldridge's GitHub profile"
+            aria-label="Louise Aldridge's GitHub profile"
           >
             Visit my GitHub <FaArrowRight className="icon" />
           </Link>

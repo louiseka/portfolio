@@ -1,0 +1,79 @@
+/* About Page Navbar */
+
+.text {
+  line-height: 1.7;
+  font-size: var(--font-body);
+}
+
+.aboutNav {
+  max-width: 90%;
+  margin: 0 auto 2em;
+}
+
+.aboutNav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  padding: 0;
+  font-size: var(--font-body);
+}
+
+.aboutNav a:hover:not(.active) {
+  text-decoration: underline;
+  text-decoration-color: var(--green);
+  text-decoration-thickness: 3px;
+}
+
+.aboutSection {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 1830px) {
+  .aboutSection h1 {
+    font-size: var(--font-h1-lg);
+  }
+
+  .aboutSection .text {
+    padding-right: 3.75em;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1499px) {
+  .aboutSection h1 {
+    font-size: var(--font-h1);
+  }
+
+  .aboutSection p {
+    margin: 0.3em 0;
+  }
+}
+
+@media (min-width: 1274px) {
+  .text {
+    font-size: var(--font-medium-cta);
+  }
+}
+
+@media (min-width: 1024px) {
+  .aboutNav ul {
+    flex-direction: row;
+    font-size: var(--font-medium-cta);
+    gap: 30px;
+  }
+  .aboutSection {
+    display: flex;
+  }
+
+  .aboutSection .text {
+    padding-right: 20px;
+  }
+
+  .text {
+    padding-right: 3.75em;
+    display: flex;
+    flex-direction: column;
+  }
+}

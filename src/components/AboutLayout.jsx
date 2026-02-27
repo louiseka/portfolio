@@ -11,7 +11,7 @@ export default function AboutLayout() {
             <h1>Let me introduce myself</h1>
 
             <p>
-              I’m a frontend developer specialising in React, TypeScript, and
+              I’m a frontend developer working with React, TypeScript, and
               JavaScript. I combine strong coding skills with a focus on digital
               accessibility, creating websites and applications that are both
               user-friendly and mission-focused.
@@ -30,7 +30,8 @@ export default function AboutLayout() {
                 target="_blank"
                 title="Download a PDF copy of Louise Aldridge's CV."
               >
-                Download a copy of my CV <FaFileDownload className="icon" />{" "}
+                Download a copy of my CV{" "}
+                <FaFileDownload className="icon" />{" "}
               </a>{" "}
             </p>
           </div>

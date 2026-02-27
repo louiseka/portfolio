@@ -9,7 +9,7 @@ export default function Home() {
         <div className="hero-text">
           <h1> Hello, I'm Louise</h1>
           <p>
-            I’m a frontend developer specialising in{" "}
+            I’m a frontend developer working with{" "}
             <span className="bold-text">React</span>,{" "}
             <span className="bold-text">TypeScript</span>, and{" "}
             <span className="bold-text">JavaScript</span>. I combine strong

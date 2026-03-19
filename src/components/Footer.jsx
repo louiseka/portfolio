@@ -61,10 +61,16 @@ export default function Footer() {
           </div>
         </div>
       </div>
+
       <div className="rights-decl">
         <p className="small-text">
           All rights reserved. © {new Date().getFullYear()} Louise Aldridge. 
         </p>
+        <img
+          className="badge"
+          src="./assets/cpacc-badge.png"
+          alt="CPACC Badge from IAAP"
+        />
       </div>
     </footer>
   );

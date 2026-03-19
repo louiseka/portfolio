@@ -81,11 +81,13 @@ const styles = {
     marginRight: "12px",
   },
   button: {
-    marginLeft: "8px",
-    padding: "8px 12px",
+    marginTop: "10px",
+    marginLeft: "5px",
+    padding: "8px 18px",
     cursor: "pointer",
     border: "none",
     backgroundColor: "#b1ebc0",
+    color: "#18191D",
     borderRadius: "6px",
   },
 };

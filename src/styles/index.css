@@ -249,6 +249,10 @@ footer {
   text-decoration: none;
 }
 
+.badge {
+  width: 100px;
+}
+
 a[href^="mailto:"] {
   text-decoration: none;
 }

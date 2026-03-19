@@ -84,5 +84,8 @@ const styles = {
     marginLeft: "8px",
     padding: "8px 12px",
     cursor: "pointer",
+    border: "none",
+    backgroundColor: "#b1ebc0",
+    borderRadius: "6px",
   },
 };

@@ -84,6 +84,7 @@ const styles = {
     marginTop: "10px",
     marginLeft: "5px",
     padding: "8px 18px",
+    fontFamily: "Montserrat",
     cursor: "pointer",
     border: "none",
     backgroundColor: "#b1ebc0",

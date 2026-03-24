@@ -60,7 +60,42 @@ p {
   font-style: italic;
 }
 
+/* Links */
+
 /* Images */
 .profile-img {
   max-width: 100%;
+}
+
+/* Labels*/
+
+.label {
+  padding: 0.55em 1.04em;
+  border-radius: var(--border-radius-sm);
+  margin: 0;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.green {
+  background-color: var(--green);
+}
+
+.pink {
+  background-color: var(--pink);
+}
+
+.purple {
+  background-color: var(--purple);
+}
+
+.yellow {
+  background-color: var(--yellow);
+}
+
+@media (min-width: 1024px) {
+  .label {
+    padding: 0.71em 1.63em;
+    font-size: 1.15rem;
+  }
 }

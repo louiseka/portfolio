@@ -14,13 +14,13 @@ export default function ProjectDetails() {
     const n = index % 3;
 
     if (n === 0) {
-      return "green-label";
+      return "green label";
     }
     if (n === 1) {
-      return "pink-label";
+      return "pink label";
     }
     if (n === 2) {
-      return "purple-label";
+      return "purple label";
     }
   }
 

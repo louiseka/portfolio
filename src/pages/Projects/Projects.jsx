@@ -18,18 +18,18 @@ export default function Projects() {
   };
 
   function getSkillClass(index, backgroundColour) {
-    const labelClasses = ["green-label", "pink-label", "yellow-label"];
+    const labelClasses = ["green", "pink", "yellow"];
     let label = labelClasses[index % labelClasses.length];
 
     switch (backgroundColour) {
       case "green-bg":
-        label = "pink-label";
+        label = "pink label";
         break;
       case "pink-bg":
-        label = "green-label";
+        label = "green label";
         break;
       case "purple-bg":
-        label = "yellow-label";
+        label = "yellow label";
         break;
       default:
         label = labelClasses[index % labelClasses.length];

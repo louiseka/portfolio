@@ -433,33 +433,6 @@ figcaption {
   max-width: 100%;
 }
 
-.pink-label,
-.green-label,
-.purple-label,
-.yellow-label {
-  padding: 0.55em 1.04em;
-  border-radius: var(--border-radius-sm);
-  margin: 0;
-  font-size: 0.8rem;
-  white-space: nowrap;
-}
-
-.pink-label {
-  background-color: var(--pink);
-}
-
-.green-label {
-  background-color: var(--green);
-}
-
-.purple-label {
-  background-color: var(--purple);
-}
-
-.yellow-label {
-  background-color: var(--yellow);
-}
-
 /* About Page Navbar */
 
 .about-nav {
@@ -596,23 +569,15 @@ figcaption {
     max-width: 70%;
   }
 
-  .project-skills-container > .pink-label {
+  .project-skills-container > .pink {
     font-size: 0.8rem;
   }
-  .project-skills-container > .green-label {
-    font-size: 0.8rem;
-  }
-
-  .project-skills-container > .yellow-label {
+  .project-skills-container > .green {
     font-size: 0.8rem;
   }
 
-  .pink-label,
-  .green-label,
-  .purple-label,
-  .yellow-label {
-    padding: 0.71em 1.63em;
-    font-size: 1.15rem;
+  .project-skills-container > .yellow {
+    font-size: 0.8rem;
   }
 
   /* Projects */

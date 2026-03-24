@@ -1,0 +1,22 @@
+.skills {
+  max-width: 90%;
+  margin: 0 auto 3.125em;
+}
+
+.skillsList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: 1.56em 0 0;
+  justify-content: flex-start;
+  gap: 15px;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .skillsList {
+    gap: 30px;
+    max-width: 70%;
+  }
+}

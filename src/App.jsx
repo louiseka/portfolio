@@ -6,7 +6,7 @@ import Home from "./pages/Home/Home";
 import Projects from "./pages/Projects/Projects";
 import ProjectDetails from "./pages/Projects/ProjectDetails";
 import AboutLayout from "./components/AboutLayout/AboutLayout";
-import Skills from "./pages/About/Skills";
+import Skills from "./pages/About/Skills/Skills";
 import Experience from "./pages/About/Experience";
 import Education from "./pages/About/Education";
 import Certifications from "./pages/About/Certifications";

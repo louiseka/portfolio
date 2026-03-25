@@ -60,6 +60,16 @@ p {
   font-style: italic;
 }
 
+.small-text {
+  font-size: var(--font-small);
+  margin: 1.43em 0;
+}
+
+.detail-sub {
+  margin: 0.28em 0 0 0;
+  font-size: 1.1rem;
+}
+
 /* Links */
 
 /* Images */
@@ -77,6 +87,7 @@ p {
   white-space: nowrap;
 }
 
+/* Colours */
 .green {
   background-color: var(--green);
 }
@@ -93,9 +104,22 @@ p {
   background-color: var(--yellow);
 }
 
+/* Border Colours */
+
 @media (min-width: 1024px) {
   .label {
     padding: 0.71em 1.63em;
     font-size: 1.15rem;
+  }
+  .borderPurple {
+    border-left: 3px solid var(--purple);
+  }
+
+  .borderGreen {
+    border-left: 3px solid var(--green);
+  }
+
+  .borderPink {
+    border-left: 3px solid var(--pink);
   }
 }

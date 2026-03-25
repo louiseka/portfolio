@@ -1,0 +1,19 @@
+.certifications {
+  max-width: 90%;
+  margin: 0 auto 3.125em;
+}
+
+.certificationsSection {
+  max-width: 100%;
+  margin: 0.625em 0;
+  line-height: 1.7;
+}
+
+@media (min-width: 1024px) {
+  .certificationsSection {
+    max-width: 65%;
+    margin: 1.875em 0 0 5em;
+    line-height: 1.5;
+    padding: 0.625em 1.56em;
+  }
+}

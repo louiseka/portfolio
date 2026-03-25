@@ -1,10 +1,11 @@
+import styles from "./Experience.module.css";
 export default function Experience() {
   return (
     <>
       <title>Experience - Louise Aldridge</title>
-      <section className="job-section">
+      <section className={styles.experience}>
         <h2>Experience</h2>
-        <div className="details-section-purple">
+        <div className={`borderPurple ${styles.experienceSection}`}>
           <h3>AbilityNet </h3>
           <p className="detail-sub">Digital Marketing Assistant</p>
           <p className="small-text"> June 2022 - May 2024 </p>
@@ -29,7 +30,7 @@ export default function Experience() {
             </li>
           </ul>
         </div>
-        <div className="details-section-green">
+        <div className={`borderGreen ${styles.experienceSection}`}>
           <h3>Qvis Lighting & Security</h3>
           <p className="detail-sub">eCommerce Team Leader </p>
           <p className="small-text">June 2021 - June 2022</p>

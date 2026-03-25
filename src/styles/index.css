@@ -8,11 +8,6 @@
   margin: 0 auto;
 }
 
-.small-text {
-  font-size: var(--font-small);
-  margin: 1.43em 0;
-}
-
 .small-text-grid {
   font-size: var(--font-small);
   margin: 0em 0 1em;
@@ -393,29 +388,6 @@ figcaption {
 
 /* About Page */
 
-.about-section,
-.education-section,
-.job-section,
-.skills-section,
-.certifications-section {
-  max-width: 90%;
-  margin: 0 auto 3.125em;
-}
-
-.details-section-purple,
-.details-section-green,
-.details-section-pink {
-  max-width: 100%;
-  margin: 0.625em 0;
-  line-height: 1.7;
-  border: none;
-}
-
-.detail-sub {
-  margin: 0.28em 0 0 0;
-  font-size: 1.1rem;
-}
-
 /* Skills Labels */
 
 .skills-container {
@@ -536,27 +508,6 @@ figcaption {
 
   .about-text {
     padding-right: 1.25em;
-  }
-
-  .details-section-purple,
-  .details-section-green,
-  .details-section-pink {
-    max-width: 65%;
-    margin: 1.875em 0 0 5em;
-    line-height: 1.5;
-    padding: 0.625em 1.56em;
-  }
-
-  .details-section-purple {
-    border-left: 3px solid var(--purple);
-  }
-
-  .details-section-green {
-    border-left: 3px solid var(--green);
-  }
-
-  .details-section-pink {
-    border-left: 3px solid var(--pink);
   }
 
   .project-skills-container {

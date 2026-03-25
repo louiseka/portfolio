@@ -1,11 +1,13 @@
+import style from "react-syntax-highlighter/dist/esm/styles/hljs/a11y-dark";
+import styles from "./Education.module.css";
 export default function Education() {
   return (
     <>
       <title>Education - Louise Aldridge</title>
-      <section className="education-section">
+      <section className={styles.education}>
         <h2>Education</h2>
 
-        <div className="details-section-green">
+        <div className={`borderPink ${styles.educationSection}`}>
           <h3>Software Development Tech Finishing School Bootcamp</h3>
           <p className="detail-sub">TechNative Digital</p>
           <p className="small-text"> September - December 2025 </p>
@@ -27,7 +29,7 @@ export default function Education() {
             </li>
           </ul>
         </div>
-        <div className="details-section-green">
+        <div className={`borderGreen ${styles.educationSection}`}>
           <h3>Master of Arts - Digital Media</h3>
           <p className="detail-sub">University of Sussex</p>
           <p className="small-text"> 2018 - 2019 </p>
@@ -36,7 +38,7 @@ export default function Education() {
           </ul>
         </div>
 
-        <div className="details-section-purple">
+        <div className={`borderPurple ${styles.educationSection}`}>
           <h3>Bachelor of Arts with Honours - Media</h3>
           <p className="detail-sub">University of Chichester</p>
           <p className="small-text"> 2014 - 2017</p>

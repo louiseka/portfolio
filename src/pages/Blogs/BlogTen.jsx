@@ -12,9 +12,9 @@ export default function BlogTen() {
       <title>
         Bootcamp Week 6 – Falling for React. Again. - Blogs - Louise Aldridge
       </title>
-      <main className="project-details">
+      <main className="container">
         <Link
-          className="back-link"
+          className="backLink"
           to={"/blogs"}
           title="An overview page of Louise Aldridge's blogs"
         >
@@ -22,26 +22,26 @@ export default function BlogTen() {
           Back to all blogs
         </Link>
 
-        <article className="blog-details">
+        <article className="article">
           <h1 className="heading">
             Bootcamp Week 6 – Falling for React. Again.
           </h1>
-          <time className="small-text" dateTime="2025-10-24">
+          <time className="smallText" dateTime="2025-10-24">
             24 October 2025
           </time>
-          <div id="imgs-section" className="project-imgs-section">
+          <div id="imgs-section" className="featureImgSection">
             <img
-              className="project-img"
+              className="featureImg"
               src="/assets/blog-imgs/react-logo.png"
               alt="React logo."
             />
             <img
-              className="project-img"
+              className="featureImg"
               src="/assets/blog-imgs/love-cat.png"
               alt="A cat holding a love heart whilst wearing sunglasses."
             />
             <img
-              className="project-img"
+              className="featureImg"
               src="/assets/blog-imgs/component-blocks.png"
               alt="Some colourful building blocks."
             />

@@ -21,8 +21,26 @@ export default function Blogs() {
     "fifteen",
   ];
 
+  const gridBackground = {
+    one: "green",
+    two: "pink",
+    three: "purple",
+    four: "green",
+    five: "pink",
+    six: "green",
+    seven: "purple",
+    eight: "green",
+    nine: "pink",
+    ten: "purple",
+    eleven: "green",
+    twelve: "pink",
+    thirteen: "purple",
+    fourteen: "green",
+    fifteen: "pink",
+  };
+
   const sortedBlogs = [...blogData].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
+    (a, b) => new Date(b.date) - new Date(a.date),
   );
 
   const blogElements = sortedBlogs.map((blog, index) => {
@@ -38,20 +56,20 @@ export default function Blogs() {
     return (
       <section
         key={blog.id}
-        className={`${gridClass} card ${isWide ? "wideCard" : ""}`}
+        className={`${gridClass} ${gridBackground[gridClass]} card ${isWide ? "wideCard" : ""}`}
       >
-        <div className={isWide ? "wide-inner-content" : ""}>
+        <div className={isWide ? "wideInnerContent" : ""}>
           <img
-            className={isWide ? "wide-grid-img" : "normal-grid-img"}
+            className={isWide ? "wideGridImg" : "normalGridImg"}
             src={blogThumbnail}
             alt={blogAltText}
           />
-          <div className={isWide ? "wider-inner-text" : ""}>
-            <h3 className="project-title">{blogName}</h3>
-            <time className="small-text-grid">{blogDate}</time>
-            <p className="project-desc">{blogShortDesc}</p>
+          <div className={isWide ? "wideInnerText" : ""}>
+            <h3 className="projectTitle">{blogName}</h3>
+            <time className="smallText-grid">{blogDate}</time>
+            <p className="description">{blogShortDesc}</p>
             <Link
-              className="small-cta-link"
+              className="smallCtaLink"
               to={`${blogSlugUrl}`}
               title={`Read the blog titled ${blogName}`}
               key={blog.id}
@@ -67,10 +85,9 @@ export default function Blogs() {
   return (
     <>
       <title>Blogs - Louise Aldridge</title>
-      <main className="projects-grid" id="projects">
+      <main className="grid" id="projects">
         <h1>Follow my coding journey</h1>
-        <p className="sub-text">
-          {" "}
+        <p className="subText">
           As I continue developing my coding skills, I want to document my
           learnings and share the thought processes behind both my current and
           past solo projects. Read my latest blog articles below:{" "}

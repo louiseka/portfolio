@@ -4,17 +4,17 @@ import { FaArrowRight } from "react-icons/fa";
 
 export default function Projects() {
   const gridBackground = {
-    one: "green-bg",
-    two: "pink-bg",
-    three: "purple-bg",
-    four: "green-bg",
-    five: "pink-bg",
-    six: "green-bg",
-    seven: "purple-bg",
-    eight: "green-bg",
-    nine: "pink-bg",
-    ten: "purple-bg",
-    eleven: "green-bg",
+    one: "green",
+    two: "pink",
+    three: "purple",
+    four: "green",
+    five: "pink",
+    six: "green",
+    seven: "purple",
+    eight: "green",
+    nine: "pink",
+    ten: "purple",
+    eleven: "green",
   };
 
   function getSkillClass(index, backgroundColour) {
@@ -22,13 +22,13 @@ export default function Projects() {
     let label = labelClasses[index % labelClasses.length];
 
     switch (backgroundColour) {
-      case "green-bg":
+      case "green":
         label = "pink label";
         break;
-      case "pink-bg":
+      case "pink":
         label = "green label";
         break;
-      case "purple-bg":
+      case "purple":
         label = "yellow label";
         break;
       default:
@@ -58,19 +58,19 @@ export default function Projects() {
     return (
       <section
         key={project.id}
-        className={`${projectGridPosition} ${isWide ? "wideCard" : ""}`}
+        className={`${projectGridPosition} ${backgroundColour} ${isWide ? "wideCard" : ""}`}
       >
-        <div className={isWide ? "wide-inner-content" : ""}>
+        <div className={isWide ? "wideInnerContent" : ""}>
           <img
-            className={isWide ? "wide-grid-img" : "normal-grid-img"}
+            className={isWide ? "wideGridImg" : "normalGridImg"}
             alt={projectAltText}
             src={projectThumbnail}
           />
-          <div className={isWide ? "wider-inner-text" : ""}>
-            <h3 className="project-title">{projectName}</h3>
-            <p className="project-desc">{projectShortDesc}</p>
+          <div className={isWide ? "wideInnerText" : ""}>
+            <h3 className="projectTitle">{projectName}</h3>
+            <p className="description">{projectShortDesc}</p>
             <Link
-              className="small-cta-link"
+              className="smallCtaLink"
               to={`projects/${project.urlSlug}`}
               title={`More details about ${projectName}`}
               key={project.id}
@@ -85,9 +85,9 @@ export default function Projects() {
   });
 
   return (
-    <section className="projects-grid" id="projects">
+    <section className="grid" id="projects">
       <h2>My portfolio of projects</h2>
-      <p className="sub-text">
+      <p className="subText">
         While learning the fundamentals of frontend development, I have been
         practicing my skills and applying the languages and frameworks I've
         learned by creating various projects. Over time, I’ve also revisited

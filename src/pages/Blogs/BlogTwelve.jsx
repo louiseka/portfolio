@@ -13,9 +13,9 @@ export default function BlogTwelve() {
         Bootcamp Week 8 – Starting a FullStack Final Project - Blogs - Louise
         Aldridge
       </title>
-      <main className="project-details">
+      <main className="container">
         <Link
-          className="back-link"
+          className="backLink"
           to={"/blogs"}
           title="An overview page of Louise Aldridge's blogs"
         >
@@ -23,26 +23,26 @@ export default function BlogTwelve() {
           Back to all blogs
         </Link>
 
-        <article className="blog-details">
+        <article className="article">
           <h1 className="heading">
             Bootcamp Week 8 – Starting a FullStack Final Project
           </h1>
-          <time className="small-text" dateTime="2025-10-31">
+          <time className="smallText" dateTime="2025-10-31">
             11 November 2025
           </time>
-          <div id="imgs-section" className="project-imgs-section">
+          <div id="imgs-section" className="featureImgSection">
             <img
-              className="project-img"
+              className="featureImg"
               src="/assets/blog-imgs/react-logo-greenbg.png"
               alt="React logo."
             />
             <img
-              className="project-img"
+              className="featureImg"
               src="/assets/blog-imgs/plan.png"
               alt="A notepad that reads plan."
             />
             <img
-              className="project-img"
+              className="featureImg"
               src="/assets/blog-imgs/node-logo.png"
               alt="Nodejs logo"
             />
@@ -89,24 +89,24 @@ export default function BlogTwelve() {
 
           <ul className="blog-bullets">
             <li>
-              <span className="bold-text">Backlog</span> - Tickets to work on
+              <span className="boldText">Backlog</span> - Tickets to work on
               later in the project.
             </li>
             <li>
-              <span className="bold-text">Ready</span> - Issues that are ready
-              to be picked up.
+              <span className="boldText">Ready</span> - Issues that are ready to
+              be picked up.
             </li>
             <li>
-              <span className="bold-text">In Progress</span> - Issues currently
+              <span className="boldText">In Progress</span> - Issues currently
               being worked on.
             </li>
             <li>
-              <span className="bold-text">In Review</span> - Issues with pull
+              <span className="boldText">In Review</span> - Issues with pull
               requests awaiting review.
             </li>
             <li>
-              <span className="bold-text">Done</span> - Issues that are
-              completed and merged into main.
+              <span className="boldText">Done</span> - Issues that are completed
+              and merged into main.
             </li>
           </ul>
           <p className="blog-text">

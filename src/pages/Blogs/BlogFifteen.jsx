@@ -10,9 +10,9 @@ export default function BlogFifteen() {
   return (
     <>
       <title>Bootcamp Week 12 – Vibe Coding - Blogs - Louise Aldridge</title>
-      <main className="project-details">
+      <main className="container">
         <Link
-          className="back-link"
+          className="backLink"
           to={"/blogs"}
           title="An overview page of Louise Aldridge's blogs"
         >
@@ -20,25 +20,25 @@ export default function BlogFifteen() {
           Back to all blogs
         </Link>
 
-        <article className="blog-details">
+        <article className="article">
           <h1 className="heading">Bootcamp Week 12 – Vibe Coding</h1>
-          <time className="small-text" dateTime="2025-12-05">
+          <time className="smallText" dateTime="2025-12-05">
             5 December 2025
           </time>
-          <div id="imgs-section" className="project-imgs-section">
+          <div id="imgs-section" className="featureImgSection">
             <img
-              className="project-img"
+              className="featureImg"
               src="/assets/blog-imgs/rarekind-replit-1.png"
               alt="A screenshot of Replit's version of RareKind website."
             />
 
             <img
-              className="project-img"
+              className="featureImg"
               src="/assets/blog-imgs/ai-image.png"
               alt="A robot hand reaching out to a human hand."
             />
             <img
-              className="project-img"
+              className="featureImg"
               src="/assets/blog-imgs/rarekind-replit-2.png"
               alt="A screenshot of Replit's version of the edit collection functionality on the RareKind website."
             />
@@ -120,13 +120,13 @@ export default function BlogFifteen() {
 
           <ul className="blog-bullets">
             <li>
-              <span className="bold-text">It’s boring</span> - The thing I enjoy
+              <span className="boldText">It’s boring</span> - The thing I enjoy
               most about coding is seeing your code come to life and solving
               problems. Vibe coding takes this away - you don’t get the same
               sense of accomplishment.
             </li>
             <li>
-              <span className="bold-text">
+              <span className="boldText">
                 Doesn’t always do what you tell it
               </span>
               - As I mentioned earlier in this blog, AI doesn’t always do what
@@ -135,19 +135,19 @@ export default function BlogFifteen() {
               or libraries.
             </li>
             <li>
-              <span className="bold-text">Expensive</span> - If you don’t use
+              <span className="boldText">Expensive</span> - If you don’t use
               prompts wisely or have a clear idea of what you want to build, the
               process can quickly become expensive. You may end up spending more
               than planned just trying to achieve the result you want.
             </li>
             <li>
-              <span className="bold-text">UI looks the same</span> - It’s often
+              <span className="boldText">UI looks the same</span> - It’s often
               clear from the UI (even more than the code) that a website has
               been vibe coded. Many end up sharing the same gradients, fonts,
               and layouts, which makes them look similar rather than unique.
             </li>
             <li>
-              <span className="bold-text">
+              <span className="boldText">
                 Creates a generation reliant on automation
               </span>
               - As vibe coding becomes more common and widely taught, it could
@@ -160,11 +160,11 @@ export default function BlogFifteen() {
 
           <ul className="blog-bullets">
             <li>
-              <span className="bold-text">It is quick</span> - It’s impressive
+              <span className="boldText">It is quick</span> - It’s impressive
               how fast AI can generate a working website from a single prompt.
             </li>
             <li>
-              <span className="bold-text">
+              <span className="boldText">
                 Cost-effective for small businesses
               </span>
               - I can see how a small business - for example, a self-employed

@@ -39,9 +39,9 @@ export default function ProjectDetails() {
   return (
     <>
       <title>{`${projectDetails.name} - Projects - Louise Aldridge`}</title>
-      <main key={projectDetails.id} className="project-details">
+      <main key={projectDetails.id} className="container">
         <Link
-          className="back-link"
+          className="backLink"
           to={"/#projects"}
           title="An overview page of Louise Aldridge's projects"
         >
@@ -49,19 +49,19 @@ export default function ProjectDetails() {
           Back to all projects
         </Link>
         <h1 className="heading">{projectDetails.name}</h1>
-        <div className="project-imgs-section">
+        <div className="featureImgSection">
           <img
-            className="project-img"
+            className="featureImg"
             src={projectDetails.img1}
             alt={projectDetails.img1Alt}
           />
           <img
-            className="project-img"
+            className="featureImg"
             src={projectDetails.img2}
             alt={projectDetails.img2Alt}
           />
           <img
-            className="project-img"
+            className="featureImg"
             src={projectDetails.img3}
             alt={projectDetails.img3Alt}
           />
@@ -70,7 +70,7 @@ export default function ProjectDetails() {
         <h2>Overview</h2>
         <p className="overview-text">{projectDetails.longDescription}</p>
         <Link
-          className="cta-link"
+          className="ctaLink"
           to={projectDetails.githubUrl}
           target="_blank"
           title={`GitHub repository for ${projectDetails.name}`}
@@ -79,7 +79,7 @@ export default function ProjectDetails() {
         </Link>
         {projectDetails.liveUrl != "" && (
           <Link
-            className="cta-link"
+            className="ctaLink"
             to={projectDetails.liveUrl}
             target="_blank"
             title={`The live website for ${projectDetails.name}`}

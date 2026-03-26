@@ -8,10 +8,10 @@ export default function Certifications() {
         <h2>Certifications</h2>
         <div className={`borderPink ${styles.certificationsSection}`}>
           <h3>Certified Professional in Accessibility Core Competencies</h3>
-          <p className="detail-sub">
+          <p className="detailSubheading">
             International Association of Accessibility Professionals (IAAP)
           </p>
-          <p className="small-text"> Issued August 2024 </p>
+          <p className="smallText"> Issued August 2024 </p>
           <ul>
             <li>
               Certification showcasing my knowledge in disabilities,
@@ -22,8 +22,8 @@ export default function Certifications() {
         </div>
         <div className={`borderGreen ${styles.certificationsSection}`}>
           <h3>The Frontend Developer Career Path</h3>
-          <p className="detail-sub">Scrimba</p>
-          <p className="small-text"> Issued December 2024 </p>
+          <p className="detailSubheading">Scrimba</p>
+          <p className="smallText"> Issued December 2024 </p>
           <ul>
             <li>
               During this course, I sharpened my HTML and CSS skills, learned
@@ -37,8 +37,8 @@ export default function Certifications() {
         </div>
         <div className={`borderPurple ${styles.certificationsSection}`}>
           <h3>Web Development - Kickstarter Course</h3>
-          <p className="detail-sub">Code First Girls</p>
-          <p className="small-text">Issued February 2024 </p>
+          <p className="detailSubheading">Code First Girls</p>
+          <p className="smallText">Issued February 2024 </p>
           <ul>
             <li>
               Independently created a food blog for my final project using HTML,

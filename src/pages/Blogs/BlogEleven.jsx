@@ -12,9 +12,9 @@ export default function BlogEleven() {
       <title>
         Bootcamp Week 7 – Creating a React Playground - Blogs - Louise Aldridge
       </title>
-      <main className="project-details">
+      <main className="container">
         <Link
-          className="back-link"
+          className="backLink"
           to={"/blogs"}
           title="An overview page of Louise Aldridge's blogs"
         >
@@ -22,26 +22,26 @@ export default function BlogEleven() {
           Back to all blogs
         </Link>
 
-        <article className="blog-details">
+        <article className="article">
           <h1 className="heading">
             Bootcamp Week 7 – Creating a React Playground
           </h1>
-          <time className="small-text" dateTime="2025-10-31">
+          <time className="smallText" dateTime="2025-10-31">
             31 October 2025
           </time>
-          <div id="imgs-section" className="project-imgs-section">
+          <div id="imgs-section" className="featureImgSection">
             <img
-              className="project-img"
+              className="featureImg"
               src="/assets/blog-imgs/redux-logo.png"
               alt="Redux logo."
             />
             <img
-              className="project-img"
+              className="featureImg"
               src="/assets/blog-imgs/playground.png"
               alt="A colourful childrens playground with autumn leaves."
             />
             <img
-              className="project-img"
+              className="featureImg"
               src="/assets/blog-imgs/zustand-logo.png"
               alt="Zustand logo"
             />

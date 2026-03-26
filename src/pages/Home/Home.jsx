@@ -11,16 +11,16 @@ export default function Home() {
           <h1> Hello, I'm Louise</h1>
           <p>
             I’m a frontend developer working with
-            <span className="bold-text"> React</span>,{" "}
-            <span className="bold-text">TypeScript</span>, and{" "}
-            <span className="bold-text">JavaScript</span>. I combine strong
+            <span className="boldText"> React</span>,{" "}
+            <span className="boldText">TypeScript</span>, and{" "}
+            <span className="boldText">JavaScript</span>. I combine strong
             coding skills with a focus on
-            <span className="bold-text"> digital accessibility</span>, creating
+            <span className="boldText"> digital accessibility</span>, creating
             websites and applications that are both user-friendly and
             mission-focused.
           </p>
           <Link
-            className="medium-cta-link"
+            className="mediumCtaLink"
             to="https://github.com/louiseka"
             target="_blank"
             aria-label="Louise Aldridge's GitHub profile"
@@ -29,7 +29,7 @@ export default function Home() {
           </Link>
         </div>
         <img
-          className="profile-img"
+          className="profileImg"
           src="./assets/louise-profile.webp"
           alt="Profile image of Louise smiling"
         />

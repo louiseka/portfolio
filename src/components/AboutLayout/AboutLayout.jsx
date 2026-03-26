@@ -27,7 +27,7 @@ export default function AboutLayout() {
               IAAP CPACC certification and to develop my frontend skills.
             </p>
             <a
-              className="medium-cta-link"
+              className="mediumCtaLink"
               href="/assets/Resume-Louise-Aldridge.pdf"
               target="_blank"
               aria-label="Download a PDF copy of Louise Aldridge's CV."
@@ -37,7 +37,7 @@ export default function AboutLayout() {
           </div>
 
           <img
-            className="profile-img"
+            className="profileImg"
             src="/assets/louise-profile.webp"
             alt="Profile image of Louise smiling"
           />

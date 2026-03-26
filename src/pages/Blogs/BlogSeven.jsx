@@ -12,9 +12,9 @@ export default function BlogSeven() {
       <title>
         Bootcamp Week 3 – JavaScript and Peer Learning - Blogs - Louise Aldridge
       </title>
-      <main className="project-details">
+      <main className="container">
         <Link
-          className="back-link"
+          className="backLink"
           to={"/blogs"}
           title="An overview page of Louise Aldridge's blogs"
         >
@@ -22,27 +22,27 @@ export default function BlogSeven() {
           Back to all blogs
         </Link>
 
-        <article className="blog-details">
+        <article className="article">
           <h1 className="heading">
             Bootcamp Week 3 – JavaScript and Peer Learning
           </h1>
-          <time className="small-text" dateTime="2025-10-03">
+          <time className="smallText" dateTime="2025-10-03">
             3 October 2025
           </time>
 
-          <div id="imgs-section" className="project-imgs-section">
+          <div id="imgs-section" className="featureImgSection">
             <img
-              className="project-img"
+              className="featureImg"
               src="/assets/blog-imgs/accessibility.png"
               alt="A piece of paper against a yellow background that reads Accessibility"
             />
             <img
-              className="project-img"
+              className="featureImg"
               src="/assets/blog-imgs/javascript.png"
               alt="Scrabble letters that spell out JavaScript."
             />
             <img
-              className="project-img"
+              className="featureImg"
               src="/assets/blog-imgs/learning.png"
               alt="A post it note that says keep learning"
             />
@@ -80,7 +80,7 @@ export default function BlogSeven() {
             high-quality code. There are still some features I want to
             implement, but here is my live application so far:{" "}
             <a
-              className="blog-cta-link"
+              className="blogCtaLink"
               href="https://louiseka.github.io/cat-meme-generator/"
               target="_blank"
             >

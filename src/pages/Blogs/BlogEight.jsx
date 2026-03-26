@@ -12,9 +12,9 @@ export default function BlogEight() {
       <title>
         Bootcamp Week 4 – Collaboration and Workflow - Blogs - Louise Aldridge
       </title>
-      <main className="project-details">
+      <main className="container">
         <Link
-          className="back-link"
+          className="backLink"
           to={"/blogs"}
           title="An overview page of Louise Aldridge's blogs"
         >
@@ -22,27 +22,27 @@ export default function BlogEight() {
           Back to all blogs
         </Link>
 
-        <article className="blog-details">
+        <article className="article">
           <h1 className="heading">
             Bootcamp Week 4 – Collaboration and Workflow
           </h1>
-          <time className="small-text" dateTime="2025-10-10">
+          <time className="smallText" dateTime="2025-10-10">
             10 October 2025
           </time>
 
-          <div id="imgs-section" className="project-imgs-section">
+          <div id="imgs-section" className="featureImgSection">
             <img
-              className="project-img"
+              className="featureImg"
               src="/assets/blog-imgs/collaboration.png"
               alt="A ripped piece of paper revealing the word Collaboration"
             />
             <img
-              className="project-img"
+              className="featureImg"
               src="/assets/blog-imgs/happytoes.png"
               alt="HappyToes logo."
             />
             <img
-              className="project-img"
+              className="featureImg"
               src="/assets/blog-imgs/puzzle.png"
               alt="4 puzzle pieces joining together"
             />
@@ -114,14 +114,14 @@ export default function BlogEight() {
             expected.
           </p>
           <a
-            className="cta-link"
+            className="ctaLink"
             href="https://technative-academy.github.io/happytoes/"
             target="_blank"
           >
             Live application
           </a>
           <a
-            className="cta-link"
+            className="ctaLink"
             href="https://github.com/technative-academy/happytoes"
             target="_blank"
           >

@@ -9,30 +9,30 @@ export default function Education() {
 
         <div className={`borderPink ${styles.educationSection}`}>
           <h3>Software Development Tech Finishing School Bootcamp</h3>
-          <p className="detail-sub">TechNative Digital</p>
-          <p className="small-text"> September - December 2025 </p>
+          <p className="detailSubheading">TechNative Digital</p>
+          <p className="smallText"> September - December 2025 </p>
           <ul>
             <li>
-              <span className="bold-text">JavaScript</span> fundamentals,
-              <span className="bold-text"> API </span>
+              <span className="boldText">JavaScript</span> fundamentals,
+              <span className="boldText"> API </span>
               handling
             </li>
             <li>
-              <span className="bold-text">React</span> and state management
-              libraries such as <span className="bold-text">Redux</span> and
-              <span className="bold-text"> Zustand</span>
+              <span className="boldText">React</span> and state management
+              libraries such as <span className="boldText">Redux</span> and
+              <span className="boldText"> Zustand</span>
             </li>
             <li>
               Version control and team collaboration with
-              <span className="bold-text"> Git</span> and
-              <span className="bold-text"> GitHub</span>
+              <span className="boldText"> Git</span> and
+              <span className="boldText"> GitHub</span>
             </li>
           </ul>
         </div>
         <div className={`borderGreen ${styles.educationSection}`}>
           <h3>Master of Arts - Digital Media</h3>
-          <p className="detail-sub">University of Sussex</p>
-          <p className="small-text"> 2018 - 2019 </p>
+          <p className="detailSubheading">University of Sussex</p>
+          <p className="smallText"> 2018 - 2019 </p>
           <ul>
             <li>Grade: Distinction</li>
           </ul>
@@ -40,8 +40,8 @@ export default function Education() {
 
         <div className={`borderPurple ${styles.educationSection}`}>
           <h3>Bachelor of Arts with Honours - Media</h3>
-          <p className="detail-sub">University of Chichester</p>
-          <p className="small-text"> 2014 - 2017</p>
+          <p className="detailSubheading">University of Chichester</p>
+          <p className="smallText"> 2014 - 2017</p>
           <ul>
             <li>Grade: 2:1</li>
           </ul>

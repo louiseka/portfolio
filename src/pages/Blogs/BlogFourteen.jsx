@@ -13,9 +13,9 @@ export default function BlogFourteen() {
         Bootcamp Week 11 – Wrapping Up With a Retrospective - Blogs - Louise
         Aldridge
       </title>
-      <main className="project-details">
+      <main className="container">
         <Link
-          className="back-link"
+          className="backLink"
           to={"/blogs"}
           title="An overview page of Louise Aldridge's blogs"
         >
@@ -23,27 +23,27 @@ export default function BlogFourteen() {
           Back to all blogs
         </Link>
 
-        <article className="blog-details">
+        <article className="article">
           <h1 className="heading">
             Bootcamp Week 11 – Wrapping Up With a Retrospective
           </h1>
-          <time className="small-text" dateTime="2025-11-21">
+          <time className="smallText" dateTime="2025-11-21">
             28 November 2025
           </time>
-          <div id="imgs-section" className="project-imgs-section">
+          <div id="imgs-section" className="featureImgSection">
             <img
-              className="project-img"
+              className="featureImg"
               src="/assets/blog-imgs/post-it-notes.png"
               alt="A bunch of pens and colourful post it notes"
             />
 
             <img
-              className="project-img"
+              className="featureImg"
               src="/assets/blog-imgs/rarekind-mobile.png"
               alt="A hand holding a phone showing the responsiveness of RareKind website."
             />
             <img
-              className="project-img"
+              className="featureImg"
               src="/assets/blog-imgs/rarekind-logo.png"
               alt="RareKind logo."
             />
@@ -56,7 +56,7 @@ export default function BlogFourteen() {
           </p>
           <p className="blog-text"></p>
           <a
-            className="blog-cta-link"
+            className="blogCtaLink"
             href="https://github.com/technative-academy/rarekind-frontend"
             target="_blank"
           >
@@ -64,7 +64,7 @@ export default function BlogFourteen() {
           </a>
           <p className="blog-text"></p>
           <a
-            className="blog-cta-link"
+            className="blogCtaLink"
             href="https://rarekind-frontend.vercel.app/"
             target="_blank"
           >
@@ -97,7 +97,7 @@ export default function BlogFourteen() {
 
           <ul className="blog-bullets">
             <li>
-              <span className="bold-text">What are you most proud of?</span> - I
+              <span className="boldText">What are you most proud of?</span> - I
               was most proud of the UI for RareKind, as it was nearly
               pixel-perfect compared to the Figma design. I’m also proud of the
               UX improvements on the “Edit Animals” and “Collections” features,
@@ -105,20 +105,20 @@ export default function BlogFourteen() {
               content.
             </li>
             <li>
-              <span className="bold-text">Appreciation for others</span> - I
+              <span className="boldText">Appreciation for others</span> - I
               really appreciated my partner Matt, who worked on the front end
               with me. He was incredibly hard-working and dedicated to producing
               a final product we could both be proud of. His work ethic aligned
               perfectly with how I wanted the project to progress.
             </li>
             <li>
-              <span className="bold-text">What went well</span> - The frontend
+              <span className="boldText">What went well</span> - The frontend
               had all the required functionality implemented—and more. As a
               team, we had a clear understanding of our responsibilities, which
               prevented duplicated work and kept our workflow efficient.
             </li>
             <li>
-              <span className="bold-text">What didn't go so well</span> -
+              <span className="boldText">What didn't go so well</span> -
               Communication between the frontend and backend teams was sometimes
               lacking. At times, we were working too independently, which caused
               confusion about the data requirements and structure. For example,
@@ -127,14 +127,14 @@ export default function BlogFourteen() {
               across multiple components.
             </li>
             <li>
-              <span className="bold-text">
+              <span className="boldText">
                 What could you do better next time?
               </span>{" "}
               Improve communication between the frontend and backend teams to
               ensure clarity on data structures and expectations.
             </li>
             <li>
-              <span className="bold-text">What have you learned?</span> -I
+              <span className="boldText">What have you learned?</span> -I
               learned a lot about Redux and how effective it can be for handling
               data from an API. I also gained valuable insight into working with
               a backend and now have several resources I can use to continue

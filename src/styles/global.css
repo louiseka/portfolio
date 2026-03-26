@@ -52,29 +52,109 @@ p {
   margin: 0.625em 0 0.125em;
 }
 
-.bold-text {
+.heading {
+  font-size: var(--font-h1);
+}
+
+.boldText {
   font-weight: 600;
 }
 
-.italic-text {
+.italicText {
   font-style: italic;
 }
 
-.small-text {
+.smallText {
   font-size: var(--font-small);
   margin: 1.43em 0;
 }
 
-.detail-sub {
+.detailSubheading {
   margin: 0.28em 0 0 0;
   font-size: 1.1rem;
 }
 
+/* Navigation */
+nav a {
+  text-decoration: none;
+  color: var(--text-black);
+}
+
+.nav-active {
+  text-decoration: underline;
+  text-decoration-color: var(--pink);
+  text-decoration-thickness: 3px;
+  line-height: 1.5;
+}
 /* Links */
 
+.ctaLink {
+  font-size: var(--font-body);
+}
+
+.backLink {
+  padding: 1em 0 0.6em;
+}
+
+.blogCtaLink,
+.ctaLink,
+.mediumCtaLink,
+.backLink {
+  text-decoration: underline;
+  text-decoration-color: var(--pink);
+  text-decoration-thickness: 3px;
+  color: var(--text-black);
+}
+
+.ctaLink,
+.mediumCtaLink,
+.backLink {
+  display: flex;
+  align-items: center;
+}
+
+.blogCtaLink {
+  text-underline-offset: 0.25em;
+}
+
+.ctaLink,
+.mediumCtaLink {
+  padding: 20px 0 10px;
+}
+
+.ctaLink:hover,
+.mediumCtaLink:hover,
+.backLink:hover,
+.blogCtaLink:hover {
+  text-decoration-color: var(--green);
+}
+
+.smallCtaLink {
+  color: var(--text-black);
+  display: flex;
+  align-items: center;
+  padding: 1.25em 0 0.625em;
+  text-decoration: none;
+}
+
+.smallCtaLink:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  color: var(--text-black);
+}
+
+.smallCtaLink .icon,
+.mediumCtaLink .icon {
+  margin: 0 0 0 0.95em;
+}
+
 /* Images */
-.profile-img {
+.profileImg {
   max-width: 100%;
+}
+
+.icon {
+  margin: 0 0.95em 0 0;
 }
 
 /* Labels*/
@@ -106,6 +186,13 @@ p {
 
 /* Border Colours */
 
+@media (min-width: 1024px) and (max-width: 1445px) {
+  h1 {
+    font-size: var(--font-h1-lg);
+    padding-bottom: 0;
+  }
+}
+
 @media (min-width: 1024px) {
   .label {
     padding: 0.71em 1.63em;
@@ -121,5 +208,28 @@ p {
 
   .borderPink {
     border-left: 3px solid var(--pink);
+  }
+
+  /* Links */
+  .ctaLink {
+    font-size: 1.6rem;
+    padding: 0.98em 0 0;
+  }
+
+  .mediumCtaLink {
+    font-size: var(--font-medium-cta);
+    padding: 1.56em 0 0;
+  }
+
+  .heading {
+    font-size: var(--font-h1-lg);
+  }
+}
+
+@media (min-width: 1274px) {
+  /* Typography */
+
+  h2 {
+    font-size: 2.25rem;
   }
 }

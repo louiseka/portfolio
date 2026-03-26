@@ -13,9 +13,9 @@ export default function BlogNine() {
         Bootcamp Week 5 – Working with an Existing Codebase - Blogs - Louise
         Aldridge
       </title>
-      <main className="project-details">
+      <main className="container">
         <Link
-          className="back-link"
+          className="backLink"
           to={"/blogs"}
           title="An overview page of Louise Aldridge's blogs"
         >
@@ -23,27 +23,27 @@ export default function BlogNine() {
           Back to all blogs
         </Link>
 
-        <article className="blog-details">
+        <article className="article">
           <h1 className="heading">
             Bootcamp Week 5 – Working with an Existing Codebase
           </h1>
-          <time className="small-text" dateTime="2025-10-17">
+          <time className="smallText" dateTime="2025-10-17">
             17 October 2025
           </time>
 
-          <div id="imgs-section" className="project-imgs-section">
+          <div id="imgs-section" className="featureImgSection">
             <img
-              className="project-img"
+              className="featureImg"
               src="/assets/blog-imgs/javascript-icon.png"
               alt="A file icon indicating JS."
             />
             <img
-              className="project-img"
+              className="featureImg"
               src="/assets/blog-imgs/ai-lightbulb.png"
               alt="A lighbulb with a brain inside.."
             />
             <img
-              className="project-img"
+              className="featureImg"
               src="/assets/blog-imgs/api-icon.png"
               alt="A laptop icon that says API with branches coming out."
             />
@@ -55,7 +55,7 @@ export default function BlogNine() {
             the basics of a Figma design. But, this time we were starting from
             an
             <a
-              className="blog-cta-link"
+              className="blogCtaLink"
               href="https://github.com/technative-academy/tfs-project-ai-frontend"
               target="_blank"
             >
@@ -93,7 +93,7 @@ export default function BlogNine() {
             The Ask page uses an API that sends a query to ChatGPT with a
             predefined context:
           </p>
-          <p className="blog-text italic-text">
+          <p className="blog-text italicText">
             “Concise responses in British English. Respond with a JSON object
             containing one parameter, results, which should be an array of five
             items. Each item must have two properties: title and description.”
@@ -103,7 +103,7 @@ export default function BlogNine() {
             context. After some experimentation, I settled on the following
             prompt:
           </p>
-          <p className="blog-text italic-text">
+          <p className="blog-text italicText">
             “I only want answers about desserts and puddings. Write descriptions
             in an overly descriptive way, and make sure each title includes a
             pun.”
@@ -129,7 +129,7 @@ export default function BlogNine() {
           </p>
           <br></br>
           <a
-            className="blog-cta-link"
+            className="blogCtaLink"
             href="https://github.com/technative-academy/happy_bites/blob/main/js/ask.js"
             target="_blank"
           >
@@ -169,7 +169,7 @@ export default function BlogNine() {
           </p>
           <br></br>
           <a
-            className="blog-cta-link"
+            className="blogCtaLink"
             href="https://github.com/technative-academy/happy_bites/blob/main/js/shop.js"
             target="_blank"
           >
@@ -184,14 +184,14 @@ export default function BlogNine() {
             styles to the Products page, to avoid redundant work.
           </p>
           <a
-            className="cta-link"
+            className="ctaLink"
             href="https://github.com/technative-academy/happy_bites"
             target="_blank"
           >
             View the GitHub Repo
           </a>
           <a
-            className="cta-link"
+            className="ctaLink"
             href="https://technative-academy.github.io/happy_bites/"
             target="_blank"
           >

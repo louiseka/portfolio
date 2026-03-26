@@ -29,7 +29,7 @@ export default function Skills() {
           <li className="purple label">Accessibility</li>
         </ul>
         <Link
-          className="medium-cta-link"
+          className="mediumCtaLink"
           to="https://github.com/louiseka"
           target="_blank"
           title="Louise Aldridge's GitHub profile"
@@ -37,7 +37,7 @@ export default function Skills() {
           Visit my GitHub <FaArrowRight className="icon" />
         </Link>
         <Link
-          className="medium-cta-link"
+          className="mediumCtaLink"
           to={"/#projects"}
           title="An overview page of Louise Aldridge's projects"
         >

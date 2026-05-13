@@ -11,6 +11,7 @@ export default function Skills() {
           <p className="pink-label">Redux</p>
           <p className="purple-label">Tailwind</p>
           <p className="pink-label">TypeScript</p>
+          <p className="pink-label">Vitest</p>
           <p className="green-label">ARIA</p>
           <p className="purple-label">JavaScript</p>
           <p className="pink-label">HTML</p>

@@ -19,10 +19,11 @@ export default function Blogs() {
     "thirteen",
     "fourteen",
     "fifteen",
+    "sixteen",
   ];
 
   const sortedBlogs = [...blogData].sort(
-    (a, b) => new Date(b.date) - new Date(a.date)
+    (a, b) => new Date(b.date) - new Date(a.date),
   );
 
   const blogElements = sortedBlogs.map((blog, index) => {

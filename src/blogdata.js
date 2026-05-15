@@ -93,7 +93,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/collaboration.png",
     altText: "A ripped piece of paper revealing the word Collaboration",
     gridPosition: "eight",
-    cardLayout: "wide",
+    cardLayout: "normal",
     urlSlug: "bootcamp-week4-collaboration-and-workflow",
   },
   {
@@ -105,7 +105,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/ai-lightbulb.png",
     altText: "A lightbulb with a brain inside of it.",
     gridPosition: "nine",
-    cardLayout: "normal",
+    cardLayout: "wide",
     urlSlug: "bootcamp-week5-working-existing-codebase",
   },
   {
@@ -153,7 +153,7 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/ux-ui.png",
     altText: "A notepad that shows a wireframe template.",
     gridPosition: "thirteen",
-    cardLayout: "wide",
+    cardLayout: "normal",
     urlSlug: "bootcamp-week9-10-frontend-fullstack-project",
   },
   {
@@ -177,7 +177,19 @@ export const blogData = [
     thumbnailImg: "/assets/blog-imgs/ai-image.png",
     altText: "A bunch of pens and colourful post it notes",
     gridPosition: "fifteen",
-    cardLayout: "normal",
+    cardLayout: "wide",
     urlSlug: "bootcamp-week12-vibe-coding",
+  },
+  {
+    id: "26",
+    name: "Accessibility Audit of a React.js project",
+    date: "15 May 2026",
+    shortDescription:
+      "I’ve decided to audit Pinpoint, a React.js project, and work towards bringing it up to WCAG AA compliance...",
+    thumbnailImg: "/assets/blog-imgs/accessibility.png",
+    altText: "A piece of paper that reads Accessibility",
+    gridPosition: "sixteen",
+    cardLayout: "normal",
+    urlSlug: "a11y-auditing-react-project",
   },
 ];

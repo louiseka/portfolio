@@ -16,13 +16,36 @@ export const projectData = [
     img3Alt: "A screenshot of the Add Animal form open on RareKind. .",
     thumbnailImg: "/assets/project-imgs/rarekind-1.webp",
     skills: ["React", "Redux Toolkit", "CSS Modules"],
-    githubUrl: "https://github.com/technative-academy/rarekind-frontend",
+    githubUrl: "https://github.com/louiseka/rarekind-frontend",
     liveUrl: "https://rarekind-frontend.vercel.app/",
     gridPosition: "one",
     cardLayout: "normal",
   },
   {
     id: "2",
+    name: "Cove UI",
+    urlSlug: "cove-ui",
+    shortDescription:
+      "Cove UI is a lightweight design system built with React and TypeScript. It focuses on reusable, type-safe UI components. ",
+    longDescription:
+      "Cove UI is a lightweight design system built with React and TypeScript. It focuses on reusable, type-safe UI components with consistent styling, accessibility considerations, and component-level documentation. The project is designed to demonstrate frontend engineering skills including component architecture, TypeScript usage, styling patterns, documentation workflows, and unit testing. This project is currently a work in progress and will continue to expand with additional components and design system features.",
+    img1: "/assets/project-imgs/cove-ui-2.png",
+    img1Alt:
+      "A screenshot of Cove UI showing the Button component live examples, code example and when to use cases.",
+    img2: "/assets/project-imgs/cove-ui-1.png",
+    img2Alt: "Cove UI logo",
+    img3: "/assets/project-imgs/cove-ui-3.png",
+    img3Alt:
+      "A screenshot of Cove UI showing the Card component live examples and code example.",
+    thumbnailImg: "/assets/project-imgs/cove-ui-3.png",
+    skills: ["React", "TypeScript", "Vitest", "MDX", "CSS Modules"],
+    githubUrl: "https://github.com/louiseka/cove-ui",
+    liveUrl: "https://cove-ui.netlify.app/",
+    gridPosition: "two",
+    cardLayout: "wide",
+  },
+  {
+    id: "3",
     name: "Vue Bits",
     urlSlug: "vue-bits",
     shortDescription:
@@ -39,11 +62,11 @@ export const projectData = [
     skills: ["Vue.js", "CSS"],
     githubUrl: "https://github.com/louiseka/vue-bits",
     liveUrl: "https://vue-bits.netlify.app/",
-    gridPosition: "two",
+    gridPosition: "three",
     cardLayout: "wide",
   },
   {
-    id: "3",
+    id: "4",
     name: "Pinpoint",
     urlSlug: "pinpoint",
     shortDescription:
@@ -62,11 +85,11 @@ export const projectData = [
     skills: ["React", "JavaScript", "HTML", "CSS"],
     githubUrl: "https://github.com/louiseka/pinpoint",
     liveUrl: "https://louiseka.github.io/pinpoint/",
-    gridPosition: "three",
-    cardLayout: "wide",
+    gridPosition: "four",
+    cardLayout: "normal",
   },
   {
-    id: "4",
+    id: "5",
     name: "Password Reset",
     urlSlug: "password-reset",
     shortDescription:
@@ -84,11 +107,11 @@ export const projectData = [
     skills: ["TypeScript", "React", "JavaScript", "HTML", "CSS"],
     githubUrl: "https://github.com/louiseka/password-reset",
     liveUrl: "https://louiseka.github.io/password-reset/",
-    gridPosition: "four",
+    gridPosition: "five",
     cardLayout: "normal",
   },
   {
-    id: "5",
+    id: "6",
     name: "Component Garden",
     urlSlug: "component-garden",
     shortDescription:
@@ -108,11 +131,11 @@ export const projectData = [
     skills: ["React", "Zustand", "CSS Modules"],
     githubUrl: "https://github.com/louiseka/component-garden",
     liveUrl: "https://component-garden.netlify.app/",
-    gridPosition: "five",
+    gridPosition: "six",
     cardLayout: "normal",
   },
   {
-    id: "6",
+    id: "7",
     name: "Dash and Dine",
     urlSlug: "dash-and-dine",
     shortDescription:
@@ -131,11 +154,11 @@ export const projectData = [
     skills: ["TypeScript", "JavaScript", "Tailwind", "HTML"],
     githubUrl: "https://github.com/louiseka/restaurant-ordering-app",
     liveUrl: "https://dash-dine.netlify.app/",
-    gridPosition: "six",
+    gridPosition: "seven",
     cardLayout: "normal",
   },
   {
-    id: "7",
+    id: "8",
     name: "Rock Paper Scissors",
     urlSlug: "rock-paper-scissors",
     shortDescription:
@@ -154,11 +177,11 @@ export const projectData = [
     skills: ["React", "JavaScript", "HTML", "CSS"],
     githubUrl: "https://github.com/louiseka/rock-paper-scissors",
     liveUrl: "https://louiseka.github.io/rock-paper-scissors/",
-    gridPosition: "seven",
-    cardLayout: "normal",
+    gridPosition: "eight",
+    cardLayout: "wide",
   },
   {
-    id: "8",
+    id: "9",
     name: "Farm Tycoon",
     urlSlug: "farm-tycoon",
     shortDescription:
@@ -175,11 +198,11 @@ export const projectData = [
     skills: ["TypeScript", "React", "JavaScript", "CSS"],
     githubUrl: "https://github.com/louiseka/farm-tycoon",
     liveUrl: "",
-    gridPosition: "eight",
-    cardLayout: "wide",
+    gridPosition: "nine",
+    cardLayout: "normal",
   },
   {
-    id: "9",
+    id: "10",
     name: "Quizzical",
     urlSlug: "quizzical",
     shortDescription:
@@ -198,12 +221,12 @@ export const projectData = [
     skills: ["React", "JavaScript", "Vitest", "CSS", "APIs"],
     githubUrl: "https://github.com/louiseka/quizzical",
     liveUrl: "https://louiseka.github.io/quizzical/",
-    gridPosition: "nine",
+    gridPosition: "ten",
     cardLayout: "normal",
   },
 
   {
-    id: "10",
+    id: "11",
     name: "Film Watchlist",
     urlSlug: "film-watchlist",
     shortDescription:
@@ -221,11 +244,11 @@ export const projectData = [
     skills: ["JavaScript", "APIs", "HTML", "CSS"],
     githubUrl: "https://github.com/louiseka/film-watchlist",
     liveUrl: "https://louiseka.github.io/film-watchlist/",
-    gridPosition: "ten",
+    gridPosition: "eleven",
     cardLayout: "normal",
   },
   {
-    id: "11",
+    id: "12",
     name: "Recipe Roulette",
     urlSlug: "recipe-roulette",
     shortDescription:
@@ -245,12 +268,12 @@ export const projectData = [
     skills: ["JavaScript", "HTML", "CSS"],
     githubUrl: "https://github.com/louiseka/recipe-roulette",
     liveUrl: "https://louiseka.github.io/recipe-roulette/",
-    gridPosition: "eleven",
+    gridPosition: "twelve",
     cardLayout: "normal",
   },
 
   {
-    id: "12",
+    id: "13",
     name: "Dish Diaries",
     urlSlug: "dish-diaries",
     shortDescription:
@@ -268,7 +291,7 @@ export const projectData = [
     skills: ["HTML", "CSS", "Bootstrap", "JavaScript"],
     githubUrl: "https://github.com/louiseka/CFG-Project",
     liveUrl: "https://louiseka.github.io/CFG-Project/",
-    gridPosition: "twelve",
+    gridPosition: "thirteen",
     cardLayout: "normal",
   },
 ];

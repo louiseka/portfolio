@@ -8,14 +8,15 @@ export default function Skills() {
         <h2>Skills</h2>
         <div className="skills-container">
           <p className="green-label">React.js</p>
-          <p className="pink-label">Redux</p>
-          <p className="purple-label">Tailwind</p>
           <p className="pink-label">TypeScript</p>
-          <p className="pink-label">Vitest</p>
-          <p className="green-label">ARIA</p>
-          <p className="purple-label">JavaScript</p>
+          <p className="purple-label">Vue.js</p>
+          <p className="green-label">JavaScript</p>
           <p className="pink-label">HTML</p>
           <p className="green-label">CSS</p>
+          <p className="pink-label">Redux</p>
+          <p className="purple-label">Tailwind</p>
+          <p className="pink-label">Vitest</p>
+          <p className="green-label">ARIA</p>
           <p className="purple-label">RESTful APIs</p>
           <p className="green-label">React Router</p>
           <p className="purple-label">Figma</p>
@@ -24,6 +25,7 @@ export default function Skills() {
           <p className="pink-label">Jira</p>
           <p className="green-label">Bootstrap</p>
           <p className="purple-label">Magento</p>
+          <p className="green-label">Wordpress</p>
           <p className="pink-label">SEO</p>
           <p className="green-label">Responsive Design</p>
           <p className="purple-label">Accessibility</p>

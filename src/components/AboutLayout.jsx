@@ -11,19 +11,21 @@ export default function AboutLayout() {
             <h1>Let me introduce myself</h1>
 
             <p>
-              I’m a frontend developer working with React, TypeScript, and
-              JavaScript. I combine strong coding skills with a focus on digital
-              accessibility, creating websites and applications that are both
-              user-friendly and mission-focused.
+              I’m a Frontend Developer working with React, TypeScript, and
+              JavaScript, specialising in accessible, responsive web interfaces.
+              I focus on building usable, well-structured applications with
+              attention to accessibility and real-world frontend implementation.
             </p>
             <p>
-              Before transitioning into frontend development, I worked in
-              marketing and eCommerce, where I collaborated with developers to
-              troubleshoot web issues via Jira, translate wireframes into live
-              pages, and lead a small team to improve workflows. My time at
-              AbilityNet introduced me to digital accessibility and the
-              importance of inclusive online spaces, inspiring me to earn my
-              IAAP CPACC certification and to develop my frontend skills.
+              Before moving into frontend development, I worked in marketing and
+              eCommerce, where I gained hands-on experience supporting web
+              platforms, collaborating with developers through Jira, and
+              translating wireframes into live web pages. This gave me a strong
+              understanding of how frontend work fits into broader product and
+              content workflows. My time at AbilityNet introduced me to digital
+              accessibility and inclusive design practices, which led me to earn
+              my IAAP CPACC certification and continue developing my frontend
+              engineering skills.
               <a
                 className="medium-cta-link"
                 href="/assets/Resume-Louise-Aldridge.pdf"

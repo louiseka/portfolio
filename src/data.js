@@ -46,27 +46,6 @@ export const projectData = [
   },
   {
     id: "3",
-    name: "Vue Bits",
-    urlSlug: "vue-bits",
-    shortDescription:
-      "Vue Bits is my personal playground where I experiment with Vue.js.",
-    longDescription:
-      "Vue Bits is my personal playground for experimenting with Vue.js. It includes small projects and components that demonstrate core features like refs, watchers, emits, computed properties, v-model, API handling, and event listeners.",
-    img1: "/assets/project-imgs/vuebits-1.png",
-    img1Alt: "A screenshot of VueBits random fact generator view..",
-    img2: "/assets/project-imgs/vuebits-2.png",
-    img2Alt: "A screenshot of VueBits text styler.",
-    img3: "/assets/project-imgs/vuebits-3.png",
-    img3Alt: "A screenshot VueBits to-do list.",
-    thumbnailImg: "/assets/project-imgs/vuebits-1.png",
-    skills: ["Vue.js", "CSS"],
-    githubUrl: "https://github.com/louiseka/vue-bits",
-    liveUrl: "https://vue-bits.netlify.app/",
-    gridPosition: "three",
-    cardLayout: "wide",
-  },
-  {
-    id: "4",
     name: "Pinpoint",
     urlSlug: "pinpoint",
     shortDescription:
@@ -85,9 +64,31 @@ export const projectData = [
     skills: ["React", "JavaScript", "HTML", "CSS"],
     githubUrl: "https://github.com/louiseka/pinpoint",
     liveUrl: "https://louiseka.github.io/pinpoint/",
+    gridPosition: "three",
+    cardLayout: "wide",
+  },
+  {
+    id: "4",
+    name: "Vue Bits",
+    urlSlug: "vue-bits",
+    shortDescription:
+      "Vue Bits is my personal playground where I experiment with Vue.js.",
+    longDescription:
+      "Vue Bits is my personal playground for experimenting with Vue.js. It includes small projects and components that demonstrate core features like refs, watchers, emits, computed properties, v-model, API handling, and event listeners.",
+    img1: "/assets/project-imgs/vuebits-1.png",
+    img1Alt: "A screenshot of VueBits random fact generator view..",
+    img2: "/assets/project-imgs/vuebits-2.png",
+    img2Alt: "A screenshot of VueBits text styler.",
+    img3: "/assets/project-imgs/vuebits-3.png",
+    img3Alt: "A screenshot VueBits to-do list.",
+    thumbnailImg: "/assets/project-imgs/vuebits-1.png",
+    skills: ["Vue.js", "CSS"],
+    githubUrl: "https://github.com/louiseka/vue-bits",
+    liveUrl: "https://vue-bits.netlify.app/",
     gridPosition: "four",
     cardLayout: "normal",
   },
+
   {
     id: "5",
     name: "Password Reset",
@@ -110,32 +111,9 @@ export const projectData = [
     gridPosition: "five",
     cardLayout: "normal",
   },
+
   {
     id: "6",
-    name: "Component Garden",
-    urlSlug: "component-garden",
-    shortDescription:
-      "I am currently building a playground of components built with React. Featuring use of Zustand and React Router.",
-    longDescription:
-      "Component Garden is a React playground (garden) showcasing my knowledge and practice of React Hooks, reusable components, and state management (including Zustand). It serves as a personal space to experiment, refine patterns, and demonstrate component design.",
-    img1: "/assets/project-imgs/componentgarden-1.jpg",
-    img1Alt:
-      "A screenshot of a plant and a timer with a button to click to water the plant.",
-    img2: "/assets/project-imgs/componentgarden-2.jpg",
-    img2Alt:
-      "A screenshot of a plant that you can grow and kill by clicking a button.",
-    img3: "/assets/project-imgs/componentgarden-3.jpg",
-    img3Alt:
-      "A screenshot of an input field, where you can add items to a plant wishlist.",
-    thumbnailImg: "/assets/project-imgs/componentgarden-thumbnail.webp",
-    skills: ["React", "Zustand", "CSS Modules"],
-    githubUrl: "https://github.com/louiseka/component-garden",
-    liveUrl: "https://component-garden.netlify.app/",
-    gridPosition: "six",
-    cardLayout: "normal",
-  },
-  {
-    id: "7",
     name: "Dash and Dine",
     urlSlug: "dash-and-dine",
     shortDescription:
@@ -154,11 +132,11 @@ export const projectData = [
     skills: ["TypeScript", "JavaScript", "Tailwind", "HTML"],
     githubUrl: "https://github.com/louiseka/restaurant-ordering-app",
     liveUrl: "https://dash-dine.netlify.app/",
-    gridPosition: "seven",
+    gridPosition: "six",
     cardLayout: "normal",
   },
   {
-    id: "8",
+    id: "7",
     name: "Rock Paper Scissors",
     urlSlug: "rock-paper-scissors",
     shortDescription:
@@ -177,32 +155,12 @@ export const projectData = [
     skills: ["React", "JavaScript", "HTML", "CSS"],
     githubUrl: "https://github.com/louiseka/rock-paper-scissors",
     liveUrl: "https://louiseka.github.io/rock-paper-scissors/",
-    gridPosition: "eight",
-    cardLayout: "wide",
-  },
-  {
-    id: "9",
-    name: "Farm Tycoon",
-    urlSlug: "farm-tycoon",
-    shortDescription:
-      "I am currently building a Farm Tycoon game with React and TypeScript.",
-    longDescription:
-      "I’m currently building a Farm Tycoon game with TypeScript and React. It features a dashboard, shop, farm, and stats tab, allowing users to buy/sell animals and crops, earn daily balances, grow and harvest crops, produce goods from animals, and track profits and expenses.",
-    img1: "/assets/project-imgs/farm-tycoon-1.png",
-    img1Alt: "A screenshot of Crops to buy from the farm shop.",
-    img2: "/assets/project-imgs/farm-tycoon-2.png",
-    img2Alt: "A graphic of a tractor under the text Farm Tycoon.",
-    img3: "/assets/project-imgs/farm-tycoon-3.png",
-    img3Alt: "A screenshot of Animals to buy from the farm shop.",
-    thumbnailImg: "/assets/project-imgs/farm-tycoon-thumbnail.webp",
-    skills: ["TypeScript", "React", "JavaScript", "CSS"],
-    githubUrl: "https://github.com/louiseka/farm-tycoon",
-    liveUrl: "",
-    gridPosition: "nine",
+    gridPosition: "seven",
     cardLayout: "normal",
   },
+
   {
-    id: "10",
+    id: "8",
     name: "Quizzical",
     urlSlug: "quizzical",
     shortDescription:
@@ -221,12 +179,12 @@ export const projectData = [
     skills: ["React", "JavaScript", "Vitest", "CSS", "APIs"],
     githubUrl: "https://github.com/louiseka/quizzical",
     liveUrl: "https://louiseka.github.io/quizzical/",
-    gridPosition: "ten",
-    cardLayout: "normal",
+    gridPosition: "eight",
+    cardLayout: "wide",
   },
 
   {
-    id: "11",
+    id: "9",
     name: "Film Watchlist",
     urlSlug: "film-watchlist",
     shortDescription:
@@ -244,11 +202,11 @@ export const projectData = [
     skills: ["JavaScript", "APIs", "HTML", "CSS"],
     githubUrl: "https://github.com/louiseka/film-watchlist",
     liveUrl: "https://louiseka.github.io/film-watchlist/",
-    gridPosition: "eleven",
+    gridPosition: "nine",
     cardLayout: "normal",
   },
   {
-    id: "12",
+    id: "10",
     name: "Recipe Roulette",
     urlSlug: "recipe-roulette",
     shortDescription:
@@ -268,12 +226,12 @@ export const projectData = [
     skills: ["JavaScript", "HTML", "CSS"],
     githubUrl: "https://github.com/louiseka/recipe-roulette",
     liveUrl: "https://louiseka.github.io/recipe-roulette/",
-    gridPosition: "twelve",
+    gridPosition: "ten",
     cardLayout: "normal",
   },
 
   {
-    id: "13",
+    id: "11",
     name: "Dish Diaries",
     urlSlug: "dish-diaries",
     shortDescription:
@@ -291,7 +249,7 @@ export const projectData = [
     skills: ["HTML", "CSS", "Bootstrap", "JavaScript"],
     githubUrl: "https://github.com/louiseka/CFG-Project",
     liveUrl: "https://louiseka.github.io/CFG-Project/",
-    gridPosition: "thirteen",
+    gridPosition: "eleven",
     cardLayout: "normal",
   },
 ];

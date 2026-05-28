@@ -90,10 +90,10 @@ export default function Projects() {
     <section className="projects-grid" id="projects">
       <h2>My portfolio of projects</h2>
       <p className="sub-text">
-        While learning the fundamentals of frontend development, I have been
-        practicing my skills and applying the languages and frameworks I've
-        learned by creating various projects. Over time, I’ve also revisited
-        these projects to improve them with my new knowledge.{" "}
+        These projects showcase my work as a frontend developer using React,
+        TypeScript, and JavaScript. I focus on building accessible, responsive
+        user interfaces and continue to iterate on projects to reflect
+        real-world development practices and improved frontend techniques.
       </p>
       <div className="wrapper">{projectElements}</div>
     </section>

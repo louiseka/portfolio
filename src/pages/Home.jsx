@@ -9,14 +9,13 @@ export default function Home() {
         <div className="hero-text">
           <h1> Hello, I'm Louise</h1>
           <p>
-            I’m a frontend developer working with{" "}
-            <span className="bold-text">React</span>,{" "}
-            <span className="bold-text">TypeScript</span>, and{" "}
-            <span className="bold-text">JavaScript</span>. I combine strong
-            coding skills with a focus on{" "}
-            <span className="bold-text">digital accessibility</span>, creating
-            websites and applications that are both user-friendly and
-            mission-focused.
+            I'm a frontend developer specialising in accessible, responsive web
+            interfaces, working with
+            <span className="bold-text">React</span>,
+            <span className="bold-text">TypeScript</span>, and
+            <span className="bold-text">JavaScript</span>. I care about building
+            things that are well-structured and usable by everyone - not as an
+            afterthought, but as a core part of how I work.
           </p>
           <Link
             className="medium-cta-link"

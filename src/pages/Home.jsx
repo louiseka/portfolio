@@ -11,11 +11,11 @@ export default function Home() {
           <p>
             I'm a frontend developer specialising in accessible, responsive web
             interfaces, working with
-            <span className="bold-text">React</span>,
-            <span className="bold-text">TypeScript</span>, and
-            <span className="bold-text">JavaScript</span>. I care about building
-            things that are well-structured and usable by everyone - not as an
-            afterthought, but as a core part of how I work.
+            <span className="bold-text"> React</span>,
+            <span className="bold-text"> TypeScript</span>, and
+            <span className="bold-text"> JavaScript</span>. I care about
+            building things that are well-structured and usable by everyone -
+            not as an afterthought, but as a core part of how I work.
           </p>
           <Link
             className="medium-cta-link"

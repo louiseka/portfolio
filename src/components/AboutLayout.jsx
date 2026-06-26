@@ -33,7 +33,7 @@ export default function AboutLayout() {
               >
                 Download a copy of my CV{" "}
                 <FaFileDownload className="icon" />{" "}
-              </a>{" "}
+              </a>
             </p>
           </div>
 

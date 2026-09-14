@@ -17,7 +17,7 @@ export const projectData = [
     thumbnailImg: "/assets/project-imgs/rarekind-1.webp",
     skills: ["React", "Redux Toolkit", "CSS Modules"],
     githubUrl: "https://github.com/louiseka/rarekind-frontend",
-    liveUrl: "https://rarekind-frontend.vercel.app/",
+    liveUrl: "https://rarekind-frontend-eight.vercel.app/",
     gridPosition: "one",
     cardLayout: "normal",
   },

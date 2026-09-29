@@ -46,6 +46,29 @@ export const projectData = [
   },
   {
     id: "3",
+    name: "Focus",
+    urlSlug: "focus",
+    shortDescription:
+      "Focus is a todo application built with Vue.js and Tailwind.",
+    longDescription:
+      "Focus is a todo application built with Vue.js and Tailwind that helps you organise tasks across multiple lists. It includes a dashboard summarising your active lists and todos, side navigation for switching between lists, and full control to add, edit, complete and delete items - all saved locally and fully responsive across devices.",
+    img1: "/assets/project-imgs/focus-1.png",
+    img1Alt:
+      "A screenshot of Focus, displaying the desktop display of the dashboard and editing todo items.",
+    img2: "/assets/project-imgs/focus-2.png",
+    img2Alt: "A graphic of a brain next to the text Focus",
+    img3: "/assets/project-imgs/focus-3.png",
+    img3Alt:
+      "A screenshot of Focus displaying the mobile view of the dashboard and a list.",
+    thumbnailImg: "/assets/project-imgs/focus-1.png",
+    skills: ["Vue.js", "Tailwind", "HTML"],
+    githubUrl: "https://github.com/louiseka/focus-todo",
+    liveUrl: "https://focus-product.netlify.app/",
+    gridPosition: "three",
+    cardLayout: "wide",
+  },
+  {
+    id: "4",
     name: "Pinpoint",
     urlSlug: "pinpoint",
     shortDescription:
@@ -64,11 +87,11 @@ export const projectData = [
     skills: ["React", "JavaScript", "HTML", "CSS"],
     githubUrl: "https://github.com/louiseka/pinpoint",
     liveUrl: "https://louiseka.github.io/pinpoint/",
-    gridPosition: "three",
-    cardLayout: "wide",
+    gridPosition: "four",
+    cardLayout: "normal",
   },
   {
-    id: "4",
+    id: "5",
     name: "Vue Bits",
     urlSlug: "vue-bits",
     shortDescription:
@@ -85,12 +108,12 @@ export const projectData = [
     skills: ["Vue.js", "CSS"],
     githubUrl: "https://github.com/louiseka/vue-bits",
     liveUrl: "https://vue-bits.netlify.app/",
-    gridPosition: "four",
+    gridPosition: "five",
     cardLayout: "normal",
   },
 
   {
-    id: "5",
+    id: "6",
     name: "Password Reset",
     urlSlug: "password-reset",
     shortDescription:
@@ -108,12 +131,12 @@ export const projectData = [
     skills: ["TypeScript", "React", "JavaScript", "HTML", "CSS"],
     githubUrl: "https://github.com/louiseka/password-reset",
     liveUrl: "https://louiseka.github.io/password-reset/",
-    gridPosition: "five",
+    gridPosition: "six",
     cardLayout: "normal",
   },
 
   {
-    id: "6",
+    id: "7",
     name: "Dash and Dine",
     urlSlug: "dash-and-dine",
     shortDescription:
@@ -132,11 +155,11 @@ export const projectData = [
     skills: ["TypeScript", "JavaScript", "Tailwind", "HTML"],
     githubUrl: "https://github.com/louiseka/restaurant-ordering-app",
     liveUrl: "https://dash-dine.netlify.app/",
-    gridPosition: "six",
+    gridPosition: "seven",
     cardLayout: "normal",
   },
   {
-    id: "7",
+    id: "8",
     name: "Rock Paper Scissors",
     urlSlug: "rock-paper-scissors",
     shortDescription:
@@ -155,12 +178,12 @@ export const projectData = [
     skills: ["React", "JavaScript", "HTML", "CSS"],
     githubUrl: "https://github.com/louiseka/rock-paper-scissors",
     liveUrl: "https://louiseka.github.io/rock-paper-scissors/",
-    gridPosition: "seven",
-    cardLayout: "normal",
+    gridPosition: "eight",
+    cardLayout: "wide",
   },
 
   {
-    id: "8",
+    id: "9",
     name: "Quizzical",
     urlSlug: "quizzical",
     shortDescription:
@@ -179,12 +202,12 @@ export const projectData = [
     skills: ["React", "JavaScript", "Vitest", "CSS", "APIs"],
     githubUrl: "https://github.com/louiseka/quizzical",
     liveUrl: "https://louiseka.github.io/quizzical/",
-    gridPosition: "eight",
-    cardLayout: "wide",
+    gridPosition: "nine",
+    cardLayout: "normal",
   },
 
   {
-    id: "9",
+    id: "10",
     name: "Film Watchlist",
     urlSlug: "film-watchlist",
     shortDescription:
@@ -202,11 +225,11 @@ export const projectData = [
     skills: ["JavaScript", "APIs", "HTML", "CSS"],
     githubUrl: "https://github.com/louiseka/film-watchlist",
     liveUrl: "https://louiseka.github.io/film-watchlist/",
-    gridPosition: "nine",
+    gridPosition: "ten",
     cardLayout: "normal",
   },
   {
-    id: "10",
+    id: "11",
     name: "Recipe Roulette",
     urlSlug: "recipe-roulette",
     shortDescription:
@@ -226,12 +249,12 @@ export const projectData = [
     skills: ["JavaScript", "HTML", "CSS"],
     githubUrl: "https://github.com/louiseka/recipe-roulette",
     liveUrl: "https://louiseka.github.io/recipe-roulette/",
-    gridPosition: "ten",
+    gridPosition: "eleven",
     cardLayout: "normal",
   },
 
   {
-    id: "11",
+    id: "12",
     name: "Dish Diaries",
     urlSlug: "dish-diaries",
     shortDescription:
@@ -249,7 +272,7 @@ export const projectData = [
     skills: ["HTML", "CSS", "Bootstrap", "JavaScript"],
     githubUrl: "https://github.com/louiseka/CFG-Project",
     liveUrl: "https://louiseka.github.io/CFG-Project/",
-    gridPosition: "eleven",
+    gridPosition: "twelve",
     cardLayout: "normal",
   },
 ];
